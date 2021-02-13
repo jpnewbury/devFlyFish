@@ -43,10 +43,10 @@ export default function Movies({ movies: patterns }) {
           </div>
           <div className="center multiply">
             <Image
-              src="/baetis.png"
+              src="/Baetis.png"
               width={250}
               height={300}
-              alt="clinger nymph"
+              alt="baetis nymph"
             />
           </div>
         </div>
