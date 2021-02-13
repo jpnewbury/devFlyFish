@@ -1,0 +1,272 @@
+@import url("https://fonts.googleapis.com/css2?family=Passion+One&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Crimson+Pro:ital,wght@0,200;0,600;1,400;1,900&display=swap");
+$font-heading: "Passion One", cursive;
+$font-body: "Lato", sans-serif;
+$font-quote: "Crimson Pro", serif;
+//block elements
+$padding: 7px;
+$margin: 5px;
+$green: rgb(16, 139, 0);
+
+@mixin block {
+    // basic margin and padding
+    padding: $padding;
+    margin: $margin;
+}
+
+@mixin border {
+    border: 1px solid black;
+    border-radius: 7px;
+}
+
+$gray: rgb(220, 220, 220);
+$white: rgba(250, 250, 250, 1);
+$black: rgba(10, 10, 10, 1);
+// reset everything
+* {
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+    text-decoration: none;
+}
+
+body {
+    background: $gray;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+a link {
+    font-size: 0.8rem;
+    font-family: $font-body;
+    color: rebeccapurple;
+}
+h1 {
+    @include block;
+    font-size: clamp(1.8rem, 3.5rem, 6vw); /* min, val, max */
+    font-family: $font-heading;
+    font-weight: 900;
+}
+h2 {
+    padding-left: $padding + 6;
+    font-size: clamp(1.5rem, 1.8rem, 3vw); /* min, val, max */
+    font-family: $font-heading;
+    font-weight: 300;
+}
+h3 {
+    padding-left: $padding + 6;
+    font-size: clamp(1.2rem, 1.3rem, 2vw); /* min, val, max */
+    font-family: $font-body;
+}
+h4 {
+    margin-top: $margin;
+    padding-left: $padding + 10;
+    font-family: $font-heading;
+    font-size: clamp(0.9rem, 1rem, 2vw); /* min, val, max */
+    font-weight: 100;
+}
+h5 {
+    font-size: 1.5rem;
+    padding-left: 20px;
+}
+p {
+    padding: $padding + 5;
+    margin-bottom: $margin;
+    line-height: 1.5em;
+    font-size: 1rem;
+    font-family: $font-body;
+}
+a,
+link {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    font-size: 1.2rem;
+
+    // font-family: $sub-heading;
+}
+a:active,
+a:hover,
+link {
+    color: black;
+}
+ul {
+    display: block;
+    padding: 5px;
+    font-size: 1rem;
+    color: black;
+}
+li {
+    font-family: $font-body;
+    font-size: 1rem;
+    line-height: 1em;
+    padding-left: 1em;
+    font-weight: 600;
+    margin: $margin;
+}
+
+section {
+    @include block;
+}
+
+.bugbar-icon {
+    @include block;
+
+    width: 80px;
+    fill: rgba(0, 0, 0, 0.9);
+    width: 3em;
+    height: 3em;
+    border: 1px solid rgba($black, 0.2);
+    border-radius: 10px;
+}
+.bugbar-icon:hover {
+    fill: $green;
+    border: 1px solid $green;
+    background: $gray;
+}
+
+.bugbarNav__col {
+    display: grid;
+    grid-template-columns: repeat(9, 1fr);
+    gap: 1em;
+}
+
+.grid-ish {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.grid-ish > * {
+    flex: 1 1 300px;
+}
+.card {
+    @include block;
+    @include border;
+    cursor: pointer;
+
+    background: $white;
+    min-height: 355px;
+}
+.card__button {
+    cursor: pointer;
+    font-size: 1rem;
+    padding: $padding + 5;
+    margin: $margin;
+    border-radius: 5px;
+    width: 100%;
+    border: 1px solid gray;
+}
+.card__button:hover {
+    border: 1px solid black;
+    background: white;
+}
+.container {
+    background: $white;
+    position: relative;
+    max-width: 1200px;
+    margin: auto;
+}
+.content {
+    min-height: 90vh;
+}
+.center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.hero-box {
+    margin-top: -10px;
+    height: 240px;
+    width: 100%;
+    background-image: url("/header.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    h1 {
+        font-size: $font-body;
+        color: $white;
+        -webkit-text-stroke-width: 1px;
+        -webkit-text-stroke-color: black;
+    }
+    h2 {
+        font-size: $font-body;
+        color: $white;
+        -webkit-text-stroke-width: 1px;
+        -webkit-text-stroke-color: black;
+    }
+}
+.icon {
+    cursor: pointer;
+    @include block;
+    height: 50px;
+    width: 50px;
+    background: $white;
+    // border: 1px solid gray;
+    border-radius: 5px;
+    fill: gray;
+}
+.icon:hover {
+    @include block;
+
+    fill: black;
+}
+.multiply {
+    mix-blend-mode: multiply;
+    max-width: 400px;
+}
+.section1 {
+    columns: 400px 2;
+    border-bottom: 1px dashed gray;
+    margin-bottom: $margin;
+    padding: $padding;
+}
+.section2 {
+    border-bottom: 1px dashed gray;
+    margin-bottom: $margin;
+    padding: $padding;
+}
+
+.svg-quote {
+    width: 30px;
+    margin-bottom: -15px;
+    margin-left: -5px;
+}
+
+.svg-quote-sm {
+    width: 20px;
+    margin-bottom: -20px;
+}
+.quote-box {
+    @include block;
+    padding-left: 30px;
+    margin: 20px;
+    padding-right: 30px;
+
+    p {
+        font-family: $font-quote;
+        font-size: 1.4rem;
+        font-weight: 600;
+        line-height: 1em;
+        text-align: center;
+    }
+}
+.quote-box-small {
+    @include block;
+    padding-left: 60px;
+    margin: 30px;
+    padding-right: 30px;
+
+    p {
+        font-family: $font-quote;
+        font-size: 1.1rem;
+        font-weight: 600;
+        line-height: 1em;
+        text-align: center;
+    }
+}
+.vice {
+    height: 100px;
+    width: 100px;
+}
