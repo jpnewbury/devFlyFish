@@ -76,10 +76,10 @@ export default function Top({ movies: patterns }) {
             for a small Colorado town sporting goods outfitter. That same
             summer, he started guiding wade trips along the small trout streams
             on the Front Range of the Rockies. In his late teens, John left the
-            trout world of Colorado or the rivers of the Pacific Northwest, most
-            notably the Deschutes River where he focused on its prized steelhead
-            and Native Redbands. The Deschutes River was home for many decades
-            as John refined his tactical fly tying and nymphing skills. In the
+            trout world of Colorado for the rivers of the Pacific Northwest such
+            as the Deschutes River where he focused on its prized steelhead and
+            Native Redbands. The Deschutes River was home for many decades as
+            John refined his tactical fly tying and nymphing skills. In the
             mid-1990s, he shifted his focus to learning the European nymphing
             strategies popular across the pond. Since relocating back to
             Colorado in 2014, he continues to modify his tactical nymphing
