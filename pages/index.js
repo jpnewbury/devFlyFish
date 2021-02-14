@@ -408,7 +408,20 @@ export default function Top({ movies: patterns }) {
                 <Image
                   src="/RainbowHeadHighRez.jpg"
                   width={400}
-                  height={240}
+                  height={200}
+                  alt=""
+                />
+              </div>
+              <div className="center">
+                <small></small>
+              </div>
+            </div>
+            <div className="block_card">
+              <div className="center multiply">
+                <Image
+                  src="/gallery/nbnb.jpg"
+                  width={340}
+                  height={400}
                   alt=""
                 />
               </div>
