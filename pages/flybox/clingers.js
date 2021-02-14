@@ -21,6 +21,14 @@ export default function Movies({ movies: patterns }) {
       <BugbarNav />
       <h2>Clinger Type Nymphs</h2>
       <section className="quote-box-small">
+        <div className="center multiply">
+          <Image
+            src="/eporeus.png"
+            width={250}
+            height={300}
+            alt="clinger nymph"
+          />
+        </div>
         <div className="col-2">
           <div>
             <svg viewBox="0 0 184.76 155" className="svg-quote-sm">
@@ -32,6 +40,7 @@ export default function Movies({ movies: patterns }) {
               </g>
             </svg>
           </div>
+
           <div>
             <p>
               Clinger nymphs adhere firmly onto rock and woody debris with a
@@ -42,14 +51,6 @@ export default function Movies({ movies: patterns }) {
               exploit. I suspect the large gills also aid in breathing within
               those murky, silty spaces.
             </p>
-          </div>
-          <div className="center multiply">
-            <Image
-              src="/eporeus.png"
-              width={250}
-              height={300}
-              alt="clinger nymph"
-            />
           </div>
         </div>
       </section>

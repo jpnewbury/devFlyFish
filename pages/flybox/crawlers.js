@@ -20,6 +20,14 @@ export default function Movies({ movies: patterns }) {
       <Header title="Fly Box" />
       <BugbarNav />
       <h2>Bony Armored Crawlers Type Nymphs</h2>
+      <div className="center multiply">
+        <Image
+          src="/drunella1.png"
+          width={250}
+          height={300}
+          alt="clinger nymph"
+        />
+      </div>
       <section className="quote-box-small">
         <div className="col-2">
           <div>
@@ -39,14 +47,6 @@ export default function Movies({ movies: patterns }) {
               process underwater where a spot of color enhances the fly and
               rapidly swim towards the surface.
             </p>
-          </div>
-          <div className="center multiply">
-            <Image
-              src="/drunella1.png"
-              width={250}
-              height={300}
-              alt="clinger nymph"
-            />
           </div>
         </div>
       </section>

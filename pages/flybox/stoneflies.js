@@ -21,6 +21,14 @@ export default function Movies({ movies: patterns }) {
       <BugbarNav />
       <h2>Stonefly Nymphs</h2>
       <section className="quote-box-small">
+        <div className="center multiply">
+          <Image
+            src="/stones.png"
+            width={300}
+            height={160}
+            alt="clinger nymph"
+          />
+        </div>
         <div className="col-2">
           <div>
             <svg viewBox="0 0 184.76 155" className="svg-quote-sm">
@@ -41,14 +49,6 @@ export default function Movies({ movies: patterns }) {
               heavy a fly can complicate your presentations and cause an
               unnatural drift.
             </p>
-          </div>
-          <div className="center multiply">
-            <Image
-              src="/stones.png"
-              width={300}
-              height={160}
-              alt="clinger nymph"
-            />
           </div>
         </div>
       </section>

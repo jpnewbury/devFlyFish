@@ -20,6 +20,9 @@ export default function Movies({ movies: patterns }) {
       <Header title="Fly Box" />
       <BugbarNav />
       <h2>Minnow Type Nymphs</h2>
+      <div className="center multiply">
+        <Image src="/Baetis.png" width={250} height={300} alt="baetis nymph" />
+      </div>
       <section className="quote-box-small">
         <div className="col-2">
           <div>
@@ -40,14 +43,6 @@ export default function Movies({ movies: patterns }) {
               patterns that imitate baetis nymphs, bear in mind the shallow
               taper and slim body. Keep these nymphs thin and streamlined.
             </p>
-          </div>
-          <div className="center multiply">
-            <Image
-              src="/Baetis.png"
-              width={250}
-              height={300}
-              alt="baetis nymph"
-            />
           </div>
         </div>
       </section>

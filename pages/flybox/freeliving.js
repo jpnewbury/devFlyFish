@@ -20,6 +20,14 @@ export default function Movies({ movies: patterns }) {
       <Header title="Fly Box" />
       <BugbarNav />
       <h2>Free Living Caddis Larva Nymphs</h2>
+      <div className="center multiply">
+        <Image
+          src="/Free-Living-Caddis-larva.png"
+          width={300}
+          height={250}
+          alt="clinger nymph"
+        />
+      </div>
       <section className="quote-box-small">
         <div className="col-2">
           <div>
@@ -40,14 +48,6 @@ export default function Movies({ movies: patterns }) {
               and feed on detritus filtered from the current captured in the
               nets that they construct.
             </p>
-          </div>
-          <div className="center multiply">
-            <Image
-              src="/Free-Living-Caddis-larva.png"
-              width={300}
-              height={250}
-              alt="clinger nymph"
-            />
           </div>
         </div>
       </section>

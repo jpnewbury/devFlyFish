@@ -21,6 +21,14 @@ export default function Movies({ movies: patterns }) {
       <BugbarNav />
       <h2>Caddis Pupa</h2>
       <section className="quote-box-small">
+        <div className="center multiply">
+          <Image
+            src="/CaddisPupaIllustration.png"
+            width={300}
+            height={250}
+            alt="clinger nymph"
+          />
+        </div>
         <div className="col-2">
           <div>
             <svg viewBox="0 0 184.76 155" className="svg-quote-sm">
@@ -40,14 +48,6 @@ export default function Movies({ movies: patterns }) {
               flashy, more opaque caddis pupa imitations because they have not
               yet begun to exhibit this gas bubble.
             </p>
-          </div>
-          <div className="center multiply">
-            <Image
-              src="/CaddisPupaIllustration.png"
-              width={300}
-              height={250}
-              alt="clinger nymph"
-            />
           </div>
         </div>
       </section>
