@@ -10,7 +10,6 @@ import Midge from "../components/svg/midge";
 import Featured from "../components/svg/featured";
 import Header from "../components/header";
 import Footer from "../components/footer";
-
 import Image from "next/image";
 import Link from "next/link";
 import Head from "next/head";
