@@ -20,11 +20,10 @@ export default function Top({ movies: patterns }) {
       </header>
       <section className="section1">
         <div>
-          <h4>
-            This web page is under construction today - certain links and
-            buttons do not work
-          </h4>
-
+          <strong>
+            You are viewing a development build, you may encounter 404's along
+            your journey.
+          </strong>
           <h2>Intro</h2>
           <span className="first-letter">
             <p>
@@ -41,7 +40,6 @@ export default function Top({ movies: patterns }) {
               to you by putting it all at your fingertips.
             </p>
           </span>
-
           <p>
             On a personal note, I am deeply humbled when I see other fly tyers
             posting my patterns filling their fly boxes on the internet. I am
