@@ -180,6 +180,7 @@ small {
   cursor: pointer;
   background: #fafafa;
   min-height: 355px;
+  max-width: 400px;
 }
 
 .block_card small {

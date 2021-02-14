@@ -374,7 +374,7 @@ export default function Top({ movies: patterns }) {
                 />
               </div>
               <div className="center">
-                <small>A Yampa River bow takes an OG Krush Deluxe.</small>
+                <small>A Yampa river bow takes an OG Krush Deluxe.</small>
               </div>
             </div>
             <div className="block_card">
@@ -391,6 +391,29 @@ export default function Top({ movies: patterns }) {
               </div>
               <div className="center">
                 <small>Anthony on the Roaring Fork in Aspen.</small>
+              </div>
+            </div>
+            <div className="block_card">
+              <div className="center multiply">
+                <Image src="/IMG_4795.jpg" width={400} height={340} alt="" />
+              </div>
+              <div className="center">
+                <small>
+                  The Roaring Fork River also has gold medal scenery.
+                </small>
+              </div>
+            </div>
+            <div className="block_card">
+              <div className="center multiply">
+                <Image
+                  src="/RainbowHeadHighRez.jpg"
+                  width={400}
+                  height={240}
+                  alt=""
+                />
+              </div>
+              <div className="center">
+                <small></small>
               </div>
             </div>
           </div>
