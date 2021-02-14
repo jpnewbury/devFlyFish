@@ -362,7 +362,7 @@ export default function Top({ movies: patterns }) {
           <p />
         </section>
         <section>
-          <h2>Photos</h2>
+          <h2>Photos From the Field</h2>
           <div className="grid-ish">
             <div className="block_card">
               <div className="center multiply">
@@ -421,6 +421,19 @@ export default function Top({ movies: patterns }) {
               </div>
             </div>
 
+            <div className="block_card">
+              <div className="center multiply">
+                <Image
+                  src="/CrystalFall2016BridgePool.jpg"
+                  width={400}
+                  height={320}
+                  alt=""
+                />
+              </div>
+              <div className="center">
+                <small>Colorado Gold</small>
+              </div>
+            </div>
             <div className="block_card">
               <div className="center multiply">
                 <Image
