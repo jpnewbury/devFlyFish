@@ -207,6 +207,9 @@ export default function Top({ movies: patterns }) {
             lighter alternative to using tungsten beads can offer the solution
             for this requirement.
           </p>
+          <div className="center">
+            <Image src="/Snapseed.jpg" width={400} height={300} alt="" />
+          </div>
           <p>
             Besides bead selection, color is also an essential factor to
             consider. Somber hued, less flashy patterns are less likely to turn
