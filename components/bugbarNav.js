@@ -10,7 +10,7 @@ import Left from "./svg/bugbar";
 
 export default function bugbarNav() {
   return (
-    <div className="left">
+    <div className="">
       <div className="bugbarNav__col">
         <div>
           <Left />
