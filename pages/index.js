@@ -246,6 +246,11 @@ export default function Top({ movies: patterns }) {
             </div>
           ))}
         </div>
+        <Link href="/flybox">
+          <a>
+            <button className="card__button"> See More Patterns</button>
+          </a>
+        </Link>
       </section>
       <section className="section1">
         <h2>Entomology</h2>
