@@ -17,24 +17,40 @@ export default function bugbarNav() {
         </div>
         <div>
           <Clinger />
+          <span className="center">
+            <small>clingers</small>
+          </span>
         </div>
         <div>
           <Crawler />
+          <span className="center">
+            <small>crawlers</small>
+          </span>
         </div>
         <div>
           <Swimmer />
+          <span className="center">
+            <small>minnow</small>
+          </span>
         </div>
         <div>
           <Stones />
+          <span className="center">
+            <small>stoneflies</small>
+          </span>
         </div>
         <div>
           <Hydropsyche />
+          <span className="center">
+            <small>larva</small>
+          </span>
         </div>
-        <div>
-          <Rockworm />
-        </div>
+
         <div>
           <Caddis />
+          <span className="center">
+            <small>pupa</small>
+          </span>
         </div>
         {/* <div>
         <Midges />

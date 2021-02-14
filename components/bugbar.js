@@ -35,9 +35,11 @@ class Bugbar extends Component {
                     </svg>
                   </a>
                 </Link>
+
+                <div className="center">
+                  <small>home</small>
+                </div>
               </div>
-              <div className=""></div>
-              <small>home</small>
             </div>
           </div>
           <div>
@@ -52,9 +54,9 @@ class Bugbar extends Component {
                     </svg>
                   </a>
                 </Link>
-              </div>
-              <div>
-                <small>Reading</small>
+                <div className="center">
+                  <small>Reading</small>
+                </div>
               </div>
             </div>
           </div>
@@ -72,9 +74,9 @@ class Bugbar extends Component {
                     </g>
                   </svg>
                 </Link>
-              </div>
-              <div>
-                <small>Tutorials</small>
+                <div className="center">
+                  <small>Tutorials</small>
+                </div>
               </div>
             </div>
           </div>
@@ -89,9 +91,9 @@ class Bugbar extends Component {
                   </svg>
                 </a>
               </Link>
-            </div>
-            <div>
-              <small>Flybox</small>
+              <div className="center">
+                <small>Flybox</small>
+              </div>
             </div>
           </div>
           <div>

@@ -104,14 +104,18 @@ section {
   margin: 5px;
 }
 
+small {
+  font-size: 0.75rem;
+  font-family: "Lato", sans-serif;
+}
+
 .bugbar-icon {
   padding: 7px;
   margin: 5px;
-  width: 80px;
   fill: rgba(0, 0, 0, 0.9);
-  width: 3em;
-  height: 3em;
-  border: 1px solid rgba(10, 10, 10, 0.2);
+  width: 2.25em;
+  height: 2.25em;
+  border: 1px solid rgba(10, 10, 10, 0.9);
   border-radius: 10px;
 }
 
@@ -122,11 +126,13 @@ section {
 }
 
 .bugbarNav__col {
+  padding: 7px;
+  margin: 5px;
   display: -ms-grid;
   display: grid;
+  max-width: 25vw;
   -ms-grid-columns: (1fr)[9];
       grid-template-columns: repeat(9, 1fr);
-  gap: 1em;
 }
 
 .grid-ish {

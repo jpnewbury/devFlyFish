@@ -111,14 +111,16 @@ section {
     @include block;
 }
 
+small {
+    font-size: 0.75rem;
+    font-family: $font-body;
+}
 .bugbar-icon {
     @include block;
-
-    width: 80px;
     fill: rgba(0, 0, 0, 0.9);
-    width: 3em;
-    height: 3em;
-    border: 1px solid rgba($black, 0.2);
+    width: 2.25em;
+    height: 2.25em;
+    border: 1px solid rgba($black, 0.9);
     border-radius: 10px;
 }
 .bugbar-icon:hover {
@@ -128,9 +130,10 @@ section {
 }
 
 .bugbarNav__col {
+    @include block;
     display: grid;
+    max-width: 25vw;
     grid-template-columns: repeat(9, 1fr);
-    gap: 1em;
 }
 
 .grid-ish {
