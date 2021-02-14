@@ -379,12 +379,21 @@ export default function Top({ movies: patterns }) {
             </div>
             <div className="block_card">
               <div className="center multiply">
+                <Image src="/IMG_1964.jpg" width={340} height={400} alt="" />
+              </div>
+              <div className="center">
+                <small>An Umcompahagre Beast</small>
+              </div>
+            </div>
+            <div className="block_card">
+              <div className="center multiply">
                 <Image src="/CzechBox.jpg" width={400} height={400} alt="" />
               </div>
               <div className="center">
                 <small>Toolbox</small>
               </div>
             </div>
+
             <div className="block_card">
               <div className="center multiply">
                 <Image src="/0604_4951.jpg" width={300} height={400} alt="" />
@@ -395,7 +404,15 @@ export default function Top({ movies: patterns }) {
             </div>
             <div className="block_card">
               <div className="center multiply">
-                <Image src="/IMG_4795.jpg" width={400} height={340} alt="" />
+                <Image src="/cutty.jpg" width={400} height={400} alt="" />
+              </div>
+              <div className="center">
+                <small></small>
+              </div>
+            </div>
+            <div className="block_card">
+              <div className="center multiply">
+                <Image src="/IMG_4795.jpg" width={400} height={260} alt="" />
               </div>
               <div className="center">
                 <small>
@@ -403,6 +420,7 @@ export default function Top({ movies: patterns }) {
                 </small>
               </div>
             </div>
+
             <div className="block_card">
               <div className="center multiply">
                 <Image
