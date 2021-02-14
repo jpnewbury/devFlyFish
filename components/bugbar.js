@@ -10,7 +10,7 @@ class Bugbar extends Component {
       <>
         <div className="col-6 center">
           <div />
-          <div>
+          <div className="center">
             <div className="stack">
               <div>
                 <Link href="/">
@@ -30,6 +30,7 @@ class Bugbar extends Component {
               </div>
             </div>
           </div>
+          <p />
           <div>
             <div className="stack">
               <div>
@@ -48,6 +49,7 @@ class Bugbar extends Component {
               </div>
             </div>
           </div>
+          <p />
           <div>
             {" "}
             <div className="stack">
@@ -68,8 +70,9 @@ class Bugbar extends Component {
               </div>
             </div>
           </div>
+          <p />
           <div className="stack">
-            <div>
+            <div className="center">
               <Link href="/flybox">
                 <a>
                   <svg viewBox="0 0 76.68 146" className="icon">
