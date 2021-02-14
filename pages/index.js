@@ -199,7 +199,7 @@ export default function Top({ movies: patterns }) {
       </section>
       <section>
         <h3>Fly Box</h3>
-        <h4>A small Collection of the very useful fly patterns</h4>
+        <h4>A Small Collection of Useful Fly Patterns</h4>
       </section>
       <section>
         <div className="grid-ish">
@@ -211,6 +211,11 @@ export default function Top({ movies: patterns }) {
                 <Image src={fly.image} width="200px" height="200px" alt="" />
               </span>
               <p>{fly.description}</p>
+              <ul>
+                {fly.hook && <li>Hook: {fly.hook}</li>}
+                {fly.bead && <li>Bead: {fly.bead}</li>}
+                {fly.thread && <li>Thread: {fly.thread}</li>}
+              </ul>
               {fly.clinger === "true" && <Clinger />}
               {fly.crawler === "true" && <Crawler />}
               {fly.minnow === "true" && <Swimmers />}
@@ -315,7 +320,7 @@ export async function getStaticProps() {
     .collection("patterns")
     .find({ featured: "true" })
     .sort({ name: 1 })
-    .limit(1000)
+    .limit(3)
     .toArray();
 
   return {
