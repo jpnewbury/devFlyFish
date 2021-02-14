@@ -77,36 +77,41 @@ export default function Top({ movies: patterns }) {
           field, uniquely combining his skills as a designer, photographer,
           scientist, and writer.
         </p>
-        <div className="center multiply">
-          <div className="block-quote">
-            <Link href="http://fullingmill.com">
-              <a className="center">
-                <Image
-                  src="/fmlogo.png"
-                  width="200"
-                  height="100"
-                  alt="Fullingmill Logo"
-                />
-              </a>
-            </Link>
+      </section>
+      <section>
+        <div className="center">
+          <div className="center multiply">
+            <div className="block-quote">
+              <Link href="http://fullingmill.com">
+                <a className="center">
+                  <Image
+                    src="/fmlogo.png"
+                    width="200"
+                    height="100"
+                    alt="Fullingmill Logo"
+                  />
+                </a>
+              </Link>
+              <p />
+              <small>Signature Designer and Ambassador for Fullingmill</small>
+            </div>
             <p />
-            John is a signature designer and ambassador for Fullingmill
           </div>
-        </div>
-        <div className="center multiply">
-          <div className="block-quote">
-            <Link href="http://naturesspiritflytying.com">
-              <a className="center">
-                <Image
-                  src="/nslogo.jpg"
-                  width="180"
-                  height="100"
-                  alt="Fullingmill Logo"
-                />
-              </a>
-            </Link>
-            <p />
-            Fly tying ambassador for Natures Spirit
+          <div className="center multiply">
+            <div className="block-quote">
+              <Link href="http://naturesspiritflytying.com">
+                <a className="center">
+                  <Image
+                    src="/nslogo.jpg"
+                    width="180"
+                    height="100"
+                    alt="Fullingmill Logo"
+                  />
+                </a>
+              </Link>
+              <p />
+              <small> Fly Tying Ambassador for Natures Spirit Fly Tying</small>
+            </div>
           </div>
         </div>
       </section>
@@ -203,8 +208,9 @@ export default function Top({ movies: patterns }) {
         <div className="grid-ish">
           {patterns.map((fly) => (
             <div className="card" key={fly._id}>
-              {fly.featured === "true" && <Featured />}
-              <h2>{fly.name}</h2>
+              <h2>
+                {fly.featured === "true" && <Featured />} {fly.name}
+              </h2>
               <span className="multiply center">
                 <Image src={fly.image} width="200px" height="200px" alt="" />
               </span>
@@ -213,6 +219,21 @@ export default function Top({ movies: patterns }) {
                 {fly.hook && <li>Hook: {fly.hook}</li>}
                 {fly.bead && <li>Bead: {fly.bead}</li>}
                 {fly.thread && <li>Thread: {fly.thread}</li>}
+                {fly.tail && <li>Tail: {fly.tail}</li>}
+                {fly.tag && <li>Tag: {fly.tag}</li>}
+                {fly.rib && <li>Rib : {fly.rib}</li>}
+                {fly.body && <li>Body : {fly.body}</li>}
+                {fly.abdomen && <li>Abdomen : {fly.abdomen}</li>}
+                {fly.thorax && <li>Thorax : {fly.thorax}</li>}
+                {fly.shellback && <li>Shellback : {fly.shellback}</li>}
+                {fly.dorsalMarkings && <li>Markings : {fly.dorsalMarkings}</li>}
+                {fly.collar && <li>Collar : {fly.collar}</li>}
+                {fly.neck && <li>Neck : {fly.neck}</li>}
+                {fly.hackle && <li>Hackle : {fly.hackle}</li>}
+                {fly.wing && <li>wing : {fly.wing}</li>}
+                {fly.wingbuds && <li>Wingbuds : {fly.wingbuds}</li>}
+                {fly.legs && <li>Legs : {fly.legs}</li>}
+                {fly.head && <li>Head : {fly.head}</li>}
               </ul>
               {fly.clinger === "true" && <Clinger />}
               {fly.crawler === "true" && <Crawler />}
@@ -316,7 +337,7 @@ export async function getStaticProps() {
 
   const flybox = await db
     .collection("patterns")
-    .find({ featured: "true" })
+    .find({ splash: "true" })
     .sort({ name: 1 })
     .limit(3)
     .toArray();
