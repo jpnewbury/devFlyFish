@@ -83,7 +83,7 @@ class Bugbar extends Component {
                 </a>
               </Link>
             </div>
-            <div>
+            <div className="center">
               <small>Flybox</small>
             </div>
           </div>
