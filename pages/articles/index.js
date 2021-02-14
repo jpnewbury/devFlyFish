@@ -2,13 +2,32 @@ import Link from "next/link";
 import Image from "next/image";
 import Layout from "../../components/layout";
 import Bugbar from "../../components/bugbar";
+import Head from "next/head";
+import Header from "../../components/header";
+import Footer from "../../components/footer";
 
 export default function index() {
   return (
-    <div className="container">
-      <Layout>
+    <>
+      <Head>
+        <title>John P. Newbury's Angling Arts</title>
+        <meta name="viewport" content="initial-scale=1.0, width=device-width" />
+        <meta
+          name="keywords"
+          content="Fly Fishing, Fly Tying, Newbury Fly Tying, Fullingmill"
+        />
+        <meta
+          name="description"
+          content="A place for fly fishers to to learn about some new fly patterns and fishing methods from a life-long fly fishing addict."
+        />
+        <meta name="revised" content="Angling Arts, 2/14/2021" />
+      </Head>
+      <div className="container">
         <main className="content">
-          <Bugbar />
+          <header className="header">
+            <Header title="A Space for Fly Fishers" />
+          </header>
+
           <section className="section">
             <div className="grid-ish">
               <Link href="/articles/entomology">
@@ -57,7 +76,8 @@ export default function index() {
             </div>
           </section>
         </main>
-      </Layout>
-    </div>
+        <Footer />
+      </div>
+    </>
   );
 }

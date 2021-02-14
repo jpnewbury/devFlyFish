@@ -155,7 +155,6 @@ small {
   border-radius: 7px;
   cursor: pointer;
   background: #fafafa;
-  min-height: 355px;
 }
 
 .card__button {
@@ -178,7 +177,6 @@ small {
   margin: 5px;
   cursor: pointer;
   background: #fafafa;
-  min-height: 355px;
   max-width: 400px;
 }
 

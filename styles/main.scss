@@ -151,7 +151,6 @@ small {
     cursor: pointer;
 
     background: $white;
-    min-height: 355px;
 }
 .card__button {
     cursor: pointer;
@@ -170,7 +169,7 @@ small {
     @include block;
     cursor: pointer;
     background: $white;
-    min-height: 355px;
+
     max-width: 400px;
     small {
         @include block;
