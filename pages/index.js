@@ -27,12 +27,12 @@ export default function Top({ movies: patterns }) {
           <h2>Intro</h2>
           <span className="first-letter">
             <p>
-              Welcome to my new-ish, under construction web-app about modern
-              nymph fishing. I've spent the better part of a viral outbreak,
-              drought, record setting wildfires, hurricanes, scandalous
-              elections and anything else that 2020-21 might yet throw at us
-              updating my web development portfolio. This has given me the
-              opportunity to tidy up my old website. In the process of
+              Welcome to my new-ish, under construction web-page / app about
+              modern nymph fishing. I've spent the better part of a viral
+              outbreak, drought, record setting wildfires, hurricanes,
+              scandalous elections and anything else that 2020-21 might yet
+              throw at us updating my web development portfolio. This has given
+              me the opportunity to tidy up my old website. In the process of
               performing updates, I discovered that my content needed a serious
               house cleaning. I found myself performing a few (dozen) copy
               edits, spelling corrections. I then consolidated all the
