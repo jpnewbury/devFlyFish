@@ -166,6 +166,15 @@ small {
     border: 1px solid black;
     background: white;
 }
+.block_card {
+    @include block;
+    cursor: pointer;
+    background: $white;
+    min-height: 355px;
+    small {
+        @include block;
+    }
+}
 .container {
     background: $white;
     position: relative;
