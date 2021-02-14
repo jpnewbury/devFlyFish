@@ -1,7 +1,6 @@
 import Link from "next/link";
 import Image from "next/image";
-import Layout from "../../components/layout";
-import Bugbar from "../../components/bugbar";
+
 import Head from "next/head";
 import Header from "../../components/header";
 import Footer from "../../components/footer";
