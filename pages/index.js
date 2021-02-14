@@ -91,7 +91,7 @@ export default function Top({ movies: patterns }) {
             guests, he is currently completing a fly tying book and this
             companion website, drawing from his more than 43 years of experience
             in the field, uniquely combining his skills as a designer,
-            photographer, scientist, and writer.
+            photographer, fisheries-scientist, and writer.
           </p>
         </section>
         <section>
