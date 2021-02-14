@@ -7,6 +7,7 @@ $font-quote: "Crimson Pro", serif;
 $padding: 7px;
 $margin: 5px;
 $green: rgb(16, 139, 0);
+$gold: rgb(197, 179, 88);
 
 @mixin block {
     // basic margin and padding
@@ -210,6 +211,14 @@ small {
     border-radius: 5px;
     fill: gray;
 }
+.icon__star {
+    cursor: pointer;
+    height: 20px;
+    width: 20px;
+    fill: $gold;
+    margin-right: $margin;
+}
+
 .icon:hover {
     @include block;
 

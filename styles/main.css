@@ -232,6 +232,14 @@ small {
   fill: gray;
 }
 
+.icon__star {
+  cursor: pointer;
+  height: 20px;
+  width: 20px;
+  fill: #c5b358;
+  margin-right: 5px;
+}
+
 .icon:hover {
   padding: 7px;
   margin: 5px;
