@@ -19,7 +19,7 @@ export default function Movies({ movies: patterns }) {
     <main className="container">
       <Header title="Fly Box" />
       <BugbarNav />
-      <h2>Bony Armored Crawlers Type Nymphs</h2>
+      <h2>Bony Armored Crawler Type Nymphs</h2>
       <div className="center multiply">
         <Image
           src="/drunella1.png"
