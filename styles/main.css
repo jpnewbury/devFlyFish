@@ -93,9 +93,8 @@ ul {
 li {
   font-family: "Lato", sans-serif;
   font-size: 1rem;
-  line-height: 1em;
+  line-height: 1.5em;
   padding-left: 1em;
-  font-weight: 600;
   margin: 5px;
 }
 

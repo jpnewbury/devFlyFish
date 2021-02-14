@@ -63,6 +63,75 @@ export default function Movies({ movies: patterns }) {
               <Image src={fly.image} width="200px" height="200px" alt="" />
             </span>
             <p>{fly.description}</p>
+
+            <ul>
+              {fly.hook && (
+                <li>
+                  <b>Hook:</b> {fly.hook}
+                </li>
+              )}
+              {fly.bead && (
+                <li>
+                  <b>Bead:</b> {fly.bead}
+                </li>
+              )}
+              {fly.thread && (
+                <li>
+                  <b>Threa</b>d: {fly.thread}
+                </li>
+              )}
+              {fly.tail && (
+                <li>
+                  <b>Tail:</b> {fly.tail}
+                </li>
+              )}
+              {fly.rib && (
+                <li>
+                  <b>Rib: </b>
+                  {fly.rib}
+                </li>
+              )}
+              {fly.body && (
+                <li>
+                  <b>Body:</b> {fly.body}
+                </li>
+              )}
+              {fly.abdomen && (
+                <li>
+                  <b>Abdom</b>en: {fly.abdomen}
+                </li>
+              )}
+              {fly.thorax && (
+                <li>
+                  <b>Thora</b>x: {fly.thorax}
+                </li>
+              )}
+              {fly.collar && (
+                <li>
+                  <b>Colla</b>r: {fly.collar}
+                </li>
+              )}
+              {fly.neck && (
+                <li>
+                  <b>Neck:</b> {fly.neck}
+                </li>
+              )}
+              {fly.legs && (
+                <li>
+                  <b>Legs:</b> {fly.legs}
+                </li>
+              )}
+              {fly.hackle && (
+                <li>
+                  <b>Hackl</b>e: {fly.hackle}
+                </li>
+              )}
+              {fly.head && (
+                <li>
+                  <b>Head:</b> {fly.head}
+                </li>
+              )}
+            </ul>
             {fly.clinger === "true" && <Clinger />}
             {fly.crawler === "true" && <Crawler />}
             {fly.minnow === "true" && <Swimmers />}

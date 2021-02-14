@@ -1,20 +1,20 @@
-import { connectToDatabase } from "../../util/mongodb";
-import Clinger from "../../components/svg/clinger";
-import Crawler from "../../components/svg/crawlers";
-import Swimmers from "../../components/svg/swimmers";
-import Stoneflies from "../../components/svg/stones";
-import Caddis from "../../components/svg/caddis";
-import Hydropsyche from "../../components/svg/hydropsyche";
-import Rockworm from "../../components/svg/rockworm";
-import Midge from "../../components/svg/midge";
-import Featured from "../../components/svg/featured";
-import Header from "../../components/header";
-import BugbarNav from "../../components/bugbarNav";
+import { connectToDatabase } from "../util/mongodb";
+import Clinger from "../components/svg/clinger";
+import Crawler from "../components/svg/crawlers";
+import Swimmers from "../components/svg/swimmers";
+import Stoneflies from "../components/svg/stones";
+import Caddis from "../components/svg/caddis";
+import Hydropsyche from "../components/svg/hydropsyche";
+import Rockworm from "../components/svg/rockworm";
+import Midge from "../components/svg/midge";
+import Featured from "../components/svg/featured";
+import Header from "../components/header";
+import BugbarNav from "../components/bugbarNav";
 
 import Image from "next/image";
 import Link from "next/link";
 
-export default function Movies({ movies: patterns }) {
+export default function pattern() {
   return (
     <div className="grid-ish">
       {patterns.map((fly) => (
@@ -107,13 +107,12 @@ export default function Movies({ movies: patterns }) {
     </div>
   );
 }
-
 export async function getServerSideProps() {
   const { db } = await connectToDatabase();
 
   const patterns = await db
     .collection("patterns")
-    .find({ featured: "true" })
+    .find({ clinger: "true" })
     .sort({ metacritic: -1 })
     .limit(200)
     .toArray();
