@@ -9,19 +9,7 @@ class Bugbar extends Component {
     return (
       <>
         <div className="col-6 center">
-          <div>
-            {" "}
-            <svg viewBox="0 0 74 88" className="header-left">
-              <g id="Layer_2" data-name="Layer 2">
-                <g id="Layer_1-2" data-name="Layer 1">
-                  <rect x="19" width="17" height="88" />
-                  <rect y="45" width="17" height="43" />
-                  <circle cx="56" cy="71" r="17" />
-                  <circle cx="57" cy="17" r="17" />
-                </g>
-              </g>
-            </svg>
-          </div>
+          <div />
           <div>
             <div className="stack">
               <div>
@@ -91,27 +79,10 @@ class Bugbar extends Component {
                   </svg>
                 </a>
               </Link>
-              <div className="center">
-                <small>Flybox</small>
-              </div>
             </div>
-          </div>
-          <div>
-            <Link href="/flybox">
-              <a>
-                {" "}
-                <svg viewBox="0 0 74 88" className="header-right">
-                  <g id="Layer_2" data-name="Layer 2">
-                    <g id="Layer_1-2" data-name="Layer 1">
-                      <rect x="38" width="17" height="88" />
-                      <rect x="57" y="45" width="17" height="43" />
-                      <circle cx="18" cy="17" r="17" />
-                      <circle cx="17" cy="71" r="17" />
-                    </g>
-                  </g>
-                </svg>
-              </a>
-            </Link>
+            <div>
+              <small>Flybox</small>
+            </div>
           </div>
         </div>
         <div className="bookshelf">
