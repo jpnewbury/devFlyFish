@@ -6,7 +6,7 @@ import Head from "next/head";
 import Header from "../../components/header";
 import Footer from "../../components/footer";
 
-export default function index() {
+export default function index(props) {
   return (
     <>
       <Head>
