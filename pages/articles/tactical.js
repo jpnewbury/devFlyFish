@@ -179,7 +179,7 @@ export default function index(props) {
                 <Image
                   src="/SexyWaltsPinkBeadsizes.jpg"
                   alt="Assorted jig Sizes"
-                  width="300"
+                  width="400"
                   height="150px"
                 />
                 <div>
