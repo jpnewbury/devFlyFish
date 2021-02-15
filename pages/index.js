@@ -64,7 +64,7 @@ export default function Top({ movies: patterns }) {
               <br /> <i>John P. Newbury</i>
             </p>
           </div>
-          <p />
+          <Image src="/IMG_2192" width={400} height={200} alt="" />
         </section>
         <p />
         <section className="section1">
