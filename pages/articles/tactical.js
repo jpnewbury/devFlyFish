@@ -174,13 +174,21 @@ export default function index(props) {
               nymphs that will aid in your tactical approach to nymphing all
               water types.
             </p>
-            <div className="center multiply">
-              <Image
-                src="/gallery/Spike-Bunny-size-10-4mm.jpg"
-                alt="Assorted jig Sizes"
-                width="300"
-                height="300px"
-              />
+            <div className="center stack">
+              <div className="multiply">
+                <Image
+                  src="/SexyWaltsPinkBeadsizes.jpg"
+                  alt="Assorted jig Sizes"
+                  width="300"
+                  height="150px"
+                />
+                <div>
+                  <small>
+                    A well stocked box wil have an array of sizes and weights of
+                    flies.
+                  </small>
+                </div>
+              </div>
             </div>
             <p>
               As rule of thumb to ensure that my guests are fishing at the
@@ -250,6 +258,7 @@ export default function index(props) {
               the top of the heap to become my base leader of choice that I use
               on many rivers that I fish.
             </p>
+            <h2>Choosing Your Leader</h2>
             <div className="center multiply">
               <Image
                 src="/gallery/MasterclassSpools.jpg"
@@ -258,7 +267,6 @@ export default function index(props) {
                 height="200px"
               />
             </div>
-            <h2>Choosing Your Leader</h2>
             <p>
               I am not a purist in any sense of the word nor am I following Fips
               Mouche sanctioned events and rules. I simply want to have as many
