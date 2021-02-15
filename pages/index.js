@@ -146,10 +146,7 @@ export default function Top({ movies: patterns }) {
                   </a>
                 </Link>
                 <p />
-                <small>
-                  {" "}
-                  Fly Tying Ambassador for Natures Spirit Fly Tying
-                </small>
+                <small>Fly Tying Ambassador for Natures Spirit Fly Tying</small>
               </div>
             </div>
           </div>
@@ -167,6 +164,7 @@ export default function Top({ movies: patterns }) {
           </div>
         </section>
         <section className="section1" />
+        <h2>Current Reading:</h2>
         <section className="quote-box">
           <div className="col-2">
             <div>
@@ -190,7 +188,6 @@ export default function Top({ movies: patterns }) {
           </div>
         </section>
         <section className="section1">
-          <h2>Current Reading:</h2>
           <h3>Adapting to Conditions</h3>
           <p>
             A few years back, I found myself faced with an unusual situation of
@@ -310,8 +307,8 @@ export default function Top({ movies: patterns }) {
             </a>
           </Link>
         </section>
+        <h2>Entomology</h2>
         <section className="section1">
-          <h2>Entomology</h2>
           <span className="first-letter">
             <p>
               A food web exists beneath the rippled current of a trout stream
