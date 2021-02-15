@@ -81,13 +81,12 @@ export default function index(props) {
             <p>
               I spent a lot of time fishing the Deschutes River as part of a
               healing journey in my twenties. I had a campsite next to a
-              favorite pool, and I often slept under the stars until a skunk
-              tried to crawl in the bag with me. It was a very reliable location
-              I could fish as if it were a pool table, calling out corner
-              pockets and making presentations in my mind. I found a certain
-              flat shaped rock positioned in the heart of the pool, and I
-              discovered that standing on it allowed me to cover the sweet spot
-              in which fish competed for first dibs on anything drifting to
+              favorite pool where I often slept under the stars. It was a very
+              reliable location I could fish as if it were a pool table, calling
+              out corner pockets and making presentations in my mind. I found a
+              certain flat shaped rock positioned in the heart of the pool, and
+              I discovered that standing on it allowed me to cover the sweet
+              spot in which fish competed for first dibs on anything drifting to
               them. Back then, the extra foot of height I gained over the water
               by standing on that rock was like fishing with the advantage of an
               extra foot of rod length. While I yearned for a 10’ 3-weight rod
