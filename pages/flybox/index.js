@@ -34,40 +34,42 @@ export default function Movies({ movies: patterns }) {
             <ul>
               {fly.hook && (
                 <li>
-                  <b>Hook:</b> {fly.hook}
+                  <b>Hook: </b> {fly.hook}
                 </li>
               )}
               {fly.bead && (
                 <li>
-                  <b>Bead:</b> {fly.bead}
+                  <b>Bead: </b> {fly.bead}
                 </li>
               )}
               {fly.thread && (
                 <li>
-                  <b>Thread: </b>
-                  {fly.thread}
+                  <b>Thread: </b> {fly.thread}
                 </li>
               )}
               {fly.tail && (
                 <li>
-                  <b>Tail:</b> {fly.tail}
+                  <b>Tail: </b> {fly.tail}
+                </li>
+              )}
+              {fly.tag && (
+                <li>
+                  <b>Tag: </b> {fly.tag}
                 </li>
               )}
               {fly.rib && (
                 <li>
-                  <b>Rib: </b>
-                  {fly.rib}
+                  <b>Rib: </b> {fly.rib}
                 </li>
               )}
               {fly.counter && (
                 <li>
-                  <b>Counter Rib: </b>
-                  {fly.counter}
+                  <b>Counter Rib: </b> {fly.counter}
                 </li>
               )}
               {fly.body && (
                 <li>
-                  <b>Body:</b> {fly.body}
+                  <b>Body: </b> {fly.body}
                 </li>
               )}
               {fly.abdomen && (
@@ -75,19 +77,19 @@ export default function Movies({ movies: patterns }) {
                   <b>Abdomen: </b> {fly.abdomen}
                 </li>
               )}
-              {fly.shellback && (
-                <li>
-                  <b>Shellback: </b> {fly.shellback}
-                </li>
-              )}
               {fly.thorax && (
                 <li>
                   <b>Thorax: </b> {fly.thorax}
                 </li>
               )}
-              {fly.dorsal && (
+              {fly.shellback && (
                 <li>
-                  <b>Markings: </b> {fly.dorsal}
+                  <b>Shellback: </b> {fly.shellback}
+                </li>
+              )}
+              {fly.dorsalMarkings && (
+                <li>
+                  <b>Markings: </b> {fly.dorsalMarkings}
                 </li>
               )}
               {fly.collar && (
@@ -97,12 +99,7 @@ export default function Movies({ movies: patterns }) {
               )}
               {fly.neck && (
                 <li>
-                  <b>Neck:</b> {fly.neck}
-                </li>
-              )}
-              {fly.legs && (
-                <li>
-                  <b>Legs:</b> {fly.legs}
+                  <b>Neck: </b> {fly.neck}
                 </li>
               )}
               {fly.hackle && (
@@ -110,9 +107,24 @@ export default function Movies({ movies: patterns }) {
                   <b>Hackle: </b> {fly.hackle}
                 </li>
               )}
+              {fly.wing && (
+                <li>
+                  <b>wing: </b> {fly.wing}
+                </li>
+              )}
+              {fly.wingbuds && (
+                <li>
+                  <b>Wingbuds: </b> {fly.wingbuds}
+                </li>
+              )}
+              {fly.legs && (
+                <li>
+                  <b>Legs: </b> {fly.legs}
+                </li>
+              )}
               {fly.head && (
                 <li>
-                  <b>Head:</b> {fly.head}
+                  <b>Head: </b> {fly.head}
                 </li>
               )}
             </ul>

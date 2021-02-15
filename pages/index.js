@@ -269,26 +269,101 @@ export default function Top({ movies: patterns }) {
                 </span>
                 <p>{fly.description}</p>
                 <ul>
-                  {fly.hook && <li>Hook: {fly.hook}</li>}
-                  {fly.bead && <li>Bead: {fly.bead}</li>}
-                  {fly.thread && <li>Thread: {fly.thread}</li>}
-                  {fly.tail && <li>Tail: {fly.tail}</li>}
-                  {fly.tag && <li>Tag: {fly.tag}</li>}
-                  {fly.rib && <li>Rib : {fly.rib}</li>}
-                  {fly.body && <li>Body : {fly.body}</li>}
-                  {fly.abdomen && <li>Abdomen : {fly.abdomen}</li>}
-                  {fly.thorax && <li>Thorax : {fly.thorax}</li>}
-                  {fly.shellback && <li>Shellback : {fly.shellback}</li>}
-                  {fly.dorsalMarkings && (
-                    <li>Markings : {fly.dorsalMarkings}</li>
+                  {fly.hook && (
+                    <li>
+                      <b>Hook: </b> {fly.hook}
+                    </li>
                   )}
-                  {fly.collar && <li>Collar : {fly.collar}</li>}
-                  {fly.neck && <li>Neck : {fly.neck}</li>}
-                  {fly.hackle && <li>Hackle : {fly.hackle}</li>}
-                  {fly.wing && <li>wing : {fly.wing}</li>}
-                  {fly.wingbuds && <li>Wingbuds : {fly.wingbuds}</li>}
-                  {fly.legs && <li>Legs : {fly.legs}</li>}
-                  {fly.head && <li>Head : {fly.head}</li>}
+                  {fly.bead && (
+                    <li>
+                      <b>Bead: </b> {fly.bead}
+                    </li>
+                  )}
+                  {fly.thread && (
+                    <li>
+                      <b>Thread: </b> {fly.thread}
+                    </li>
+                  )}
+                  {fly.tail && (
+                    <li>
+                      <b>Tail: </b> {fly.tail}
+                    </li>
+                  )}
+                  {fly.tag && (
+                    <li>
+                      <b>Tag: </b> {fly.tag}
+                    </li>
+                  )}
+                  {fly.rib && (
+                    <li>
+                      <b>Rib: </b> {fly.rib}
+                    </li>
+                  )}
+                  {fly.counter && (
+                    <li>
+                      <b>Counter Rib: </b> {fly.counter}
+                    </li>
+                  )}
+                  {fly.body && (
+                    <li>
+                      <b>Body: </b> {fly.body}
+                    </li>
+                  )}
+                  {fly.abdomen && (
+                    <li>
+                      <b>Abdomen: </b> {fly.abdomen}
+                    </li>
+                  )}
+                  {fly.thorax && (
+                    <li>
+                      <b>Thorax: </b> {fly.thorax}
+                    </li>
+                  )}
+                  {fly.shellback && (
+                    <li>
+                      <b>Shellback: </b> {fly.shellback}
+                    </li>
+                  )}
+                  {fly.dorsalMarkings && (
+                    <li>
+                      <b>Markings: </b> {fly.dorsalMarkings}
+                    </li>
+                  )}
+                  {fly.collar && (
+                    <li>
+                      <b>Collar: </b> {fly.collar}
+                    </li>
+                  )}
+                  {fly.neck && (
+                    <li>
+                      <b>Neck: </b> {fly.neck}
+                    </li>
+                  )}
+                  {fly.hackle && (
+                    <li>
+                      <b>Hackle: </b> {fly.hackle}
+                    </li>
+                  )}
+                  {fly.wing && (
+                    <li>
+                      <b>wing: </b> {fly.wing}
+                    </li>
+                  )}
+                  {fly.wingbuds && (
+                    <li>
+                      <b>Wingbuds: </b> {fly.wingbuds}
+                    </li>
+                  )}
+                  {fly.legs && (
+                    <li>
+                      <b>Legs: </b> {fly.legs}
+                    </li>
+                  )}
+                  {fly.head && (
+                    <li>
+                      <b>Head: </b> {fly.head}
+                    </li>
+                  )}
                 </ul>
                 {fly.clinger === "true" && <Clinger />}
                 {fly.crawler === "true" && <Crawler />}
