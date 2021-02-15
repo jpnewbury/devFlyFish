@@ -135,7 +135,7 @@ export default function Movies({ movies: patterns }) {
             {fly.caddis === "true" && <Caddis />}
             {fly.hydropsyche === "true" && <Hydropsyche />}
             {fly.rockworm === "true" && <Rockworm />}
-            {fly.midgePupa === "true" && <Midge />}
+            {fly.midgepupa === "true" && <Midge />}
           </div>
         ))}
       </div>
