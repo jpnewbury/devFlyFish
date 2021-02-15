@@ -76,8 +76,7 @@ export default function index(props) {
               back in the 1990’s, I was no stranger to what was happening in the
               fly fishing scene overseas. I started putting into practice the
               techniques I had accumulated via letters, internet dialog, and
-              primarily, imported fly fishing periodicals from the mid-1990’s,
-              around the same time that the internet was exploding.
+              primarily, imported fly fishing periodicals from the era.
             </p>
             <p>
               I spent a lot of time fishing the Deschutes River as part of a
