@@ -138,6 +138,13 @@ small {
     max-width: 25vw;
     grid-template-columns: repeat(9, 1fr);
 }
+.first-letter {
+    ::first-letter {
+        font-size: 1.7rem;
+        font-weight: 600;
+        color: $black;
+    }
+}
 
 .float {
     clear: both;
@@ -257,7 +264,9 @@ small {
     margin-bottom: $margin;
     padding: $padding;
 }
-
+.stack {
+    display: grid;
+}
 .svg-quote {
     width: 30px;
     margin-bottom: -15px;

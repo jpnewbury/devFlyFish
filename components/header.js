@@ -10,6 +10,10 @@ export default function header(props) {
       </div>
       <nav>
         <Bugbar />
+        <strong className="center">
+          You are viewing a development build, you may encounter 404's along
+          your journey.
+        </strong>
       </nav>
     </>
   );

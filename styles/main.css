@@ -134,6 +134,12 @@ small {
       grid-template-columns: repeat(9, 1fr);
 }
 
+.first-letter ::first-letter {
+  font-size: 1.7rem;
+  font-weight: 600;
+  color: #0a0a0a;
+}
+
 .float {
   clear: both;
 }
@@ -284,6 +290,11 @@ small {
   border-bottom: 1px dashed gray;
   margin-bottom: 5px;
   padding: 7px;
+}
+
+.stack {
+  display: -ms-grid;
+  display: grid;
 }
 
 .svg-quote {

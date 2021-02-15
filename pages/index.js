@@ -35,11 +35,21 @@ export default function Top({ movies: patterns }) {
         </header>
         <section className="section1">
           <div>
-            <strong>
-              You are viewing a development build, you may encounter 404's along
-              your journey.
-            </strong>
             <h2>Intro</h2>
+            <div className="center  stack">
+              <div className="multiply">
+                <Image
+                  src="/gallery/DropDeadSexyWalts.jpg"
+                  width={300}
+                  height={300}
+                  alt="Drop Dead Sexy Walts"
+                  quality="50"
+                />
+              </div>
+              <div className="center">
+                <small> Drop Dead Sexy Walts's</small>
+              </div>
+            </div>
             <span className="first-letter">
               <p>
                 Welcome to my new-ish, under construction web-page / app about
@@ -55,6 +65,7 @@ export default function Top({ movies: patterns }) {
                 accessible to you by putting it all at your fingertips.
               </p>
             </span>
+
             <p>
               On a personal note, I am deeply humbled when I see other fly tyers
               posting my patterns filling their fly boxes on the internet. I am
@@ -82,8 +93,17 @@ export default function Top({ movies: patterns }) {
             Colorado in 2014, he continues to modify his tactical nymphing
             approach and designing new fly patterns.
           </p>
-          <div className="center ">
-            <Image src="/IMG_2192.jpg" width={400} height={175} alt="" />
+
+          <div className="center  stack">
+            <div className="multiply">
+              <Image
+                src="/gallery/LastChanceGreenDrake.jpg"
+                width={300}
+                height={300}
+                alt="Drop Dead Sexy Walts"
+                quality="50"
+              />
+            </div>
           </div>
           <p>
             Apart from making the endeavor of fly-fishing more enjoyable for his
