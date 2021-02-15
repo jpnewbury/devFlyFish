@@ -29,6 +29,20 @@ export default function index(props) {
 
           <section className="section">
             <div className="grid-ish">
+              <Link href="/articles/tactical">
+                <div className="card">
+                  <h2>A Tactical Advantage</h2>
+                  <h3>My Angle on Euro Nymphing</h3>
+                  <span className="center multiply">
+                    <Image
+                      src="/CzechBox.jpg"
+                      width={400}
+                      height={400}
+                      alt=""
+                    />
+                  </span>
+                </div>
+              </Link>
               <Link href="/articles/entomology">
                 <div className="card">
                   <h2>A Fly Tyers Entomology</h2>
