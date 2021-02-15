@@ -10,6 +10,7 @@ import Midge from "../components/svg/midge";
 import Featured from "../components/svg/featured";
 import Header from "../components/header";
 import Footer from "../components/footer";
+import BugbarNav from "../components/bugbarNav";
 import Image from "next/image";
 import Link from "next/link";
 import Head from "next/head";
@@ -113,6 +114,7 @@ export default function Top({ movies: patterns }) {
             photographer, fisheries-scientist, and writer.
           </p>
         </section>
+
         <section>
           <div className="center">
             <div className="center multiply">
@@ -151,6 +153,17 @@ export default function Top({ movies: patterns }) {
                 </small>
               </div>
             </div>
+          </div>
+        </section>
+        <section>
+          <div className="">
+            <h2>Bug Bar</h2>
+            <h3>A helpful guide to select the best fly</h3>
+            <p>
+              All fly patterns listed sitewide can be sorted by the type of
+              nymph that they best immitate.
+            </p>
+            <BugbarNav />
           </div>
         </section>
         <p />
