@@ -108,6 +108,13 @@ small {
   font-family: "Lato", sans-serif;
 }
 
+strong {
+  padding: 7px;
+  margin: 5px;
+  font-size: 1rem;
+  font-family: "Lato", sans-serif;
+}
+
 .bugbar-icon {
   padding: 7px;
   margin: 5px;

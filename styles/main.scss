@@ -118,6 +118,11 @@ small {
     font-size: 0.75rem;
     font-family: $font-body;
 }
+strong {
+    @include block;
+    font-size: 1rem;
+    font-family: $font-body;
+}
 .bugbar-icon {
     @include block;
     fill: rgba(0, 0, 0, 0.9);

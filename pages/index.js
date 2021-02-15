@@ -95,7 +95,7 @@ export default function Top({ movies: patterns }) {
             approach and designing new fly patterns.
           </p>
 
-          <div className="center  stack">
+          <div className="center  stack ">
             <div className="multiply">
               <Image
                 src="/gallery/LastChanceGreenDrake.jpg"
@@ -155,6 +155,7 @@ export default function Top({ movies: patterns }) {
             </div>
           </div>
         </section>
+        <section className="section1" />
         <section>
           <div className="">
             <h2>Bug Bar</h2>
@@ -166,7 +167,7 @@ export default function Top({ movies: patterns }) {
             <BugbarNav />
           </div>
         </section>
-        <p />
+        <section className="section1" />
         <section className="quote-box">
           <div className="col-2">
             <div>
