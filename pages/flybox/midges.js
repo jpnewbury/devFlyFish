@@ -23,8 +23,10 @@ export default function Movies({ movies: patterns }) {
       <div className="grid-ish">
         {patterns.map((fly) => (
           <div className="card" key={fly._id}>
-            {fly.featured === "true" && <Featured />}
-            <h2>{fly.name}</h2>
+            <h2>
+              {fly.featured === "true" && <Featured />}
+              {fly.name}
+            </h2>
             <span className="multiply center">
               <Image src={fly.image} width="200px" height="200px" alt="" />
             </span>
