@@ -20,7 +20,7 @@ export default function Movies({ movies: patterns }) {
       <Header title="Fly Box" />
       <BugbarNav />
       <h2>Featured Fly Patterns</h2>
-      <p>Select a nymph type above to view more patterns</p>
+      <p>Select a nymph type above to view even more patterns</p>
 
       <div className="grid-ish">
         {patterns.map((fly) => (
