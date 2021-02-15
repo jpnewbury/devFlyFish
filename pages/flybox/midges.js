@@ -33,68 +33,97 @@ export default function Movies({ movies: patterns }) {
             <ul>
               {fly.hook && (
                 <li>
-                  <b>Hook:</b> {fly.hook}
+                  <b>Hook: </b> {fly.hook}
                 </li>
               )}
               {fly.bead && (
                 <li>
-                  <b>Bead:</b> {fly.bead}
+                  <b>Bead: </b> {fly.bead}
                 </li>
               )}
               {fly.thread && (
                 <li>
-                  <b>Threa</b>d: {fly.thread}
+                  <b>Thread: </b> {fly.thread}
                 </li>
               )}
               {fly.tail && (
                 <li>
-                  <b>Tail:</b> {fly.tail}
+                  <b>Tail: </b> {fly.tail}
+                </li>
+              )}
+              {fly.tag && (
+                <li>
+                  <b>Tag: </b> {fly.tag}
                 </li>
               )}
               {fly.rib && (
                 <li>
-                  <b>Rib: </b>
-                  {fly.rib}
+                  <b>Rib: </b> {fly.rib}
+                </li>
+              )}
+              {fly.counter && (
+                <li>
+                  <b>Counter Rib: </b> {fly.counter}
                 </li>
               )}
               {fly.body && (
                 <li>
-                  <b>Body:</b> {fly.body}
+                  <b>Body: </b> {fly.body}
                 </li>
               )}
               {fly.abdomen && (
                 <li>
-                  <b>Abdom</b>en: {fly.abdomen}
+                  <b>Abdomen: </b> {fly.abdomen}
                 </li>
               )}
               {fly.thorax && (
                 <li>
-                  <b>Thora</b>x: {fly.thorax}
+                  <b>Thorax: </b> {fly.thorax}
+                </li>
+              )}
+              {fly.shellback && (
+                <li>
+                  <b>Shellback: </b> {fly.shellback}
+                </li>
+              )}
+              {fly.dorsalMarkings && (
+                <li>
+                  <b>Markings: </b> {fly.dorsalMarkings}
                 </li>
               )}
               {fly.collar && (
                 <li>
-                  <b>Colla</b>r: {fly.collar}
+                  <b>Collar: </b> {fly.collar}
                 </li>
               )}
               {fly.neck && (
                 <li>
-                  <b>Neck:</b> {fly.neck}
-                </li>
-              )}
-              {fly.legs && (
-                <li>
-                  <b>Legs:</b> {fly.legs}
+                  <b>Neck: </b> {fly.neck}
                 </li>
               )}
               {fly.hackle && (
                 <li>
-                  <b>Hackl</b>e: {fly.hackle}
+                  <b>Hackle: </b> {fly.hackle}
+                </li>
+              )}
+              {fly.wing && (
+                <li>
+                  <b>wing: </b> {fly.wing}
+                </li>
+              )}
+              {fly.wingbuds && (
+                <li>
+                  <b>Wingbuds: </b> {fly.wingbuds}
+                </li>
+              )}
+              {fly.legs && (
+                <li>
+                  <b>Legs: </b> {fly.legs}
                 </li>
               )}
               {fly.head && (
                 <li>
-                  <b>Head:</b> {fly.head}
+                  <b>Head: </b> {fly.head}
                 </li>
               )}
             </ul>
@@ -119,7 +148,7 @@ export async function getServerSideProps() {
   const patterns = await db
     .collection("patterns")
     .find({ midgepupa: "true" })
-    .sort({ metacritic: -1 })
+    .sort({ name: 1 })
     .limit(200)
     .toArray();
 

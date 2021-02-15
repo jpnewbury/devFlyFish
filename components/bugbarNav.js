@@ -52,9 +52,12 @@ export default function bugbarNav() {
             <small>pupa</small>
           </span>
         </div>
-        {/* <div>
-        <Midges />
-      </div> */}
+        <div>
+          <Midges />
+          <span className="center">
+            <small>midges</small>
+          </span>
+        </div>
       </div>
 
       <style jsx>{`
