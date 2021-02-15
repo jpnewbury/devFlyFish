@@ -134,6 +134,10 @@ small {
       grid-template-columns: repeat(9, 1fr);
 }
 
+.float {
+  clear: both;
+}
+
 .grid-ish {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -165,11 +169,15 @@ small {
   border-radius: 5px;
   width: 100%;
   border: 1px solid gray;
+  -webkit-transition: all 0.35s ease;
+  transition: all 0.35s ease;
 }
 
 .card__button:hover {
   border: 1px solid black;
   background: white;
+  -webkit-transition: all 0.35s ease;
+  transition: all 0.35s ease;
 }
 
 .block_card {
@@ -241,6 +249,8 @@ small {
   background: #fafafa;
   border-radius: 5px;
   fill: gray;
+  -webkit-transition: all 0.35s ease;
+  transition: all 0.35s ease;
 }
 
 .icon__star {

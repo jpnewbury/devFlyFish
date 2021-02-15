@@ -64,9 +64,7 @@ export default function Top({ movies: patterns }) {
               <br /> <i>John P. Newbury</i>
             </p>
           </div>
-          <Image src="/IMG_2192" width={400} height={200} alt="" />
         </section>
-        <p />
         <section className="section1">
           <h2>About</h2>
           <p>
@@ -84,7 +82,9 @@ export default function Top({ movies: patterns }) {
             Colorado in 2014, he continues to modify his tactical nymphing
             approach and designing new fly patterns.
           </p>
-
+          <div className="center ">
+            <Image src="/IMG_2192.jpg" width={400} height={175} alt="" />
+          </div>
           <p>
             Apart from making the endeavor of fly-fishing more enjoyable for his
             guests, he is currently completing a fly tying book and this

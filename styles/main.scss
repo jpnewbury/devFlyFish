@@ -9,6 +9,8 @@ $margin: 5px;
 $green: rgb(16, 139, 0);
 $gold: rgb(197, 179, 88);
 
+$transition: all 0.35s ease;
+
 @mixin block {
     // basic margin and padding
     padding: $padding;
@@ -137,6 +139,10 @@ small {
     grid-template-columns: repeat(9, 1fr);
 }
 
+.float {
+    clear: both;
+}
+
 .grid-ish {
     display: flex;
     flex-wrap: wrap;
@@ -160,10 +166,12 @@ small {
     border-radius: 5px;
     width: 100%;
     border: 1px solid gray;
+    transition: $transition;
 }
 .card__button:hover {
     border: 1px solid black;
     background: white;
+    transition: $transition;
 }
 .block_card {
     @include block;
@@ -219,6 +227,7 @@ small {
     // border: 1px solid gray;
     border-radius: 5px;
     fill: gray;
+    transition: $transition;
 }
 .icon__star {
     cursor: pointer;
