@@ -36,13 +36,12 @@ export default function Top({ movies: patterns }) {
         </header>
         <section className="section1">
           <div>
-            <h2>Intro</h2>
             <div className="center  stack">
               <div className="multiply">
                 <Image
                   src="/gallery/DropDeadSexyWalts.jpg"
-                  width={300}
-                  height={300}
+                  width={250}
+                  height={250}
                   alt="Drop Dead Sexy Walts"
                   quality="50"
                 />
@@ -99,8 +98,8 @@ export default function Top({ movies: patterns }) {
             <div className="multiply">
               <Image
                 src="/gallery/LastChanceGreenDrake.jpg"
-                width={300}
-                height={300}
+                width={250}
+                height={250}
                 alt="Drop Dead Sexy Walts"
                 quality="50"
               />
