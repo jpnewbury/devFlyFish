@@ -44,7 +44,8 @@ export default function Movies({ movies: patterns }) {
               )}
               {fly.thread && (
                 <li>
-                  <b>Threa</b>d: {fly.thread}
+                  <b>Thread: </b>
+                  {fly.thread}
                 </li>
               )}
               {fly.tail && (
@@ -58,6 +59,12 @@ export default function Movies({ movies: patterns }) {
                   {fly.rib}
                 </li>
               )}
+              {fly.counter && (
+                <li>
+                  <b>Counter Rib: </b>
+                  {fly.counter}
+                </li>
+              )}
               {fly.body && (
                 <li>
                   <b>Body:</b> {fly.body}
@@ -65,17 +72,27 @@ export default function Movies({ movies: patterns }) {
               )}
               {fly.abdomen && (
                 <li>
-                  <b>Abdom</b>en: {fly.abdomen}
+                  <b>Abdomen: </b> {fly.abdomen}
+                </li>
+              )}
+              {fly.shellback && (
+                <li>
+                  <b>Shellback: </b> {fly.shellback}
                 </li>
               )}
               {fly.thorax && (
                 <li>
-                  <b>Thora</b>x: {fly.thorax}
+                  <b>Thorax: </b> {fly.thorax}
+                </li>
+              )}
+              {fly.dorsal && (
+                <li>
+                  <b>Markings: </b> {fly.dorsal}
                 </li>
               )}
               {fly.collar && (
                 <li>
-                  <b>Colla</b>r: {fly.collar}
+                  <b>Collar: </b> {fly.collar}
                 </li>
               )}
               {fly.neck && (
@@ -90,7 +107,7 @@ export default function Movies({ movies: patterns }) {
               )}
               {fly.hackle && (
                 <li>
-                  <b>Hackl</b>e: {fly.hackle}
+                  <b>Hackle: </b> {fly.hackle}
                 </li>
               )}
               {fly.head && (
@@ -120,7 +137,7 @@ export async function getServerSideProps() {
   const patterns = await db
     .collection("patterns")
     .find({})
-    .sort({ name: 1 })
+    .sort({ name: -1 })
     .limit(200)
     .toArray();
 
