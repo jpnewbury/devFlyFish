@@ -115,6 +115,12 @@ strong {
   font-family: "Lato", sans-serif;
 }
 
+.block {
+  padding: 7px;
+  margin: 5px;
+  padding-left: 10px;
+}
+
 .bugbar-icon {
   padding: 7px;
   margin: 5px;
@@ -227,6 +233,13 @@ strong {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+}
+
+.col-2l {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 200px 1fr;
+      grid-template-columns: 200px 1fr;
 }
 
 .hero-box {

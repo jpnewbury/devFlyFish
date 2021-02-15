@@ -123,6 +123,10 @@ strong {
     font-size: 1rem;
     font-family: $font-body;
 }
+.block {
+    @include block;
+    padding-left: 10px;
+}
 .bugbar-icon {
     @include block;
     fill: rgba(0, 0, 0, 0.9);
@@ -209,6 +213,11 @@ strong {
     align-items: center;
     justify-content: center;
 }
+.col-2l {
+    display: grid;
+    grid-template-columns: 200px 1fr;
+}
+
 .hero-box {
     margin-top: -10px;
     height: 240px;
