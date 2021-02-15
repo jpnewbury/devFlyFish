@@ -114,7 +114,7 @@ export async function getServerSideProps() {
   const patterns = await db
     .collection("patterns")
     .find({ featured: "true" })
-    .sort({ metacritic: -1 })
+    .sort({ name: 1 })
     .limit(200)
     .toArray();
 
