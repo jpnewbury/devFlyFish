@@ -12,12 +12,20 @@ import Header from "../../components/header";
 import BugbarNav from "../../components/bugbarNav";
 import Image from "next/image";
 import Footer from "../../components/footer";
+import HeaderSlug from "../../components/headerSlug";
 export default function Movies({ movies: patterns }) {
   return (
     <main className="container">
       <Header title="Fly Box - Midges" />
       <BugbarNav />
-      <h2>Midges</h2>
+      <HeaderSlug
+        title="Midges"
+        image="/chironomidPupa.png"
+        height="100px"
+        width="150px"
+        content="Midges are available as food for trout on a nearly daily basis and often out weather many mens tolerance for bad weather."
+      />
+
       <div className="grid-ish">
         {patterns.map((fly) => (
           <div className="card" key={fly._id}>
