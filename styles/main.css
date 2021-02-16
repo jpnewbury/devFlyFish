@@ -243,6 +243,13 @@ strong {
       grid-template-columns: 150px 1fr;
 }
 
+.col-2a {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 300px 1fr;
+      grid-template-columns: 300px 1fr;
+}
+
 .col-2l {
   display: -ms-grid;
   display: grid;

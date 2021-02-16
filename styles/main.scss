@@ -1,5 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Passion+One&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Crimson+Pro:ital,wght@0,200;0,600;1,400;1,900&display=swap");
+
 $font-heading: "Passion One", cursive;
 $font-body: "Lato", sans-serif;
 $font-quote: "Crimson Pro", serif;
@@ -228,6 +229,10 @@ strong {
 .col-2 {
     display: grid;
     grid-template-columns: 150px 1fr;
+}
+.col-2a {
+    display: grid;
+    grid-template-columns: 300px 1fr;
 }
 .col-2l {
     display: grid;

@@ -35,11 +35,26 @@ export default function Top({ movies: patterns }) {
           <Header title="A Space for Fly Fishers" />
         </header>
         <section className="section">
+          <h2>Fly Tying Tutorials</h2>
           <div className="grid-ish">
-            <div className="card">
-              <h2>Fly Tying Tutorials</h2>
-              <p>Keep an eye on this space, new tutorials are marinating.</p>
-            </div>
+            <Link href="/tutorials/sally">
+              <div className="card">
+                <h2>Tying a Yellow Sally Perdigone</h2>
+                <h4>Video</h4>
+                <p>
+                  Taking advantage of UV luminosity and transparent materials to
+                  build a durable and effective pellet type nymph.
+                </p>
+                <span className="center multiply">
+                  <Image
+                    src="/gallery/YSP-14-3.3C.jpg"
+                    width={300}
+                    height={300}
+                    alt="Yellow Sally Perdigone"
+                  />
+                </span>
+              </div>
+            </Link>
           </div>
           <section>
             <h2>Photos From the Field</h2>
