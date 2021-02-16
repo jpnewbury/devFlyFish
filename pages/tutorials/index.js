@@ -62,7 +62,7 @@ export default function Top({ movies: patterns }) {
                 <p>I can't go fishing without them.</p>
                 <span className="center multiply">
                   <Image
-                    src="/gallery/DropDeadSexyWalts.jpg"
+                    src="/gallery/Drop-Dead-Sexy-Dark.jpg"
                     width={300}
                     height={300}
                     alt="Drope Dea exy Walts"

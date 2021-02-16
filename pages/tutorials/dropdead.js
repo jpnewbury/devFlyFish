@@ -36,7 +36,7 @@ function App() {
           <div className="col-2a">
             <div className="center multiply">
               <Image
-                src="/gallery/DropDeadSexyWalts.jpg"
+                src="/gallery/Drop-Dead-Sexy-Dark.jpg"
                 width={300}
                 height={300}
                 alt="Drop Dead Sexy Walts"
@@ -47,7 +47,7 @@ function App() {
           <div>
             <ul>
               <li>
-                <b>Hook: </b>Fullingmill Jigfoec #10-16.
+                <b>Hook: </b>Fullingmill Jig Force #10-16.
               </li>
               <li>
                 <b>Bead:</b> Hanak metallic pink 3.0mm.
