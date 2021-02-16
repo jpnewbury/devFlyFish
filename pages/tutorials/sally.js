@@ -25,7 +25,7 @@ function App() {
       </Head>
       <main className="container">
         <header className="header">
-          <Header title="A Space for Fly Fishers" />
+          <Header title="A Space for Fly Fishers" background="default" />
         </header>
         <section>
           <div className="center">

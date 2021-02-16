@@ -33,7 +33,7 @@ export default function Top({ movies: patterns }) {
       </Head>
       <main className="container">
         <header className="header">
-          <Header title="A Space for Fly Fishers" />
+          <Header title="A Space for Fly Fishers" background="default" />
         </header>
         <section className="section">
           <h2>Fly Tying Tutorials</h2>
