@@ -218,19 +218,25 @@ export default function index(props) {
               the nymph, at this point the sighter should be mostly in a
               vertical position just above or in part within the water surface.
             </p>
-            <div className="center multiply">
-              <Image
-                src="/gallery/NewburySilconeSighter.jpg"
-                alt="Sighter"
-                width="200px"
-                height="180px"
-              />
+
+            <div className="center stack">
+              <div className="multiply">
+                <Image
+                  src="/gallery/NewburySilconeSighter.jpg"
+                  alt="Sighter"
+                  width="200px"
+                  height="180px"
+                />
+                <div>
+                  <small>
+                    A well built silicon infused sighter can last all season.
+                    Greased with floatant, will rest on the water surface
+                    allowing for long range, delicate presentations.
+                  </small>
+                </div>
+              </div>
             </div>
-            <div className="center">
-              A well built silicon infused sighter can last all season. Greased
-              with floatant, will rest on the water surface allowing for long
-              range, delicate presentations.{" "}
-            </div>
+
             <p>
               As the fly progresses downstream of your position, the sighter
               should act like the hands of a clock rotating around while still
