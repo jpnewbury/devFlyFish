@@ -11,6 +11,21 @@ export default function header(props) {
       <nav>
         <Bugbar />
       </nav>
+
+      {props.background === "default" ? (
+        <style global jsx>{`
+          .hero-box {
+            background-image: url("/header.jpg");
+          }
+        `}</style>
+      ) : null}
+      {props.background === "anthony" ? (
+        <style global jsx>{`
+          .hero-box {
+            background-image: url("/20190603-img_4298-1.JPG");
+          }
+        `}</style>
+      ) : null}
     </>
   );
 }

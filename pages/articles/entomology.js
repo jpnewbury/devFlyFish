@@ -25,7 +25,7 @@ export default function Home() {
       <div className="container">
         <main className="content">
           <header className="header">
-            <Header title="Featured fly Patterns" />
+            <Header title="A Space for Fly Fishers" background="anothony" />
           </header>
 
           <h2>A Fly Tyers Entomology</h2>
