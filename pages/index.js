@@ -263,9 +263,9 @@ export default function Top({ movies: patterns }) {
           </Link>
         </section>
         <section>
-          <h3>Fly Box</h3>
-          <h4>What's attached to my tippet</h4>
-          <strong>The three flies I am fishing lately</strong>
+          <h2>Fly Box</h2>
+          <h3>What's attached to my tippet</h3>
+          <p>The three flies I am fishing lately</p>
         </section>
         <section>
           <div className="grid-ish">
@@ -392,8 +392,10 @@ export default function Top({ movies: patterns }) {
             </a>
           </Link>
         </section>
-        <h2>Entomology</h2>
+        <div className="section1" />
+        <p />
         <section className="section1">
+          <h2>Entomology</h2>
           <span className="first-letter">
             <p>
               A food web exists beneath the rippled current of a trout stream
