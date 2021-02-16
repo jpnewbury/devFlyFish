@@ -10,8 +10,8 @@ import Midge from "../../components/svg/midge";
 import Featured from "../../components/svg/featured";
 import Header from "../../components/header";
 import BugbarNav from "../../components/bugbarNav";
-
 import Image from "next/image";
+// import HeaderSlug from "../../components/headerSlug";
 import Link from "next/link";
 
 export default function Movies({ movies: patterns }) {

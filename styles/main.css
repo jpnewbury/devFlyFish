@@ -153,10 +153,6 @@ strong {
   color: #0a0a0a;
 }
 
-.float {
-  clear: both;
-}
-
 .grid-ish {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -235,11 +231,22 @@ strong {
           justify-content: center;
 }
 
+.col-2 {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 150px 1fr;
+      grid-template-columns: 150px 1fr;
+}
+
 .col-2l {
   display: -ms-grid;
   display: grid;
   -ms-grid-columns: 200px 1fr;
       grid-template-columns: 200px 1fr;
+}
+
+.float-left {
+  float: left;
 }
 
 .hero-box {
@@ -347,7 +354,6 @@ strong {
 
 .svg-quote-sm {
   width: 20px;
-  margin-bottom: -20px;
 }
 
 .quote-box {
@@ -369,16 +375,14 @@ strong {
 .quote-box-small {
   padding: 7px;
   margin: 5px;
-  padding-left: 60px;
-  margin: 30px;
-  padding-right: 30px;
+  padding: 1em;
 }
 
 .quote-box-small p {
   font-family: "Crimson Pro", serif;
-  font-size: 1.1rem;
+  font-size: 1.2rem;
   font-weight: 600;
-  line-height: 1em;
+  line-height: 1.2em;
   text-align: center;
 }
 

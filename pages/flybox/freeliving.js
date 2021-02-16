@@ -11,14 +11,14 @@ import Featured from "../../components/svg/featured";
 import Header from "../../components/header";
 import BugbarNav from "../../components/bugbarNav";
 import Image from "next/image";
-import HeaderSlug from "../../components/headerSlug";
+// import HeaderSlug from "../../components/headerSlug";
 
 export default function Movies({ movies: patterns }) {
   return (
     <main className="container">
       <Header title="Fly Box" />
       <BugbarNav />
-      <HeaderSlug
+      {/* <HeaderSlug
         title="Free Living Caddis Larva Nymphs"
         image="/Free-Living-Caddis-larva.png"
         height="100px"
@@ -29,7 +29,7 @@ export default function Movies({ movies: patterns }) {
         in which to feed upon. Net building caddis spin funnel shaped webs
         and feed on detritus filtered from the current captured in the
         nets that they construct.."
-      />
+      /> */}
 
       <div className="grid-ish">
         {patterns.map((fly) => (

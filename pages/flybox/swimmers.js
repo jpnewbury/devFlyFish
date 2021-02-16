@@ -11,13 +11,14 @@ import Featured from "../../components/svg/featured";
 import Header from "../../components/header";
 import BugbarNav from "../../components/bugbarNav";
 import Image from "next/image";
-import HeaderSlug from "../../components/headerSlug";
+// import HeaderSlug from "../../components/headerSlug";
+
 export default function Movies({ movies: patterns }) {
   return (
     <main className="container">
       <Header title="Fly Box" />
       <BugbarNav />
-      <HeaderSlug
+      {/* <HeaderSlug
         title="Minnow Type Nymphs"
         image="/Baetis.png"
         height="200px"
@@ -28,7 +29,7 @@ export default function Movies({ movies: patterns }) {
         repeatedly for several days prior to emergence. When tying
         patterns that imitate baetis nymphs, bear in mind the shallow
         taper and slim body. Keep these nymphs thin and streamlined."
-      />
+      /> */}
 
       <div className="grid-ish">
         {patterns.map((fly) => (

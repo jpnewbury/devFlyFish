@@ -8,11 +8,7 @@ import Hydropsyche from "../../components/svg/hydropsyche";
 import Rockworm from "../../components/svg/rockworm";
 import Midge from "../../components/svg/midge";
 import Featured from "../../components/svg/featured";
-import Header from "../../components/header";
-import BugbarNav from "../../components/bugbarNav";
-
 import Image from "next/image";
-import Link from "next/link";
 
 export default function Movies({ movies: patterns }) {
   return (
@@ -20,7 +16,6 @@ export default function Movies({ movies: patterns }) {
       {patterns.map((fly) => (
         <div className="card" key={fly._id}>
           <h2>
-            {" "}
             {fly.featured === "true" && <Featured />}
             {fly.name}
           </h2>

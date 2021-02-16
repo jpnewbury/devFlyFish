@@ -11,14 +11,14 @@ import Featured from "../../components/svg/featured";
 import Header from "../../components/header";
 import BugbarNav from "../../components/bugbarNav";
 import Image from "next/image";
-import HeaderSlug from "../../components/headerSlug";
+// import HeaderSlug from "../../components/headerSlug";
 
 export default function Movies({ movies: patterns }) {
   return (
     <main className="container">
       <Header title="Fly Box" />
       <BugbarNav />
-      <HeaderSlug
+      {/* <HeaderSlug
         title="Caddis Pupa Type Nymphs"
         image="/CaddisPupaIllustration.png"
         height="150px"
@@ -28,7 +28,7 @@ export default function Movies({ movies: patterns }) {
         deeply. When fishing deeper in the water column, I use much less
         flashy, more opaque caddis pupa imitations because they have not
         yet begun to exhibit this gas bubble."
-      />
+      /> */}
 
       <div className="grid-ish">
         {patterns.map((fly) => (

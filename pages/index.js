@@ -251,7 +251,11 @@ export default function Top({ movies: patterns }) {
             but just a dash too much can ruin it.
           </p>
           <p />
-          <p />
+          <Link href="/articles">
+            <a>
+              <button className="card__button">More articles</button>
+            </a>
+          </Link>
         </section>
         <section>
           <h3>Fly Box</h3>
