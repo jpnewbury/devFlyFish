@@ -241,8 +241,8 @@ strong {
 .col-2l {
   display: -ms-grid;
   display: grid;
-  -ms-grid-columns: 200px 1fr;
-      grid-template-columns: 200px 1fr;
+  -ms-grid-columns: 20px 1fr;
+      grid-template-columns: 20px 1fr;
 }
 
 .float-left {

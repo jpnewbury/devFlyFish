@@ -166,7 +166,7 @@ export default function Top({ movies: patterns }) {
         <section className="section1" />
         <h2>Current Reading:</h2>
         <section className="quote-box">
-          <div className="col-2">
+          <div className="col-2l">
             <div>
               <svg viewBox="0 0 184.76 155" className="svg-quote">
                 <g id="Layer_2" data-name="Layer 2">
@@ -260,6 +260,7 @@ export default function Top({ movies: patterns }) {
         <section>
           <h3>Fly Box</h3>
           <h4>What's attached to my tippet</h4>
+          <strong>The three flies I am fishing lately</strong>
         </section>
         <section>
           <div className="grid-ish">
