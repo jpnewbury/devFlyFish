@@ -395,7 +395,7 @@ export default function Top({ movies: patterns }) {
         <div className="section1" />
         <p />
         <section className="section1">
-          <h2>Entomology</h2>
+          <h2>Entomology for the Fly Fisher</h2>
           <span className="first-letter">
             <p>
               A food web exists beneath the rippled current of a trout stream
