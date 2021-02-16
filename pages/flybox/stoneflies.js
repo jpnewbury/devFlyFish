@@ -11,14 +11,14 @@ import Featured from "../../components/svg/featured";
 import Header from "../../components/header";
 import BugbarNav from "../../components/bugbarNav";
 
+import HeaderSlug from "../../components/headerSlug";
 import Image from "next/image";
-// import HeaderSlug from "../../components/headerSlug";
 export default function Movies({ movies: patterns }) {
   return (
     <main className="container">
       <Header title="Fly Box" />
       <BugbarNav />
-      {/* <HeaderSlug
+      <HeaderSlug
         title="Stonefly Nymphs"
         image="/stones.png"
         height="75px"
@@ -30,7 +30,7 @@ export default function Movies({ movies: patterns }) {
         on the thin side allowing the nymph to swim nicely. Too fat or
         heavy a fly can complicate your presentations and cause an
         unnatural drift."
-      /> */}
+      />
 
       <div className="grid-ish">
         {patterns.map((fly) => (
