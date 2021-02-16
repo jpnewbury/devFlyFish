@@ -11,14 +11,14 @@ import Featured from "../../components/svg/featured";
 import Header from "../../components/header";
 import BugbarNav from "../../components/bugbarNav";
 import Image from "next/image";
-// import HeaderSlug from "../../components/headerSlug";
+import HeaderSlug from "../../components/headerSlug";
 
 export default function Movies({ movies: patterns }) {
   return (
     <main className="container">
       <Header title="Fly Box" />
       <BugbarNav />
-      {/* <HeaderSlug
+      <HeaderSlug
         image="/drunella1.png"
         height="175"
         width="150"
@@ -28,7 +28,7 @@ export default function Movies({ movies: patterns }) {
         but prefer to remain amongst the cobble. Many begin the emergence
         process underwater where a spot of color enhances the fly and
         rapidly swim towards the surface."
-      /> */}
+      />
 
       <div className="grid-ish">
         {patterns.map((fly) => (
