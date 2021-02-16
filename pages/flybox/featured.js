@@ -9,6 +9,7 @@ import Rockworm from "../../components/svg/rockworm";
 import Midge from "../../components/svg/midge";
 import Featured from "../../components/svg/featured";
 import Image from "next/image";
+import Footer from "../../components/footer";
 
 export default function Movies({ movies: patterns }) {
   return (
