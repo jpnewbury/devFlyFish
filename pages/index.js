@@ -78,6 +78,18 @@ export default function Top({ movies: patterns }) {
         </section>
         <section className="section1">
           <h2>About</h2>
+
+          <div className="center  stack ">
+            <div className="multiply">
+              <Image
+                src="/gallery/LastChanceGreenDrake.jpg"
+                width={200}
+                height={200}
+                alt="Drop Dead Sexy Walts"
+                quality="50"
+              />
+            </div>
+          </div>
           <p>
             John Newbury began forging his career in fly tying and fishing at
             the age of 14 when he was hired to tie flies on a commercial basis
@@ -93,18 +105,6 @@ export default function Top({ movies: patterns }) {
             Colorado in 2014, he continues to modify his tactical nymphing
             approach and designing new fly patterns.
           </p>
-
-          <div className="center  stack ">
-            <div className="multiply">
-              <Image
-                src="/gallery/LastChanceGreenDrake.jpg"
-                width={250}
-                height={250}
-                alt="Drop Dead Sexy Walts"
-                quality="50"
-              />
-            </div>
-          </div>
           <p>
             Apart from making the endeavor of fly-fishing more enjoyable for his
             guests, he is currently completing a fly tying book and this
