@@ -158,7 +158,7 @@ export default function Top({ movies: patterns }) {
             <h3>A helpful guide to select the best fly</h3>
             <p>
               All fly patterns listed sitewide can be sorted by the type of
-              nymph that they best immitate.
+              nymph that they best imitate.
             </p>
             <BugbarNav />
           </div>
