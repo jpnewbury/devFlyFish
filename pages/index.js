@@ -36,20 +36,6 @@ export default function Top({ movies: patterns }) {
         </header>
         <section className="section1">
           <div>
-            <div className="center  stack">
-              <div className="multiply">
-                <Image
-                  src="/gallery/DropDeadSexyWalts.jpg"
-                  width={250}
-                  height={250}
-                  alt="Drop Dead Sexy Walts"
-                  quality="50"
-                />
-              </div>
-              <div className="center">
-                <small> Drop Dead Sexy Walts's</small>
-              </div>
-            </div>
             <span className="first-letter">
               <p>
                 Welcome to my new-ish, under construction web-page / app about
@@ -74,6 +60,20 @@ export default function Top({ movies: patterns }) {
               <br />
               <br /> <i>John P. Newbury</i>
             </p>
+          </div>
+          <div className="center  stack">
+            <div className="multiply">
+              <Image
+                src="/gallery/DropDeadSexyWalts.jpg"
+                width={200}
+                height={200}
+                alt="Drop Dead Sexy Walts"
+                quality="50"
+              />
+            </div>
+            <div className="center">
+              <small> Drop Dead Sexy Walts's</small>
+            </div>
           </div>
         </section>
         <section className="section1">
