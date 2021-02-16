@@ -10,47 +10,26 @@ import Midge from "../../components/svg/midge";
 import Featured from "../../components/svg/featured";
 import Header from "../../components/header";
 import BugbarNav from "../../components/bugbarNav";
-
 import Image from "next/image";
-import Link from "next/link";
+import HeaderSlug from "../../components/headerSlug";
 
 export default function Movies({ movies: patterns }) {
   return (
     <main className="container">
       <Header title="Fly Box" />
       <BugbarNav />
-      <h2>Free Living Caddis Larva Nymphs</h2>
-      <div className="center multiply">
-        <Image
-          src="/Free-Living-Caddis-larva.png"
-          width={300}
-          height={250}
-          alt="clinger nymph"
-        />
-      </div>
-      <section className="quote-box-small">
-        <div className="col-2">
-          <div>
-            <svg viewBox="0 0 184.76 155" className="svg-quote-sm">
-              <g id="Layer_2" data-name="Layer 2">
-                <g id="Layer_1-2" data-name="Layer 1">
-                  <path d="M184.76,13.64l-6.82-9.3c-32.86,20.46-75,60.14-75,102.3,0,18.6,11.16,37.82,26.66,48.36l46.5-36.58v-1.24C164.92,103.54,151.9,83.7,151.9,71.3,151.9,52.08,164.92,30.38,184.76,13.64Z" />
-                  <path d="M0,102.3c0,18.6,11.78,37.82,27.28,49l46.5-37.2v-1.24C62.62,99.82,49.6,80,49.6,67c0-19.22,13-40.92,32.24-57.66L75,0C42.78,20.46,0,60.14,0,102.3Z" />
-                </g>
-              </g>
-            </svg>
-          </div>
-          <div>
-            <p>
-              Free living caddis are predatory in nature, do not build shelters
-              and crawl around the rocks in search of other macro invertebrates
-              in which to feed upon. Net building caddis spin funnel shaped webs
-              and feed on detritus filtered from the current captured in the
-              nets that they construct.
-            </p>
-          </div>
-        </div>
-      </section>
+      <HeaderSlug
+        title="Free Living Caddis Larva Nymphs"
+        image="/Free-Living-Caddis-larva.png"
+        height="100px"
+        width="150px"
+        alt="clinger nymph"
+        content=" Free living caddis are predatory in nature, do not build shelters
+        and crawl around the rocks in search of other macro invertebrates
+        in which to feed upon. Net building caddis spin funnel shaped webs
+        and feed on detritus filtered from the current captured in the
+        nets that they construct.."
+      />
 
       <div className="grid-ish">
         {patterns.map((fly) => (
