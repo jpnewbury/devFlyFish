@@ -8,6 +8,7 @@ import Hydropsyche from "../../components/svg/hydropsyche";
 import Rockworm from "../../components/svg/rockworm";
 import Midge from "../../components/svg/midge";
 import Featured from "../../components/svg/featured";
+import Video from "../../components/svg/video";
 import Header from "../../components/header";
 import Footer from "../../components/footer";
 
@@ -40,7 +41,7 @@ export default function Top({ movies: patterns }) {
             <Link href="/tutorials/sally">
               <div className="card">
                 <h2>Tying a Yellow Sally Perdigone</h2>
-                <h4>Video</h4>
+                <Video />
                 <p>
                   Taking advantage of UV luminosity and transparent materials to
                   build a durable and effective pellet type nymph.
@@ -58,7 +59,7 @@ export default function Top({ movies: patterns }) {
             <Link href="/tutorials/dropdead">
               <div className="card">
                 <h2>Tying a Drop Dead Sexy walts</h2>
-                <h4>Video</h4>
+                <Video />
                 <p>I can't go fishing without them.</p>
                 <span className="center multiply">
                   <Image
