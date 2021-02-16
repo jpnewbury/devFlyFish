@@ -183,6 +183,7 @@ strong {
   margin: 5px;
   border-radius: 5px;
   width: 100%;
+  max-width: 300px;
   border: 1px solid gray;
   -webkit-transition: all 0.35s ease;
   transition: all 0.35s ease;
@@ -206,6 +207,10 @@ strong {
 .block_card small {
   padding: 7px;
   margin: 5px;
+}
+
+.border img {
+  border-radius: 10px;
 }
 
 .container {
@@ -382,7 +387,7 @@ strong {
   font-family: "Crimson Pro", serif;
   font-size: 1.2rem;
   font-weight: 600;
-  line-height: 1.2em;
+  line-height: 1em;
   text-align: center;
 }
 

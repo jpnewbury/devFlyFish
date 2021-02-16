@@ -200,8 +200,13 @@ export default function Top({ movies: patterns }) {
             water conditions when they came up.
           </p>
           <p>
-            <div className="center">
-              <Image src="/flybox.jpg" width={400} height={300} alt="" />
+            <div className="center border">
+              <Image
+                src="/flybox.jpg"
+                width={400}
+                height={300}
+                alt="A box full of fly patterns with a fly rod and rain coat"
+              />
             </div>
           </p>
 
@@ -236,7 +241,7 @@ export default function Top({ movies: patterns }) {
             lighter alternative to using tungsten beads can offer the solution
             for this requirement.
           </p>
-          <div className="center">
+          <div className="center border">
             <Image src="/Snapseed.jpg" width={400} height={300} alt="" />
           </div>
           <p>

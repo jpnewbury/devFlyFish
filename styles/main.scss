@@ -187,6 +187,7 @@ strong {
     margin: $margin;
     border-radius: 5px;
     width: 100%;
+    max-width: 300px;
     border: 1px solid gray;
     transition: $transition;
 }
@@ -203,6 +204,11 @@ strong {
     max-width: 400px;
     small {
         @include block;
+    }
+}
+.border {
+    img {
+        border-radius: 10px;
     }
 }
 .container {
@@ -345,7 +351,7 @@ strong {
         font-family: $font-quote;
         font-size: 1.2rem;
         font-weight: 600;
-        line-height: 1.2em;
+        line-height: 1em;
         text-align: center;
     }
 }
