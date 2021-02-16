@@ -12,6 +12,7 @@ import Header from "../../components/header";
 import BugbarNav from "../../components/bugbarNav";
 import Image from "next/image";
 import HeaderSlug from "../../components/headerSlug";
+import Footer from "../../components/footer";
 
 export default function Movies({ movies: patterns }) {
   return (
@@ -123,6 +124,7 @@ export default function Movies({ movies: patterns }) {
           </div>
         ))}
       </div>
+      <Footer />
     </main>
   );
 }
