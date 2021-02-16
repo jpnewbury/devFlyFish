@@ -259,7 +259,7 @@ export default function Top({ movies: patterns }) {
         </section>
         <section>
           <h3>Fly Box</h3>
-          <h4>A Small Collection of Useful Fly Patterns</h4>
+          <h4>What's attached to my tippet</h4>
         </section>
         <section>
           <div className="grid-ish">
