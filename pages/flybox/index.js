@@ -15,7 +15,7 @@ import Image from "next/image";
 export default function Movies({ movies: patterns }) {
   return (
     <main className="container">
-      <Header title="Fly Box" />
+      <Header title="Fly Box " />
       <BugbarNav />
       <h2>Featured Fly Patterns</h2>
       <p>Select a nymph type above to view even more patterns</p>

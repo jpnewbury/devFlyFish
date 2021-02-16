@@ -16,7 +16,7 @@ import HeaderSlug from "../../components/headerSlug";
 export default function Movies({ movies: patterns }) {
   return (
     <main className="container">
-      <Header title="Fly Box" />
+      <Header title="Fly Box - Crawlers" />
       <BugbarNav />
       <HeaderSlug
         image="/drunella1.png"
