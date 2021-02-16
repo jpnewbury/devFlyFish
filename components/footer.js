@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 
 export default function footer() {
   return (
@@ -12,7 +13,11 @@ export default function footer() {
         />
       </div>
       <div className="center">
-        <p>2021 John P. Newbury Art & Design</p>
+        <Link href="https://portfolio-theta-orpin.vercel.app/">
+          <a>
+            <p>2021 John P. Newbury Art & Design</p>
+          </a>
+        </Link>
       </div>
     </div>
   );
