@@ -83,7 +83,7 @@ export default function Top({ movies: patterns }) {
             the age of 14 when he was hired to tie flies on a commercial basis
             for a small Colorado town sporting goods outfitter. That same
             summer, he started guiding wade trips along the small trout streams
-            on the Front Range of the Rockies. In his late teens, John left the
+            on the front range of the rockies. In his late teens, John left the
             trout world of Colorado for the rivers of the Pacific Northwest such
             as the Deschutes River where he focused on its prized steelhead and
             Native Redbands. The Deschutes River was home for many decades as
