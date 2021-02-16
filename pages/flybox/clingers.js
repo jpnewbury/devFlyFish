@@ -11,14 +11,14 @@ import Featured from "../../components/svg/featured";
 import Header from "../../components/header";
 import BugbarNav from "../../components/bugbarNav";
 import Image from "next/image";
-// import HeaderSlug from "../../components/headerSlug";
+import HeaderSlug from "../../components/headerSlug";
 
 export default function Movies({ movies: patterns }) {
   return (
     <main className="container">
       <Header title="Fly Box" />
       <BugbarNav />
-      {/* <HeaderSlug
+      <HeaderSlug
         title="Clinger Type Nymphs"
         image="/eporeus.png"
         alt="Clinger Type Nymphs"
@@ -31,7 +31,7 @@ export default function Movies({ movies: patterns }) {
         interstitial spaces between rocks that other nymph shapes cannot
         exploit. I suspect the large gills also aid in breathing within
         those murky, silty spaces."
-      /> */}
+      />
       <div className="grid-ish">
         {patterns.map((fly) => (
           <div className="card" key={fly._id}>
