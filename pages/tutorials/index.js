@@ -55,6 +55,21 @@ export default function Top({ movies: patterns }) {
                 </span>
               </div>
             </Link>
+            <Link href="/tutorials/dropdead">
+              <div className="card">
+                <h2>Tying a Drop Dead Sexy walts</h2>
+                <h4>Video</h4>
+                <p>I can't go fishing without them.</p>
+                <span className="center multiply">
+                  <Image
+                    src="/gallery/DropDeadSexyWalts.jpg"
+                    width={300}
+                    height={300}
+                    alt="Drope Dea exy Walts"
+                  />
+                </span>
+              </div>
+            </Link>
           </div>
           <section>
             <h2>Photos From the Field</h2>
