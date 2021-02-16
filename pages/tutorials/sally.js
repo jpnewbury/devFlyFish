@@ -33,55 +33,52 @@ function App() {
           </div>
         </section>
         <section>
-          <div className="card">
-            <div className="col-2a">
-              <div className="center multiply">
-                <Image
-                  src="/gallery/YSP-14-3.3C.jpg"
-                  width={300}
-                  height={300}
-                  alt="Yellow Sally Perdigone"
-                />
-              </div>
-
-              <div>
-                <ul>
-                  <li>
-                    <b>Hook: </b>Jig or nymph, your choice
-                  </li>
-                  <li>
-                    <b>Bead:</b> Hanak metallic brown 3.0mm.
-                  </li>
-
-                  <li>
-                    <b>Thread: </b>Veevus 14/0 white. Important! this thread is
-                    the best on the market for UV reflective qualities. This is
-                    how I get that glowing transparent effect.{" "}
-                  </li>
-
-                  <li>
-                    <b>Tail: </b>Ginger Coq de Leon.
-                  </li>
-                  <li>
-                    <b>Abdomen: </b> Fl.orange with bi-color (tan and brown)
-                    body
-                  </li>
-
-                  <li>
-                    <b>Rib:</b> Fine orange wire.
-                  </li>
-                  <li>
-                    <b>Thorax:</b> Extra wraps of the ribbing.
-                  </li>
-                  <li>
-                    <b>Dorsal Mark:</b> Dark brown marker.
-                  </li>
-                  <li>
-                    <b>Resin:</b> Thin clear.
-                  </li>
-                </ul>
-              </div>
+          <div className="col-2a">
+            <div className="center multiply">
+              <Image
+                src="/gallery/YSP-14-3.3C.jpg"
+                width={300}
+                height={300}
+                alt="Yellow Sally Perdigone"
+              />
             </div>
+          </div>
+
+          <div>
+            <ul>
+              <li>
+                <b>Hook: </b>Jig or nymph, your choice
+              </li>
+              <li>
+                <b>Bead:</b> Hanak metallic brown 3.0mm.
+              </li>
+
+              <li>
+                <b>Thread: </b>Veevus 14/0 white. Important! this thread is the
+                best on the market for UV reflective qualities. This is how I
+                get that glowing transparent effect.{" "}
+              </li>
+
+              <li>
+                <b>Tail: </b>Ginger Coq de Leon.
+              </li>
+              <li>
+                <b>Abdomen: </b> Fl.orange with bi-color (tan and brown) body
+              </li>
+
+              <li>
+                <b>Rib:</b> Fine orange wire.
+              </li>
+              <li>
+                <b>Thorax:</b> Extra wraps of the ribbing.
+              </li>
+              <li>
+                <b>Dorsal Mark:</b> Dark brown marker.
+              </li>
+              <li>
+                <b>Resin:</b> Thin clear.
+              </li>
+            </ul>
           </div>
         </section>
         <Footer />
