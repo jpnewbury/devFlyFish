@@ -58,7 +58,7 @@ export default function Top({ movies: patterns }) {
             </Link>
             <Link href="/tutorials/dropdead">
               <div className="card">
-                <h2>Tying a Drop Dead Sexy walts</h2>
+                <h2>Tying a Drop Dead Sexy Walts</h2>
                 <Video />
                 <p>I can't go fishing without them.</p>
                 <span className="center multiply">
