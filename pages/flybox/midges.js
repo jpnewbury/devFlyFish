@@ -23,7 +23,7 @@ export default function Movies({ movies: patterns }) {
         image="/chironomidPupa.png"
         height="100px"
         width="150px"
-        content="Midges are available as food for trout on a nearly daily basis and often out weather many mens tolerance for bad weather."
+        content="Midges are available as food for trout on a nearly daily basis and often out-weather many burly mans tolerance for extreme weather."
       />
 
       <div className="grid-ish">
