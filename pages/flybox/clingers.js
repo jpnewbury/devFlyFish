@@ -17,7 +17,7 @@ import Footer from "../../components/footer";
 export default function Movies({ movies: patterns }) {
   return (
     <main className="container">
-      <Header title="Fly Box - Clingers" />
+      <Header title="Fly Box - Clingers" background="default" />
       <BugbarNav />
       <HeaderSlug
         title="Clinger Type Nymphs"

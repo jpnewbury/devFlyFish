@@ -17,7 +17,7 @@ import Footer from "../../components/footer";
 export default function Movies({ movies: patterns }) {
   return (
     <main className="container">
-      <Header title="Fly Box - Freeliving Caddis" />
+      <Header title="Fly Box - Freeliving Caddis" background="default" />
       <BugbarNav />
       <HeaderSlug
         title="Free Living Caddis Larva Nymphs"

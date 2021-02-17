@@ -17,7 +17,7 @@ import Footer from "../../components/footer";
 export default function Movies({ movies: patterns }) {
   return (
     <main className="container">
-      <Header title="Fly Box - Minnow Shaped" />
+      <Header title="Fly Box - Minnow Shaped" background="default" />
       <BugbarNav />
       <HeaderSlug
         title="Minnow Type Nymphs"
