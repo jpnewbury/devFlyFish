@@ -22,7 +22,7 @@ export default function Movies({ movies: patterns }) {
       <HeaderSlug
         title="Free Living Caddis Larva Nymphs"
         image="/Free-Living-Caddis-larva.png"
-        height="100px"
+        height="120px"
         width="150px"
         alt="clinger nymph"
         content=" Free living caddis are predatory in nature, do not build shelters
