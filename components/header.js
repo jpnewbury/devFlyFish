@@ -33,6 +33,13 @@ export default function header(props) {
           }
         `}</style>
       ) : null}
+      {props.background === "rainbow2" ? (
+        <style global jsx>{`
+          .hero-box {
+            background-image: url("/RainbowHeadHighRez.jpg");
+          }
+        `}</style>
+      ) : null}
     </>
   );
 }
