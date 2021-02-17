@@ -22,7 +22,7 @@ export default function Movies({ movies: patterns }) {
       <HeaderSlug
         title="Caddis Pupa Type Nymphs"
         image="/CaddisPupaIllustration.png"
-        height="150px"
+        height="120px"
         width="150px"
         content="I fish with caddis emerger patterns that imitate this gas bubble
         to some degree at or very near the surface instead or presented
