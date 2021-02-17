@@ -26,6 +26,13 @@ export default function header(props) {
           }
         `}</style>
       ) : null}
+      {props.background === "rainbow" ? (
+        <style global jsx>{`
+          .hero-box {
+            background-image: url("/IMG_2192.jpg");
+          }
+        `}</style>
+      ) : null}
     </>
   );
 }

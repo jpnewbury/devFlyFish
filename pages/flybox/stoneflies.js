@@ -17,7 +17,7 @@ import Image from "next/image";
 export default function Movies({ movies: patterns }) {
   return (
     <main className="container">
-      <Header title="Fly Box - Stoneflies" background="default" />
+      <Header title="Fly Box - Stoneflies" background="rainbow" />
       <BugbarNav />
       <HeaderSlug
         title="Stonefly Nymphs"

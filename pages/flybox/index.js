@@ -16,7 +16,7 @@ import Footer from "../../components/footer";
 export default function Movies({ movies: patterns }) {
   return (
     <main className="container">
-      <Header title="Fly Box " background="default" />
+      <Header title="Fly Box " background="rainbow" />
       <BugbarNav />
       <h2>Featured Fly Patterns</h2>
       <p>Select a nymph type above to view even more patterns</p>
