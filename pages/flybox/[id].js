@@ -20,7 +20,8 @@ export default function Movies({ movies: patterns }) {
   const { id } = router.query;
   return (
     <main className="container">
-      <Header title="Fly Box" />
+      {" "}
+      <Header title="A Space for Fly Fishers" background="default" />{" "}
       <BugbarNav />
       {id}
       <div className="grid-ish">
