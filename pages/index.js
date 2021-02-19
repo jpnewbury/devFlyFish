@@ -76,43 +76,6 @@ export default function Top({ movies: patterns }) {
             </div>
           </div>
         </section>
-        <section className="section1">
-          <h2>About</h2>
-
-          <div className="center  stack ">
-            <div className="multiply">
-              <Image
-                src="/gallery/LastChanceGreenDrake.jpg"
-                width={200}
-                height={200}
-                alt="Drop Dead Sexy Walts"
-                quality="50"
-              />
-            </div>
-          </div>
-          <p>
-            John Newbury began forging his career in fly tying and fishing at
-            the age of 14 when he was hired to tie flies on a commercial basis
-            for a small Colorado town sporting goods outfitter. That same
-            summer, he started guiding wade trips along the small trout streams
-            on the front range of the rockies. In his late teens, John left the
-            trout world of Colorado for the rivers of the Pacific Northwest such
-            as the Deschutes River where he focused on its prized steelhead and
-            Native Redbands. The Deschutes River was home for many decades as
-            John refined his tactical fly tying and nymphing skills. In the
-            mid-1990s, he shifted his focus to learning the European nymphing
-            strategies popular across the pond. Since relocating back to
-            Colorado in 2014, he continues to modify his tactical nymphing
-            approach and designing new fly patterns.
-          </p>
-          <p>
-            Apart from making the endeavor of fly-fishing more enjoyable for his
-            guests, he is currently completing a fly tying book and this
-            companion website, drawing from his more than 43 years of experience
-            in the field, uniquely combining his skills as a designer,
-            photographer, fisheries-scientist, and writer.
-          </p>
-        </section>
 
         <section>
           <div className="center">
@@ -476,6 +439,43 @@ export default function Top({ movies: patterns }) {
 
           <p />
           <p />
+        </section>
+        <section className="section1">
+          <h2>About</h2>
+
+          <div className="center  stack ">
+            <div className="multiply">
+              <Image
+                src="/gallery/LastChanceGreenDrake.jpg"
+                width={200}
+                height={200}
+                alt="Drop Dead Sexy Walts"
+                quality="50"
+              />
+            </div>
+          </div>
+          <p>
+            John Newbury began forging his career in fly tying and fishing at
+            the age of 14 when he was hired to tie flies on a commercial basis
+            for a small Colorado town sporting goods outfitter. That same
+            summer, he started guiding wade trips along the small trout streams
+            on the front range of the rockies. In his late teens, John left the
+            trout world of Colorado for the rivers of the Pacific Northwest such
+            as the Deschutes River where he focused on its prized steelhead and
+            Native Redbands. The Deschutes River was home for many decades as
+            John refined his tactical fly tying and nymphing skills. In the
+            mid-1990s, he shifted his focus to learning the European nymphing
+            strategies popular across the pond. Since relocating back to
+            Colorado in 2014, he continues to modify his tactical nymphing
+            approach and designing new fly patterns.
+          </p>
+          <p>
+            Apart from making the endeavor of fly-fishing more enjoyable for his
+            guests, he is currently completing a fly tying book and this
+            companion website, drawing from his more than 43 years of experience
+            in the field, uniquely combining his skills as a designer,
+            photographer, fisheries-scientist, and writer.
+          </p>
         </section>
         <section>
           <h2>Photos From the Field</h2>
