@@ -1,5 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Passion+One&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Crimson+Pro:ital,wght@0,200;0,600;1,400;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Crimson+Pro:ital,wght@0,500;0,600;1,400;1,900&display=swap");
 
 $font-heading: "Passion One", cursive;
 $font-body: "Lato", sans-serif;
@@ -126,7 +126,7 @@ section {
 }
 
 small {
-    font-size: 0.75rem;
+    font-size: 0.85rem;
     font-family: $font-body;
 }
 strong {
@@ -137,6 +137,21 @@ strong {
 .block {
     @include block;
     padding-left: 10px;
+}
+.block_card {
+    @include block;
+    cursor: pointer;
+    background: $white;
+
+    max-width: 400px;
+    small {
+        @include block;
+    }
+}
+.border {
+    img {
+        border-radius: 10px;
+    }
 }
 .bugbar-icon {
     @include block;
@@ -158,22 +173,13 @@ strong {
     max-width: 25vw;
     grid-template-columns: repeat(9, 1fr);
 }
-.first-letter {
-    ::first-letter {
-        font-size: 1.7rem;
-        font-weight: 600;
-        color: $black;
-    }
+.citation {
+    font-size: 0.8rem;
+    font-weight: 500;
+    font-family: $font-quote;
+    margin-top: -20px;
 }
 
-.grid-ish {
-    display: flex;
-    flex-wrap: wrap;
-}
-
-.grid-ish > * {
-    flex: 1 1 300px;
-}
 .card {
     @include block;
     @include border;
@@ -197,21 +203,7 @@ strong {
     background: white;
     transition: $transition;
 }
-.block_card {
-    @include block;
-    cursor: pointer;
-    background: $white;
 
-    max-width: 400px;
-    small {
-        @include block;
-    }
-}
-.border {
-    img {
-        border-radius: 10px;
-    }
-}
 .container {
     background: $white;
     position: relative;
@@ -238,9 +230,29 @@ strong {
     display: grid;
     grid-template-columns: 20px 1fr;
 }
+.col-5 {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+}
 
 .float-left {
     float: left;
+}
+.first-letter {
+    ::first-letter {
+        font-size: 1.7rem;
+        font-weight: 600;
+        color: $black;
+    }
+}
+
+.grid-ish {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.grid-ish > * {
+    flex: 1 1 300px;
 }
 .hero-box {
     margin-top: -10px;
@@ -323,6 +335,11 @@ strong {
 }
 .stack {
     display: grid;
+    h4 {
+        font-size: 1rem;
+        font-weight: 500;
+        font-family: $font-quote;
+    }
 }
 .svg-quote {
     width: 30px;

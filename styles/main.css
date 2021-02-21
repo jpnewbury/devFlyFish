@@ -1,5 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Passion+One&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Crimson+Pro:ital,wght@0,200;0,600;1,400;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Crimson+Pro:ital,wght@0,500;0,600;1,400;1,900&display=swap");
 * {
   margin: 0px;
   padding: 0px;
@@ -104,7 +104,7 @@ section {
 }
 
 small {
-  font-size: 0.75rem;
+  font-size: 0.85rem;
   font-family: "Lato", sans-serif;
 }
 
@@ -119,6 +119,23 @@ strong {
   padding: 7px;
   margin: 5px;
   padding-left: 10px;
+}
+
+.block_card {
+  padding: 7px;
+  margin: 5px;
+  cursor: pointer;
+  background: #fafafa;
+  max-width: 400px;
+}
+
+.block_card small {
+  padding: 7px;
+  margin: 5px;
+}
+
+.border img {
+  border-radius: 10px;
 }
 
 .bugbar-icon {
@@ -147,24 +164,11 @@ strong {
       grid-template-columns: repeat(9, 1fr);
 }
 
-.first-letter ::first-letter {
-  font-size: 1.7rem;
-  font-weight: 600;
-  color: #0a0a0a;
-}
-
-.grid-ish {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
-}
-
-.grid-ish > * {
-  -webkit-box-flex: 1;
-      -ms-flex: 1 1 300px;
-          flex: 1 1 300px;
+.citation {
+  font-size: 0.8rem;
+  font-weight: 500;
+  font-family: "Crimson Pro", serif;
+  margin-top: -20px;
 }
 
 .card {
@@ -194,23 +198,6 @@ strong {
   background: white;
   -webkit-transition: all 0.35s ease;
   transition: all 0.35s ease;
-}
-
-.block_card {
-  padding: 7px;
-  margin: 5px;
-  cursor: pointer;
-  background: #fafafa;
-  max-width: 400px;
-}
-
-.block_card small {
-  padding: 7px;
-  margin: 5px;
-}
-
-.border img {
-  border-radius: 10px;
 }
 
 .container {
@@ -257,8 +244,35 @@ strong {
       grid-template-columns: 20px 1fr;
 }
 
+.col-5 {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (1fr)[5];
+      grid-template-columns: repeat(5, 1fr);
+}
+
 .float-left {
   float: left;
+}
+
+.first-letter ::first-letter {
+  font-size: 1.7rem;
+  font-weight: 600;
+  color: #0a0a0a;
+}
+
+.grid-ish {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.grid-ish > * {
+  -webkit-box-flex: 1;
+      -ms-flex: 1 1 300px;
+          flex: 1 1 300px;
 }
 
 .hero-box {
@@ -355,6 +369,12 @@ strong {
 .stack {
   display: -ms-grid;
   display: grid;
+}
+
+.stack h4 {
+  font-size: 1rem;
+  font-weight: 500;
+  font-family: "Crimson Pro", serif;
 }
 
 .svg-quote {
