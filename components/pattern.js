@@ -8,8 +8,9 @@ import Hydropsyche from "../components/svg/hydropsyche";
 import Rockworm from "../components/svg/rockworm";
 import Midge from "../components/svg/midge";
 import Featured from "../components/svg/featured";
-import Header from "../components/header";
-import BugbarNav from "../components/bugbarNav";
+
+import Wetfly from "../components/svg/flytying/h260bk";
+import Slotted from "./svg/flytying/faceted";
 
 import Image from "next/image";
 import Link from "next/link";
@@ -102,6 +103,10 @@ export default function pattern() {
           {fly.hydropsyche === "true" && <Hydropsyche />}
           {fly.rockworm === "true" && <Rockworm />}
           {fly.midgePupa === "true" && <Midge />}
+          {fly.hookType === "wetfly" && <Wetfly />}
+
+          <h4>Bead TYpe</h4>
+          {fly.beadType === "slotted" && <Slotted />}
         </div>
       ))}
     </div>
