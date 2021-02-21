@@ -25,7 +25,7 @@ export default function Home() {
       <div className="container">
         <main className="content">
           <header className="header">
-            <Header title="A Space for Fly Fishers" background="anthony" />
+            <Header title="reading: entomology" background="anthony" />
           </header>
 
           <h2>A Fly Tyers Entomology</h2>
