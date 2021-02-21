@@ -12,6 +12,12 @@ import Header from "../../components/header";
 import BugbarNav from "../../components/bugbarNav";
 import Image from "next/image";
 import Footer from "../../components/footer";
+import Wetfly from "../../components/svg/flytying/h260bk";
+import Czech from "../../components/svg/flytying/h333";
+import Facted from "../../components/svg/flytying/faceted";
+import Slotted from "../../components/svg/flytying/slotted";
+import Round from "../../components/svg/flytying/round";
+import Jig from "../../components/svg/flytying/jig";
 
 export default function Movies({ movies: patterns }) {
   return (
@@ -130,14 +136,24 @@ export default function Movies({ movies: patterns }) {
                 </li>
               )}
             </ul>
+            <h4> Best immitates:</h4>
             {fly.clinger === "true" && <Clinger />}
             {fly.crawler === "true" && <Crawler />}
             {fly.minnow === "true" && <Swimmers />}
             {fly.stonefly === "true" && <Stoneflies />}
             {fly.caddis === "true" && <Caddis />}
-            {fly.hydropsyche === "true" && <Hydropsyche />}
-            {fly.rockworm === "true" && <Rockworm />}
+            {fly.freeliving === "true" && <Hydropsyche />}
             {fly.midgepupa === "true" && <Midge />}
+
+            {fly.hookType && <h4> Hook Type:</h4>}
+            {fly.hookType === "wetfly" && <Wetfly />}
+            {fly.hookType === "czech" && <Czech />}
+            {fly.hookType === "jig" && <Jig />}
+
+            {fly.beadType && <h4>Bead Type:</h4>}
+            {fly.beadType === "faceted" && <Facted />}
+            {fly.beadType === "slotted" && <Slotted />}
+            {fly.beadType === "round" && <Round />}
           </div>
         ))}
       </div>
