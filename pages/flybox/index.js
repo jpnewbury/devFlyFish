@@ -18,8 +18,6 @@ import Facted from "../../components/svg/hooks/faceted";
 import Slotted from "../../components/svg/hooks/slotted";
 import Round from "../../components/svg/hooks/round";
 import Jig from "../../components/svg/hooks/jig";
-import Anchor from "../../components/anchor";
-import Cloud from "../../components/cloud";
 
 export default function Movies({ movies: patterns }) {
   return (
@@ -148,8 +146,6 @@ export default function Movies({ movies: patterns }) {
             {fly.caddis === "true" && <Caddis />}
             {fly.freeliving === "true" && <Hydropsyche />}
             {fly.midgepupa === "true" && <Midge />}
-            {fly.cloud === "true" && <Cloud />}
-            {fly.anchor === "true" && <Anchor />}
 
             <div className="col-5">
               <div>
