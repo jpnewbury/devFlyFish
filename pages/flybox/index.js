@@ -5,19 +5,21 @@ import Swimmers from "../../components/svg/swimmers";
 import Stoneflies from "../../components/svg/stones";
 import Caddis from "../../components/svg/caddis";
 import Hydropsyche from "../../components/svg/hydropsyche";
-import Rockworm from "../../components/svg/rockworm";
+
 import Midge from "../../components/svg/midge";
 import Featured from "../../components/svg/featured";
 import Header from "../../components/header";
 import BugbarNav from "../../components/bugbarNav";
 import Image from "next/image";
 import Footer from "../../components/footer";
-import Wetfly from "../../components/svg/flytying/h260bk";
-import Czech from "../../components/svg/flytying/h333";
-import Facted from "../../components/svg/flytying/faceted";
-import Slotted from "../../components/svg/flytying/slotted";
-import Round from "../../components/svg/flytying/round";
-import Jig from "../../components/svg/flytying/jig";
+import Wetfly from "../../components/svg/hooks/h260bk";
+import Czech from "../../components/svg/hooks/h333";
+import Facted from "../../components/svg/hooks/faceted";
+import Slotted from "../../components/svg/hooks/slotted";
+import Round from "../../components/svg/hooks/round";
+import Jig from "../../components/svg/hooks/jig";
+import Anchor from "../../components/anchor";
+import Cloud from "../../components/cloud";
 
 export default function Movies({ movies: patterns }) {
   return (
@@ -137,7 +139,8 @@ export default function Movies({ movies: patterns }) {
               )}
             </ul>
 
-            <h4> Best immitates:</h4>
+            <h4> Best For:</h4>
+
             {fly.clinger === "true" && <Clinger />}
             {fly.crawler === "true" && <Crawler />}
             {fly.minnow === "true" && <Swimmers />}
@@ -145,6 +148,8 @@ export default function Movies({ movies: patterns }) {
             {fly.caddis === "true" && <Caddis />}
             {fly.freeliving === "true" && <Hydropsyche />}
             {fly.midgepupa === "true" && <Midge />}
+            {fly.cloud === "true" && <Cloud />}
+            {fly.anchor === "true" && <Anchor />}
 
             <div className="col-5">
               <div>
