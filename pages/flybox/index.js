@@ -146,7 +146,6 @@ export default function Movies({ movies: patterns }) {
             {fly.freeliving === "true" && <Hydropsyche />}
             {fly.midgepupa === "true" && <Midge />}
 
-            <h4>Material Considerations</h4>
             <div className="col-5">
               <div>
                 <div className="stack">
