@@ -4,7 +4,7 @@ export default function clinger() {
   return (
     <Link href="/flytying/hooks/wetfly">
       <a>
-        <svg viewBox="0 0 213.76 104.87" className="bugbar-icon">
+        <svg viewBox="0 0 213.76 104.87" className="icon2">
           <g>
             <path
               d="

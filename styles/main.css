@@ -311,6 +311,18 @@ strong {
   transition: all 0.35s ease;
 }
 
+.icon2 {
+  cursor: pointer;
+  padding: 7px;
+  margin: 5px;
+  height: 40px;
+  width: 50px;
+  background: #fafafa;
+  fill: #0a0a0a;
+  -webkit-transition: all 0.35s ease;
+  transition: all 0.35s ease;
+}
+
 .icon__star {
   cursor: pointer;
   height: 20px;

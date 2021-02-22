@@ -20,6 +20,7 @@ import Round from "../../components/svg/hooks/round";
 import Jig from "../../components/svg/hooks/jig";
 import Anchor from "../../components/anchor";
 import Cloud from "../../components/cloud";
+import Cased from "../../components/svg/cased";
 
 export default function Movies({ movies: patterns }) {
   return (
@@ -39,6 +40,52 @@ export default function Movies({ movies: patterns }) {
             <span className="multiply center">
               <Image src={fly.image} width="200px" height="200px" alt="" />
             </span>
+            <div className="col-5">
+              <div>
+                <div className="stack">
+                  <div>
+                    {fly.hookType === "wetfly" && <Wetfly />}
+                    {fly.hookType === "czech" && <Czech />}
+                    {fly.hookType === "jig" && <Jig />}
+                  </div>
+                  <div>
+                    {fly.hookType === "jig" && <p className="citation">Jig</p>}
+                  </div>
+                  <div>
+                    {fly.hookType === "czech" && (
+                      <p className="citation">czech</p>
+                    )}
+                  </div>
+                  <div>
+                    {fly.hookType === "wetfly" && (
+                      <p className="citation">wetfly</p>
+                    )}
+                  </div>
+                </div>
+              </div>
+
+              <div className="stack">
+                <div>
+                  {fly.beadType === "faceted" && <Facted />}
+                  {fly.beadType === "slotted" && <Slotted />}
+                  {fly.beadType === "round" && <Round />}
+                </div>
+                <div>
+                  {fly.beadType === "faceted" && (
+                    <p className="citation"> faceted</p>
+                  )}
+                  {fly.beadType === "slotted" && (
+                    <p className="citation">slotted</p>
+                  )}
+                  {fly.beadType === "round" && (
+                    <p className="citation">round</p>
+                  )}
+                </div>
+              </div>
+              <div></div>
+              <div></div>
+              <div></div>
+            </div>
             <p>{fly.description}</p>
 
             <ul>
@@ -146,57 +193,12 @@ export default function Movies({ movies: patterns }) {
             {fly.minnow === "true" && <Swimmers />}
             {fly.stonefly === "true" && <Stoneflies />}
             {fly.caddis === "true" && <Caddis />}
+            {fly.cased === "true" && <Cased />}
+            {fly.cased === "true" && <Cased />}
             {fly.freeliving === "true" && <Hydropsyche />}
             {fly.midgepupa === "true" && <Midge />}
             {fly.cloud === "true" && <Cloud />}
             {fly.anchor === "true" && <Anchor />}
-
-            <div className="col-5">
-              <div>
-                <div className="stack">
-                  <div>
-                    {fly.hookType === "wetfly" && <Wetfly />}
-                    {fly.hookType === "czech" && <Czech />}
-                    {fly.hookType === "jig" && <Jig />}
-                  </div>
-                  <div>
-                    {fly.hookType === "jig" && <p className="citation">Jig</p>}
-                  </div>
-                  <div>
-                    {fly.hookType === "czech" && (
-                      <p className="citation">Czech</p>
-                    )}
-                  </div>
-                  <div>
-                    {fly.hookType === "wetfly" && (
-                      <p className="citation">Wetfly</p>
-                    )}
-                  </div>
-                </div>
-              </div>
-
-              <div className="stack">
-                <div>
-                  {fly.beadType === "faceted" && <Facted />}
-                  {fly.beadType === "slotted" && <Slotted />}
-                  {fly.beadType === "round" && <Round />}
-                </div>
-                <div>
-                  {fly.beadType === "faceted" && (
-                    <p className="citation"> faceted</p>
-                  )}
-                  {fly.beadType === "slotted" && (
-                    <p className="citation">slotted</p>
-                  )}
-                  {fly.beadType === "round" && (
-                    <p className="citation">round</p>
-                  )}
-                </div>
-              </div>
-              <div></div>
-              <div></div>
-              <div></div>
-            </div>
           </div>
         ))}
       </div>

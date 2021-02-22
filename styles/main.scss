@@ -287,6 +287,15 @@ strong {
     fill: gray;
     transition: $transition;
 }
+.icon2 {
+    cursor: pointer;
+    @include block;
+    height: 40px;
+    width: 50px;
+    background: $white;
+    fill: $black;
+    transition: $transition;
+}
 .icon__star {
     cursor: pointer;
     height: 20px;
