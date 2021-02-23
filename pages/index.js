@@ -72,7 +72,7 @@ export default function Top({ movies: patterns }) {
               />
             </div>
             <div className="center">
-              <small> Drop Dead Sexy Walts's</small>
+              <small> Drop Dead Sexy Walts</small>
             </div>
           </div>
         </section>
