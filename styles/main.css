@@ -142,16 +142,18 @@ strong {
   padding: 7px;
   margin: 5px;
   fill: rgba(0, 0, 0, 0.9);
-  width: 2.25em;
-  height: 2.25em;
+  width: 2.2em;
+  height: 2.2em;
   border: 1px solid rgba(10, 10, 10, 0.9);
   border-radius: 10px;
+  -webkit-box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+          box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
 }
 
 .bugbar-icon:hover {
   fill: #108b00;
-  border: 1px solid #108b00;
   background: gainsboro;
+  border-radius: 10px;
 }
 
 .bugbarNav__col {
@@ -306,7 +308,17 @@ strong {
   width: 50px;
   background: #fafafa;
   border-radius: 5px;
-  fill: gray;
+  fill: #4b4b4b;
+  -webkit-transition: all 0.35s ease;
+  transition: all 0.35s ease;
+}
+
+.icon:hover,
+.icon:active {
+  cursor: pointer;
+  padding: 7px;
+  margin: 5px;
+  background: #e1e1e1;
   -webkit-transition: all 0.35s ease;
   transition: all 0.35s ease;
 }

@@ -8,6 +8,7 @@ $font-quote: "Crimson Pro", serif;
 $padding: 7px;
 $margin: 5px;
 $green: rgb(16, 139, 0);
+$blue: rgb(0, 110, 255);
 $gold: rgb(197, 179, 88);
 $black: rgb(0, 0, 0);
 $gray-1: rgb(50, 50, 50);
@@ -156,15 +157,17 @@ strong {
 .bugbar-icon {
     @include block;
     fill: rgba(0, 0, 0, 0.9);
-    width: 2.25em;
-    height: 2.25em;
+    width: 2.2em;
+    height: 2.2em;
     border: 1px solid rgba($black, 0.9);
     border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
 }
 .bugbar-icon:hover {
     fill: $green;
-    border: 1px solid $green;
+    // border: 1px solid $green;
     background: $gray;
+    border-radius: 10px;
 }
 
 .bugbarNav__col {
@@ -284,7 +287,15 @@ strong {
     background: $white;
     // border: 1px solid gray;
     border-radius: 5px;
-    fill: gray;
+    fill: $gray-2;
+    transition: $transition;
+}
+.icon:hover,
+.icon:active {
+    cursor: pointer;
+    @include block;
+    background: $gray-8;
+
     transition: $transition;
 }
 .icon2 {
