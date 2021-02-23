@@ -166,7 +166,7 @@ export default function Movies({ movies: patterns }) {
               )}
               {fly.wing && (
                 <li>
-                  <b>wing: </b> {fly.wing}
+                  <b>Wing: </b> {fly.wing}
                 </li>
               )}
               {fly.wingbuds && (
