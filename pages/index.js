@@ -38,19 +38,35 @@ export default function Top({ movies: patterns }) {
           <div>
             <span className="first-letter">
               <p>
-                Welcome to my new-ish, under construction web-page / app about
-                modern nymph fishing. I've spent the better part of a viral
-                outbreak, drought, record setting wildfires, hurricanes,
-                scandalous elections and anything else that 2020-21 might yet
-                throw at us updating my web development portfolio. This has
-                given me the opportunity to tidy up my old website. In the
-                process of performing updates, I discovered that my content
-                needed a serious house cleaning. I found myself performing a few
-                (dozen) copy edits, spelling corrections. I then consolidated
-                all the information from my old website, and made it even more
-                accessible to you by putting it all at your fingertips.
+                Welcome to my new webpage about fly fishing and fly tying. I've
+                spent the better part of a viral outbreak, drought, record
+                setting wildfires, hurricanes, scandalous elections and anything
+                else that 2020-21 might yet throw at us updating my professional
+                portfolio and this website.
               </p>
             </span>
+            <p>
+              If you are a returning guest, I hope you like the updates and
+              streamlined content. You will notice a new feature called the "Bug
+              Bar" where the fly patterns listed here can be associated with a
+              nymph type and the suggested patterns you can choose to immiate
+              them. I hope that this relationship with the natural and our
+              imitations serve to inspire you into turning over some stones in
+              your favorite stream and look at what's crawling underneath.
+            </p>
+            <p>
+              In the next few weeks of early spring 2021, you will see the
+              reading list and tutorials sections expand as I push and pull new
+              content around, send it to an editor and finally post it here. The
+              fly pattern database will also be growing to include dry flies and
+              streamers.
+            </p>
+            <p>
+              If you would like to purchase my flies, please contact your{" "}
+              <Link href="https://highpeaksrep.com/">
+                <a>Fullingmill Rep.</a>
+              </Link>
+            </p>
 
             <p>
               On a personal note, I am deeply humbled when I see other fly tyers
