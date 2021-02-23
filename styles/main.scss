@@ -194,6 +194,8 @@ strong {
 .card__button {
     cursor: pointer;
     font-size: 1rem;
+    font-weight: 700;
+    color: $white;
     padding: $padding + 5;
     margin: $margin;
     border-radius: 5px;
@@ -201,6 +203,8 @@ strong {
     max-width: 300px;
     border: 1px solid gray;
     transition: $transition;
+    background: $blue;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
 }
 .card__button:hover {
     border: 1px solid black;

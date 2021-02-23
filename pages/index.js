@@ -237,7 +237,7 @@ export default function Top({ movies: patterns }) {
           <p />
           <Link href="/articles">
             <a>
-              <button className="card__button">More articles</button>
+              <button className="card__button">More Articles</button>
             </a>
           </Link>
         </section>
