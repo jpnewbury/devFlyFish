@@ -49,10 +49,10 @@ export default function Top({ movies: patterns }) {
               If you are a returning guest, I hope you like the updates and
               streamlined content. You will notice a new feature called the "Bug
               Bar" where the fly patterns listed here can be associated with a
-              nymph type and the suggested patterns you can choose to immiate
-              them. I hope that this relationship with the natural and our
-              imitations serve to inspire you into turning over some stones in
-              your favorite stream and look at what's crawling underneath.
+              nymph type and the suggested patterns you can choose. I hope that
+              this relationship with the natural and our imitations serve to
+              inspire you into turning over some stones in your favorite stream
+              and look at what's crawling underneath.
             </p>
             <p>
               In the next few weeks of early spring 2021, you will see the
