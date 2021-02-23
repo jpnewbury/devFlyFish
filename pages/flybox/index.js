@@ -194,7 +194,6 @@ export default function Movies({ movies: patterns }) {
             {fly.stonefly === "true" && <Stoneflies />}
             {fly.caddis === "true" && <Caddis />}
             {fly.cased === "true" && <Cased />}
-            {fly.cased === "true" && <Cased />}
             {fly.freeliving === "true" && <Hydropsyche />}
             {fly.midgepupa === "true" && <Midge />}
             {fly.cloud === "true" && <Cloud />}
