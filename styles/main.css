@@ -203,7 +203,7 @@ strong {
 
 .card__button:hover {
   border: 1px solid black;
-  background: white;
+  background: #0a0a0a;
   -webkit-transition: all 0.35s ease;
   transition: all 0.35s ease;
 }
