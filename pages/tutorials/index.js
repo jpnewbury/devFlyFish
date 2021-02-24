@@ -33,7 +33,7 @@ export default function Top({ movies: patterns }) {
       </Head>
       <main className="container">
         <header className="header">
-          <Header title="tutorials" background="rainbow2" />
+          <Header title="Tutorials" background="rainbow2" />
         </header>
         <section className="section">
           <h2>Fly Tying Tutorials</h2>

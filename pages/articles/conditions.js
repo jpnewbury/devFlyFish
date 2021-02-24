@@ -27,7 +27,7 @@ export default function Home() {
         <main className="content">
           <header className="header">
             <Header
-              title="reading: considering conditions"
+              title="Reading: Considering Varying Conditions"
               background="anthony"
             />
           </header>

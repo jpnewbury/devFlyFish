@@ -24,7 +24,7 @@ export default function index(props) {
       <div className="container">
         <main className="content">
           <header className="header">
-            <Header title="reading: tactical notes" background="anthony" />
+            <Header title="Reading: Tactical Notes" background="anthony" />
           </header>
           <h2>The Tactical Advantage</h2>
           <div className="center">
