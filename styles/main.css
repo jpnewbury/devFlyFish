@@ -220,6 +220,14 @@ strong {
           justify-content: center;
 }
 
+.citation {
+  padding: 7px;
+  margin: 5px;
+  font-size: 1rem;
+  font-weight: 700;
+  padding-left: 20px;
+}
+
 .container {
   background: #fafafa;
   position: relative;

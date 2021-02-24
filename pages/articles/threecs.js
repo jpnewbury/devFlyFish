@@ -95,6 +95,40 @@ export default function Top() {
               bubble line funneling food into the best possible holding spot.
               Can you identify where the fish should be in this picture?
             </p>
+            <div className="center">
+              <img
+                src="/1459631621054-6BK5JNE19IEGLXZUA5W9.jpeg"
+                width="90%"
+                alt="Findi the bubble lane"
+              />
+            </div>
+            <div className="citation">
+              Figure 1. Typical Grade A trout structure. It has cover from
+              above, A strong bubble line funneling food near structure with a
+              quick escape route next heavy fast current.
+            </div>
+
+            <div className="center">
+              <img
+                src="/1459631966820-PU4ZEPPS6J5VVYFK95EW.jpeg"
+                width="90%"
+                alt="Find the bubble lane"
+              />
+            </div>
+            <div className="citation">
+              Figure 2. Current structure defined between current seams and foam
+              lines or bubble zone.
+            </div>
+            <div className="center">
+              <img
+                src="/1459632450756-MKZQY9454POP59NA4R0I.jpeg"
+                width="90%"
+                alt="Find the bubble lane"
+              />
+            </div>
+            <div className="citation">
+              Figure 3. A fine specimen reveals its location.
+            </div>
           </div>
         </section>
         <Footer />

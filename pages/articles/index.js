@@ -69,16 +69,14 @@ export default function index(props) {
                   </span>
                 </div>
               </Link>
-              <Link href="/articles/hottags">
+
+              <Link href="/articles/threecs">
                 <div className="card">
-                  <h2>Hot Tags</h2>
-                  <h3>
-                    My take on how to incorporate hot tags without going
-                    overboard.
-                  </h3>
+                  <h2>Readsing the Water</h2>
+                  <h3> Prime locations to hunt trout.</h3>
                   <span className="center multiply">
                     <Image
-                      src="/OG-Dirty-Hipster.jpg"
+                      src="/1459631621054-6BK5JNE19IEGLXZUA5W9.jpeg"
                       width={400}
                       height={400}
                       alt=""
