@@ -208,17 +208,6 @@ strong {
   transition: all 0.35s ease;
 }
 
-.container {
-  background: #fafafa;
-  position: relative;
-  max-width: 1200px;
-  margin: auto;
-}
-
-.content {
-  min-height: 90vh;
-}
-
 .center {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -229,6 +218,17 @@ strong {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+}
+
+.container {
+  background: #fafafa;
+  position: relative;
+  max-width: 1200px;
+  margin: auto;
+}
+
+.content {
+  min-height: 90vh;
 }
 
 .col-2 {
@@ -375,6 +375,29 @@ strong {
   line-height: 1em;
   font-weight: 600;
   color: #646464;
+}
+
+.modal {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  position: fixed;
+  background: rgba(10, 10, 10, 0.3);
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+}
+
+.modal__card {
+  height: 80vh;
+  width: 80vw;
 }
 
 .multiply {
