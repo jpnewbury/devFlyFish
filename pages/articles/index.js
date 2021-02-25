@@ -72,7 +72,7 @@ export default function index(props) {
 
               <Link href="/articles/threecs">
                 <div className="card">
-                  <h2>Readsing the Water</h2>
+                  <h2>Reading the Water</h2>
                   <h3> Prime locations to hunt trout.</h3>
                   <span className="center multiply">
                     <Image
