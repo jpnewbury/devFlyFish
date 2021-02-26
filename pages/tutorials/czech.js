@@ -55,7 +55,7 @@ function App() {
               <b>Abdomen: </b>Golden stone snowshoe rabbit foot dubbing.
             </li>
             <li>
-              <b>Rib:</b> small oval gold french tinsel.
+              <b>Rib:</b> Small oval gold french tinsel.
             </li>
             <li>
               <b>Thorax:</b> Pheasant tail brown snowshoe rabbit foot dubbing.
