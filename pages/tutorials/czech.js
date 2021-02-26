@@ -70,13 +70,16 @@ function App() {
         </section>
         <section className="section1">
           <p>
+            To many anglers I meet, czech nympsh mean one thing, scuds! Ask
+            another and they will say cadis larva. Ask me and I will have to add
+            stoneflies, craneflies, aquatic beetle and water snipe into the
+            arena.
+          </p>
+          <p>
             Czech nymphs migh be the best kept secret in our aresenal of
             patterns that can bring more fish to hand. The shape and posture
             created by tying cylindrical shapes on a curved hook allows us to
-            imitate more aquatic insects than you may realize. To many anglers I
-            meet, czech nympsh mean one thing, scuds! Ask another and they will
-            say cadis larva. Ask me and I will have to add stoneflies,
-            craneflies, aquatic beetle and water snipe into the arena.
+            imitate more aquatic insects than you may realize.
           </p>
         </section>
 
