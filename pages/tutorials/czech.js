@@ -70,10 +70,9 @@ function App() {
         </section>
         <section className="section1">
           <p>
-            To many anglers I meet, czech nympsh mean one thing, scuds! Ask
-            another and they will say cadis larva. Ask me and I will have to add
-            stoneflies, craneflies, aquatic beetle and water snipe into the
-            arena.
+            To many anglers, czech nympsh mean one thing, scuds! Ask another and
+            they will say cadis larva. Ask me and I will have to add stoneflies,
+            craneflies, aquatic beetle and water snipe into the arena.
           </p>
           <p>
             Czech nymphs might be the best kept secret in our aresenal of
