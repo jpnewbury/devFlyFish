@@ -63,7 +63,8 @@ h5 {
 }
 
 p {
-  padding: 12px;
+  padding-bottom: 12px;
+  padding-left: 12px;
   margin-bottom: 5px;
   line-height: 1.5em;
   font-size: 1rem;
@@ -119,7 +120,6 @@ strong {
 .block {
   padding: 7px;
   margin: 5px;
-  padding-left: 10px;
 }
 
 .block_card {
@@ -151,12 +151,6 @@ strong {
           box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
 }
 
-.bugbar-icon:hover {
-  fill: #108b00;
-  background: gainsboro;
-  border-radius: 10px;
-}
-
 .bugbarNav__col {
   padding: 7px;
   margin: 5px;
@@ -165,6 +159,12 @@ strong {
   max-width: 25vw;
   -ms-grid-columns: (1fr)[9];
       grid-template-columns: repeat(9, 1fr);
+}
+
+.button__icon {
+  width: 40px;
+  height: 35px;
+  fill: #fafafa;
 }
 
 .citation {
@@ -185,15 +185,19 @@ strong {
 
 .card__button {
   cursor: pointer;
-  font-size: 1rem;
-  font-weight: 700;
-  color: #fafafa;
-  padding: 12px;
+  padding: 7px;
   margin: 5px;
-  border-radius: 5px;
+  padding: 12px;
   width: 100%;
-  max-width: 300px;
-  border: 1px solid gray;
+  max-width: 275px;
+  border: none;
+  font-family: "Crimson Pro", serif;
+  font-weight: 900;
+  font-size: 1rem;
+  border-radius: 5px;
+  font-weight: 500;
+  letter-spacing: 0.2em;
+  color: #fafafa;
   -webkit-transition: all 0.35s ease;
   transition: all 0.35s ease;
   background: #006eff;
@@ -202,10 +206,13 @@ strong {
 }
 
 .card__button:hover {
-  border: 1px solid black;
-  background: #0a0a0a;
+  background: #108b00;
   -webkit-transition: all 0.35s ease;
   transition: all 0.35s ease;
+}
+
+.card__button:hover svg {
+  fill: #0a0a0a;
 }
 
 .center {
@@ -256,8 +263,15 @@ strong {
 .col-2l {
   display: -ms-grid;
   display: grid;
-  -ms-grid-columns: 20px 1fr;
-      grid-template-columns: 20px 1fr;
+  -ms-grid-columns: 30px 1fr;
+      grid-template-columns: 30px 1fr;
+}
+
+.col-3 {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (1fr)[3];
+      grid-template-columns: repeat(3, 1fr);
 }
 
 .col-5 {

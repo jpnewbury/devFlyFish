@@ -1,14 +1,9 @@
-import Modal from "../components/modal";
+import Button from "../components/button";
 
 export default function sandbox() {
   return (
     <div>
-      <Modal
-        name="Bank Maggot"
-        image="/gallery/BankMaggot2019.jpg"
-        width={400}
-        height={400}
-      />
+      <Button />
     </div>
   );
 }

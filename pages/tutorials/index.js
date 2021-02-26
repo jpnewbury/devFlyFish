@@ -38,6 +38,24 @@ export default function Top({ movies: patterns }) {
         <section className="section">
           <h2>Fly Tying Tutorials</h2>
           <div className="grid-ish">
+            <Link href="/tutorials/czech">
+              <div className="card">
+                <h2>Tying Czech Nymphs</h2>
+                {/* <Video /> */}
+                <p>
+                  Czech nymphs are a hidden gems covering more aquatic insects
+                  than we realize.
+                </p>
+                <span className="center multiply">
+                  <Image
+                    src="/gallery/GreenPapaya.jpg"
+                    width={300}
+                    height={300}
+                    alt="Yellow Sally Perdigone"
+                  />
+                </span>
+              </div>
+            </Link>
             <Link href="/tutorials/sally">
               <div className="card">
                 <h2>Tying a Yellow Sally Perdigone</h2>

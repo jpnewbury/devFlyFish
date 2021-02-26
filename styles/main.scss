@@ -93,7 +93,8 @@ h5 {
     padding-left: 20px;
 }
 p {
-    padding: $padding + 5;
+    padding-bottom: $padding + 5;
+    padding-left: $padding + 5;
     margin-bottom: $margin;
     line-height: 1.5em;
     font-size: 1rem;
@@ -143,7 +144,6 @@ strong {
 }
 .block {
     @include block;
-    padding-left: 10px;
 }
 .block_card {
     @include block;
@@ -169,12 +169,6 @@ strong {
     border-radius: 10px;
     box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
 }
-.bugbar-icon:hover {
-    fill: $green;
-    // border: 1px solid $green;
-    background: $gray;
-    border-radius: 10px;
-}
 
 .bugbarNav__col {
     @include block;
@@ -182,6 +176,12 @@ strong {
     max-width: 25vw;
     grid-template-columns: repeat(9, 1fr);
 }
+.button__icon {
+    width: 40px;
+    height: 35px;
+    fill: $white;
+}
+
 .citation {
     font-size: 0.8rem;
     font-weight: 500;
@@ -196,25 +196,31 @@ strong {
 
     background: $white;
 }
+
 .card__button {
     cursor: pointer;
-    font-size: 1rem;
-    font-weight: 700;
-    color: $white;
+    @include block;
     padding: $padding + 5;
-    margin: $margin;
-    border-radius: 5px;
     width: 100%;
-    max-width: 300px;
-    border: 1px solid gray;
+    max-width: 275px;
+    border: none;
+    font-family: $font-quote;
+    font-weight: 900;
+    font-size: 1rem;
+    border-radius: 5px;
+    font-weight: 500;
+    letter-spacing: 0.2em;
+    color: $white;
     transition: $transition;
     background: $blue;
     box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
 }
 .card__button:hover {
-    border: 1px solid black;
-    background: $black;
+    background: $green;
     transition: $transition;
+    svg {
+        fill: $black;
+    }
 }
 .center {
     @include center;
@@ -245,7 +251,11 @@ strong {
 }
 .col-2l {
     display: grid;
-    grid-template-columns: 20px 1fr;
+    grid-template-columns: 30px 1fr;
+}
+.col-3 {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
 }
 .col-5 {
     display: grid;
