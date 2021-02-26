@@ -71,14 +71,15 @@ function App() {
         <section className="section1">
           <p>
             To many anglers, czech nymphs mean one thing, scuds! Ask another and
-            they will say cadis larva. Ask me and I will have to add stoneflies,
-            craneflies, aquatic beetle and water snipe into the arena.
+            they will proclaim cadis larva. Ask me and I will have to add
+            stoneflies, craneflies, aquatic beetle, and water snipe into the
+            arena.
           </p>
           <p>
             Czech nymphs might be the best kept secret in our aresenal of
             patterns that can bring more fish to hand. The shape and posture
-            created when tying cylindrical shapes on a curved hook allows us to
-            imitate more aquatic insects than you may have considered.
+            created when tying cylindrical shape onto a curved hook allows us to
+            imitate more possible aquatic insects.
           </p>
         </section>
 
@@ -162,12 +163,12 @@ function App() {
           <Tutorial
             image="/sbs/czech/9.jpg"
             step="Step 10"
-            text="Trim a section of streatchback and mount on the top of the hook shank at the eye and extending forward. Here, I illustrate the shape and orientation of the material mount."
+            text="Trim a section of stretchback and mount on the top of the hook shank at the eye, and extending forward. Here, I illustrate the shape and orientation of the material."
           />
           <Tutorial
             image="/sbs/czech/10.jpg"
             step="Step 11"
-            text="Stretch the shellback rearward with your material hand while performing evenly spaced counter-rib wraps towards the back. Adjusting tension of the nmaterial while wrapping each segment will help to enhance the segmented look we are aimaing to acheive."
+            text="Stretch the shellback rearward with your material hand while performing evenly spaced rearward bound counter wraps. Adjusting tension of the nmaterial while wrapping each segment will help to enhance the segmented look we are aimaing to acheive."
           />
           <Tutorial
             image="/sbs/czech/11.jpg"

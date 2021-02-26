@@ -42,10 +42,7 @@ export default function Top({ movies: patterns }) {
               <div className="card">
                 <h2>Tying Czech Nymphs</h2>
                 {/* <Video /> */}
-                <p>
-                  Czech nymphs are a hidden gems covering more aquatic insects
-                  than we realize.
-                </p>
+                <p>Czech nymphs are the hidden gems in our fly boxes.</p>
                 <span className="center multiply">
                   <Image
                     src="/gallery/GreenPapaya.jpg"
