@@ -178,12 +178,12 @@ function App() {
           <Tutorial
             image="/sbs/czech/12.jpg"
             step="Step 13"
-            text="Add dorsal markings with a waterproof ink pen."
+            text="Add dorsal markings with a waterproof marker."
           />
           <Tutorial
             image="/sbs/czech/13.jpg"
             step="Step 14"
-            text="A thin coat of UV resin on the markings to seal. Look 👀 at that glow!!!"
+            text="A thin coat of UV resin on the dorsal markings to seal. Look 👀 at that glow!!!"
           />
           <Tutorial image="/sbs/czech/14.jpg" step="Step 15" text="Done!" />
         </section>
