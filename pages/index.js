@@ -38,7 +38,7 @@ export default function Top({ movies: patterns }) {
           <div>
             <span className="first-letter">
               <p>
-                Welcome to my new webpage about fly fishing and fly tying. I've
+                Welcome to my new page about fly fishing and fly tying. I've
                 spent the better part of a viral outbreak, drought, record
                 setting wildfires, hurricanes, scandalous elections and anything
                 else that 2020-21 might yet throw at us updating my professional
