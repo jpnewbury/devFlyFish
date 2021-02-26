@@ -118,7 +118,7 @@ function App() {
           <Tutorial
             image="/sbs/czech/1.jpg"
             step="Step 1"
-            text="Begin by trimming a 1mm wide section of zonker tape so we can begin to build a smooth and weighted underbody."
+            text="Begin by trimming a 1mm wide section of zonker tape so we can build a smooth and weighted underbody."
           />
           <Tutorial
             image="/sbs/czech/2.jpg"
