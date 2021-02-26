@@ -70,7 +70,7 @@ function App() {
         </section>
         <section className="section1">
           <p>
-            To many anglers, czech nympsh mean one thing, scuds! Ask another and
+            To many anglers, czech nymphs mean one thing, scuds! Ask another and
             they will say cadis larva. Ask me and I will have to add stoneflies,
             craneflies, aquatic beetle and water snipe into the arena.
           </p>
