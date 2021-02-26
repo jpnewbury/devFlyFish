@@ -78,7 +78,7 @@ function App() {
           <p>
             Czech nymphs migh be the best kept secret in our aresenal of
             patterns that can bring more fish to hand. The shape and posture
-            created by tying cylindrical shapes on a curved hook allows us to
+            created when tying cylindrical shapes on a curved hook allows us to
             imitate more aquatic insects than you may realize.
           </p>
         </section>
