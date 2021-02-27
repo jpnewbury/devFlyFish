@@ -63,8 +63,9 @@ function App() {
               <b>Rib:</b> Hends patina tinsel, matte black #pat-30.
             </li>
             <li>
-              <b>Thorax:</b> Composite dubbing loopw with Speckled yellow Coq de
-              leon hen saddle and light olive UV tracer squirrel flash dub #5.
+              <b>Thorax:</b> Composite dubbing loopw with speckled yellow Coq de
+              leon (CDL) hen saddle and light olive UV tracer squirrel flash dub
+              #5.
             </li>
             <li>
               <b>collar:</b> Spectra dubbing #931 followed by natural fox UV
