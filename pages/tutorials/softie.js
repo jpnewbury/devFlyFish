@@ -133,7 +133,7 @@ function App() {
           <Tutorial
             image="/sbs/softie/4.jpg"
             step="Step"
-            text="Dab small amounts of the dubbing onto the waxed thread so that strands begin to adhere to the wax. Using your material hand to pinch the dubing further ONTO the thread. "
+            text="Dab small amounts of the dubbing onto the waxed thread so that strands begin to adhere to the wax. "
           />
           <Tutorial
             image="/sbs/softie/5.jpg"
