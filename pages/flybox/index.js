@@ -187,7 +187,6 @@ export default function Movies({ movies: patterns }) {
             </ul>
 
             <h4> Best For:</h4>
-
             {fly.clinger === "true" && <Clinger />}
             {fly.crawler === "true" && <Crawler />}
             {fly.minnow === "true" && <Swimmers />}
