@@ -6,7 +6,6 @@ import Hydropsyche from "./svg/hydropsyche";
 import Caddis from "./svg/caddis";
 import Midges from "./svg/midge";
 import Left from "./svg/bugbar";
-
 export default function bugbarNav() {
   return (
     <div className="">
