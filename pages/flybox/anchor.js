@@ -34,7 +34,7 @@ export default function Movies({ movies: patterns }) {
         image="/optimized_icons/anchor32.svg"
         height="120px"
         width="150px"
-        content="Anchor Patterns are your tool for getting deep or staying in contact with your rig.."
+        content="Anchor Patterns are your tool for getting deep or staying in contact with your rig."
       />
 
       <div className="grid-ish">
