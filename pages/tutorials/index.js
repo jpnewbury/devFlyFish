@@ -43,8 +43,8 @@ export default function Top({ movies: patterns }) {
                 <h2>Tying A Big Softie</h2>
                 {/* <Video /> */}
                 <p>
-                  A thinly dressed pattern perfect for extended drifts and
-                  impromptu wetfly swings.
+                  A thinly dressed pattern for extended drifts and impromptu
+                  wetfly swings.
                 </p>
                 <span className="center multiply">
                   <Image
