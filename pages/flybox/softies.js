@@ -21,7 +21,7 @@ import Jig from "../../components/svg/hooks/jig";
 import Cloud from "../../components/cloud";
 import Anchor from "../../components/anchor";
 import Cased from "../../components/svg/cased";
-
+import Magnet from "../../components/svg/magnet";
 export default function Movies({ movies: patterns }) {
   return (
     <main className="container">
@@ -203,6 +203,7 @@ export default function Movies({ movies: patterns }) {
             {fly.midgepupa === "true" && <Midge />}
             {fly.cloud === "true" && <Cloud />}
             {fly.anchor === "true" && <Anchor />}
+            {fly.attractor === "true" && <Magnet />}
           </div>
         ))}
       </div>

@@ -1,9 +1,9 @@
-import Button from "../components/button";
+import Magnet from "../components/svg/magnet";
 
 export default function sandbox() {
   return (
     <div>
-      <Button />
+      <Magnet />
     </div>
   );
 }
