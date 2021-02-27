@@ -138,7 +138,7 @@ function App() {
           <Tutorial
             image="/sbs/softie/5.jpg"
             step="Step 5"
-            text="Take a few turns of the loosley dubbed thread at the base to lock in the dubbing."
+            text="Take a few turns of the dubbed thread to lock in the dubbing at the rear."
           />
           <Tutorial
             image="/sbs/softie/6.jpg"
