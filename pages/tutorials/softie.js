@@ -203,7 +203,7 @@ function App() {
           <Tutorial
             image="/sbs/softie/18.jpg"
             step="Step 18"
-            text="Youy guessed it, let's wax some more thread and dab onto it a small pinch of UV squirrel tracer dub. Take 2 stacking wraps. Stacking wraps are placed sequentially one on top of the other under heavy tension."
+            text="You guessed it, let's wax some more thread and dab onto it a small pinch of UV squirrel tracer dub. Take 2 stacking wraps. Stacking wraps are placed sequentially one on top of the other under heavy tension."
           />
           <Tutorial
             image="/sbs/softie/19.jpg"
