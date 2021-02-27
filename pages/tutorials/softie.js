@@ -81,7 +81,7 @@ function App() {
           </p>
         </section>
 
-        <section className="grid-ish">
+        <section className="grid-ish center">
           <div className="center multiply">
             <Image
               src="/gallery/TwoSofties.jpg"
@@ -114,25 +114,101 @@ function App() {
           </Link>
         </section>
         <section className="grid-ish">
-          <Tutorial image="/sbs/softie/1.jpg" step="Step 1" text="" />
-          <Tutorial image="/sbs/softie/2.jpg" step="Step 2" text="" />
-          <Tutorial image="/sbs/softie/3.jpg" step="Step 3" text="" />
-          <Tutorial image="/sbs/softie/4.jpg" step="Step" text="" />
-          <Tutorial image="/sbs/softie/5.jpg" step="Ste5" text="" />
-          <Tutorial image="/sbs/softie/6.jpg" step="Ste6" text="" />
-          <Tutorial image="/sbs/softie/7.jpg" step="Ste7" text="" />
-          <Tutorial image="/sbs/softie/8.jpg" step="Ste8" text="" />
-          <Tutorial image="/sbs/softie/9.jpg" step="Ste9" text="" />
-          <Tutorial image="/sbs/softie/10.jpg" step="Ste10" text="" />
-          <Tutorial image="/sbs/softie/11.jpg" step="Ste11" text="" />
-          <Tutorial image="/sbs/softie/12.jpg" step="Ste12" text="" />
-          <Tutorial image="/sbs/softie/13.jpg" step="Ste13" text="" />
-          <Tutorial image="/sbs/softie/14.jpg" step="Ste14" text="" />
-          <Tutorial image="/sbs/softie/15.jpg" step="Ste15" text="" />
-          <Tutorial image="/sbs/softie/16.jpg" step="Ste16" text="" />
-          <Tutorial image="/sbs/softie/17.jpg" step="Ste17" text="" />
-          <Tutorial image="/sbs/softie/18.jpg" step="Ste18" text="" />
-          <Tutorial image="/sbs/softie/19.jpg" step="Ste19" text="" />
+          <Tutorial
+            image="/sbs/softie/1.jpg"
+            step="Step 1"
+            text="Establish the thread and build a small jam behind the bead to secure."
+          />
+          <Tutorial
+            image="/sbs/softie/2.jpg"
+            step="Step 2"
+            text="Attach several strands of CDL tailing to the top of the hook shank and tie down to the bend of the hook. Attach the ribbing at the same time."
+          />
+          <Tutorial
+            image="/sbs/softie/3.jpg"
+            step="Step 3"
+            text="Apply tacky wax to the thread, you cannot properly execute this step without it."
+          />
+          <Tutorial
+            image="/sbs/softie/4.jpg"
+            step="Step"
+            text="Dab small amounts of the dubbing onto the waxed thread so that strands begin to adhere to the wax. Using your material hand to pinch the dubing further ONTO the thread. "
+          />
+          <Tutorial
+            image="/sbs/softie/5.jpg"
+            step="Step 5"
+            text="Take a few turns of the loosley dubbed thread at the base to lock in the dubbing."
+          />
+          <Tutorial
+            image="/sbs/softie/6.jpg"
+            step="Step 6"
+            text="Wind the thread forward in evely placed, touching, firm thread wraps. Bind the dubbing down against the hook shank. Notice how the dubbing remains loosely applied to the thread throughout this proceedure."
+          />
+          <Tutorial
+            image="/sbs/softie/7.jpg"
+            step="Step 7"
+            text="Peel away any remaining dubing that did not get tied down. Spiral the ribbing forward in seven to nine evenly spaced turns."
+          />
+          <Tutorial
+            image="/sbs/softie/8.jpg"
+            step="Step 8"
+            text="Form a dubbing loop and wax it up."
+          />
+          <Tutorial
+            image="/sbs/softie/9.jpg"
+            step="Step 9"
+            text=" Prepare a section of hen saddle feather and sandwhich a small amount of tracer squirrel flash dubing into the dubbing loop with it."
+          />
+          <Tutorial
+            image="/sbs/softie/10.jpg"
+            step="Step 10"
+            text="Carefully trim away the father stem as close to the thread loop as possible."
+          />
+          <Tutorial
+            image="/sbs/softie/11.jpg"
+            step="Step 11"
+            text="Spin the dubbing loop into a brush. Use a dubbing brush to liberate any trapped fibers."
+          />
+          <Tutorial
+            image="/sbs/softie/12.jpg"
+            step="Step 12"
+            text="Wind 1-2 turns only. Tie off with cross-over binding wraps."
+          />
+          <Tutorial
+            image="/sbs/softie/13.jpg"
+            step="Step 13"
+            text="Pull a small amount of spectra fibers free from a clump and enshroud the front of the fly."
+          />
+          <Tutorial
+            image="/sbs/softie/14.jpg"
+            step="Step 14"
+            text="Perform a full loose wrap of thread to capture the fibers and bind it into the space between the hackle and bead. "
+          />
+          <Tutorial
+            image="/sbs/softie/15.jpg"
+            step="Ste15"
+            text="pull the strands of speactra forward and pull to shred away leaving a soft frayed collar."
+          />
+          <Tutorial
+            image="/sbs/softie/16.jpg"
+            step="Step 16"
+            text=" Keep pruning away untill you have.."
+          />
+          <Tutorial
+            image="/sbs/softie/17.jpg"
+            step="Step 17"
+            text=" a color that looks lke this."
+          />
+          <Tutorial
+            image="/sbs/softie/18.jpg"
+            step="Step 18"
+            text="Youy guessed it, let's wax some more thread and dab onto it a small pinch of UV squirrel tracer dub. Take 2 stacking wraps. Stacking wraps are placed sequentially one on top of the other under heavy tension."
+          />
+          <Tutorial
+            image="/sbs/softie/19.jpg"
+            step="Ste19"
+            text="Groom away as much extra material as required to keep things thin and sparse. Here  created the illusion of bulk without actually creating bulk."
+          />
         </section>
         <Footer />
       </main>

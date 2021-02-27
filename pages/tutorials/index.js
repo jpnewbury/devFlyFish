@@ -38,6 +38,24 @@ export default function Top({ movies: patterns }) {
         <section className="section">
           <h2>Fly Tying Tutorials</h2>
           <div className="grid-ish">
+            <Link href="/tutorials/softie">
+              <div className="card">
+                <h2>Tying A Big Softie</h2>
+                {/* <Video /> */}
+                <p>
+                  A thinly dressed pattern perfect for extended drifts and
+                  impromptu wetfly swings.
+                </p>
+                <span className="center multiply">
+                  <Image
+                    src="/sbs/softie/19.jpg"
+                    width={300}
+                    height={300}
+                    alt="Yellow Sally Perdigone"
+                  />
+                </span>
+              </div>
+            </Link>
             <Link href="/tutorials/czech">
               <div className="card">
                 <h2>Tying Czech Nymphs</h2>
