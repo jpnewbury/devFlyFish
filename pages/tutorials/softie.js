@@ -75,9 +75,9 @@ function App() {
         </section>
         <section className="section">
           <p>
-            A thinly dubbed tradiional style soft hackle pattern best suited for
+            A thinly dubbed tradional style soft hackle pattern that excells at
             deep and extended presentations. Don't forget to let this fly swing
-            all the way through the end of the drift. This mimics the emergance
+            all the way through the end of the drift, mimicing the emergance
             bahavior of many insects.
           </p>
         </section>
