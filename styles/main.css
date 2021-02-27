@@ -228,11 +228,9 @@ strong {
 }
 
 .citation {
-  padding: 7px;
-  margin: 5px;
-  font-size: 1rem;
+  font-size: 0.8rem;
   font-weight: 700;
-  padding-left: 20px;
+  padding: 7px;
 }
 
 .container {
@@ -288,7 +286,6 @@ strong {
 .first-letter ::first-letter {
   font-size: 1.7rem;
   font-weight: 600;
-  color: #0a0a0a;
 }
 
 .grid-ish {

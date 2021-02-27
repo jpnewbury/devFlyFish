@@ -49,7 +49,7 @@ export default function Movies({ movies: patterns }) {
                     {fly.hookType === "jig" && <Jig />}
                   </div>
                   <div>
-                    {fly.hookType === "jig" && <p className="citation">Jig</p>}
+                    {fly.hookType === "jig" && <p className="citation">jig</p>}
                   </div>
                   <div>
                     {fly.hookType === "czech" && (

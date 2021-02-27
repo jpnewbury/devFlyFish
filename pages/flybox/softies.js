@@ -5,41 +5,37 @@ import Swimmers from "../../components/svg/swimmers";
 import Stoneflies from "../../components/svg/stones";
 import Caddis from "../../components/svg/caddis";
 import Hydropsyche from "../../components/svg/hydropsyche";
+import Rockworm from "../../components/svg/rockworm";
 import Midge from "../../components/svg/midge";
 import Featured from "../../components/svg/featured";
 import Header from "../../components/header";
-import Footer from "../../components/footer";
 import BugbarNav from "../../components/bugbarNav";
 import Image from "next/image";
 import HeaderSlug from "../../components/headerSlug";
+import Footer from "../../components/footer";
 import Wetfly from "../../components/svg/hooks/h260bk";
 import Czech from "../../components/svg/hooks/h333";
 import Facted from "../../components/svg/hooks/faceted";
 import Slotted from "../../components/svg/hooks/slotted";
 import Round from "../../components/svg/hooks/round";
 import Jig from "../../components/svg/hooks/jig";
-import Anchor from "../../components/anchor";
 import Cloud from "../../components/cloud";
-
+import Anchor from "../../components/anchor";
 import Cased from "../../components/svg/cased";
 
 export default function Movies({ movies: patterns }) {
   return (
     <main className="container">
-      <Header title="Fly Box - Caddis Pupa" background="rainbow" />
+      <Header title="Fly Box - Clingers" background="rainbow" />
       <BugbarNav />
       <HeaderSlug
-        title="Caddis Pupa Type Nymphs"
-        image="/CaddisPupaIllustration.png"
-        height="120px"
-        width="150px"
-        content="I fish with caddis emerger patterns that imitate this gas bubble
-        to some degree at or very near the surface instead or presented
-        deeply. When fishing deeper in the water column, I use much less
-        flashy, more opaque caddis pupa imitations because they have not
-        yet begun to exhibit this gas bubble."
+        title="Big Softies"
+        image="/gallery/SnowshoeSoftiePT.jpg"
+        alt="Soft Hackled Heavy Jigs"
+        height="400px"
+        width="400px"
+        content="A very useful fly for fishing extended and deep drifts. Don't forget to finish the presentation off with a swing."
       />
-
       <div className="grid-ish">
         {patterns.map((fly) => (
           <div className="card" key={fly._id}>
@@ -221,7 +217,7 @@ export async function getServerSideProps() {
 
   const patterns = await db
     .collection("patterns")
-    .find({ caddis: "true" })
+    .find({ category: "softie" })
     .sort({ name: 1 })
     .limit(200)
     .toArray();

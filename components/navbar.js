@@ -14,7 +14,7 @@ export default function navbar() {
         <ul>
           <li>Home</li>
           <li>Articles</li>
-          <li>Fly Box</li>
+          <li>Fly </li>
         </ul>
       </nav>
     </>
