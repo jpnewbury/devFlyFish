@@ -68,7 +68,7 @@ function App() {
               #5.
             </li>
             <li>
-              <b>collar:</b> Spectra dubbing #931 followed by natural fox UV
+              <b>Collar:</b> Spectra dubbing #931 followed by natural fox UV
               tracer squirrel dub #48f.
             </li>
           </ul>
