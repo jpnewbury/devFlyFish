@@ -245,8 +245,7 @@ export default function Top({ movies: patterns }) {
           <h2>Fly Box</h2>
           <h3>What's attached to my tippet</h3>
           <p>The three flies I am fishing lately</p>
-        </section>
-        <section>
+
           <div className="grid-ish">
             {patterns.map((fly) => (
               <div className="card" key={fly._id}>

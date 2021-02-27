@@ -5,7 +5,6 @@ import Swimmers from "../../components/svg/swimmers";
 import Stoneflies from "../../components/svg/stones";
 import Caddis from "../../components/svg/caddis";
 import Hydropsyche from "../../components/svg/hydropsyche";
-import Rockworm from "../../components/svg/rockworm";
 import Midge from "../../components/svg/midge";
 import Featured from "../../components/svg/featured";
 import Header from "../../components/header";

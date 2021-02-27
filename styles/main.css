@@ -126,7 +126,7 @@ strong {
   padding: 7px;
   margin: 5px;
   cursor: pointer;
-  background: #fafafa;
+  background: white;
   max-width: 400px;
 }
 
@@ -143,12 +143,20 @@ strong {
   padding: 7px;
   margin: 5px;
   fill: rgba(0, 0, 0, 0.9);
-  width: 2.2em;
-  height: 2.2em;
+  width: 2.7em;
+  height: 2.7em;
   border: 1px solid rgba(10, 10, 10, 0.9);
   border-radius: 10px;
   -webkit-box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
           box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+}
+
+.bugbar-icon:hover,
+.bugbar-icon:active {
+  fill: #108b00;
+  -webkit-transition: all 0.35s ease;
+  transition: all 0.35s ease;
+  border: 1px solid #108b00;
 }
 
 .bugbarNav__col {
@@ -164,7 +172,7 @@ strong {
 .button__icon {
   width: 40px;
   height: 35px;
-  fill: #fafafa;
+  fill: white;
 }
 
 .citation {
@@ -180,7 +188,7 @@ strong {
   border: 1px solid black;
   border-radius: 7px;
   cursor: pointer;
-  background: #fafafa;
+  background: white;
 }
 
 .card__button {
@@ -197,7 +205,7 @@ strong {
   border-radius: 5px;
   font-weight: 500;
   letter-spacing: 0.2em;
-  color: #fafafa;
+  color: white;
   -webkit-transition: all 0.35s ease;
   transition: all 0.35s ease;
   background: #006eff;
@@ -238,10 +246,6 @@ strong {
   position: relative;
   max-width: 1200px;
   margin: auto;
-}
-
-.content {
-  min-height: 90vh;
 }
 
 .col-2 {
@@ -313,14 +317,14 @@ strong {
 
 .hero-box h1 {
   font-size: "Lato", sans-serif;
-  color: #fafafa;
+  color: white;
   -webkit-text-stroke-width: 1px;
   -webkit-text-stroke-color: black;
 }
 
 .hero-box h2 {
   font-size: "Lato", sans-serif;
-  color: #fafafa;
+  color: white;
   -webkit-text-stroke-width: 1px;
   -webkit-text-stroke-color: black;
 }
@@ -354,7 +358,7 @@ strong {
   margin: 5px;
   height: 40px;
   width: 50px;
-  background: #fafafa;
+  background: white;
   fill: #0a0a0a;
   -webkit-transition: all 0.35s ease;
   transition: all 0.35s ease;
@@ -362,8 +366,8 @@ strong {
 
 .icon__star {
   cursor: pointer;
-  height: 20px;
-  width: 20px;
+  height: 30px;
+  width: 30px;
   fill: #c5b358;
   margin-right: 5px;
 }
