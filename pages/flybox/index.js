@@ -14,6 +14,10 @@ import Image from "next/image";
 import Footer from "../../components/footer";
 import Wetfly from "../../components/svg/hooks/h260bk";
 import Czech from "../../components/svg/hooks/h333";
+import Nymph from "../../components/svg/hooks/nymph";
+import Supreme from "../../components/svg/hooks/supreme";
+import Short from "../../components/svg/hooks/short";
+import Klinkhammer from "../../components/svg/hooks/klinkhammer";
 import Facted from "../../components/svg/hooks/faceted";
 import Slotted from "../../components/svg/hooks/slotted";
 import Round from "../../components/svg/hooks/round";
@@ -22,15 +26,21 @@ import Anchor from "../../components/anchor";
 import Cloud from "../../components/cloud";
 import Cased from "../../components/svg/cased";
 import Magnet from "../../components/svg/magnet";
+import HeaderSlug from "../../components/headerSlug";
 
 export default function Movies({ movies: patterns }) {
   return (
     <main className="container">
       <Header title="Fly Box " background="rainbow" />
       <BugbarNav />
-      <h2>Featured Fly Patterns</h2>
-      <p>Select a nymph type above to view even more patterns</p>
-
+      <HeaderSlug
+        title="Big Softies"
+        image="/gallery/SnowshoeSoftiePT.jpg"
+        alt="Soft Hackled Heavy Jigs"
+        height="400px"
+        width="400px"
+        content="A very useful fly for fishing extended and deep drifts. Don't forget to finish the presentation off with a swing."
+      />
       <div className="grid-ish">
         {patterns.map((fly) => (
           <div className="card" key={fly._id}>
@@ -48,23 +58,34 @@ export default function Movies({ movies: patterns }) {
                     {fly.hookType === "wetfly" && <Wetfly />}
                     {fly.hookType === "czech" && <Czech />}
                     {fly.hookType === "jig" && <Jig />}
+                    {fly.hookType === "supreme" && <Supreme />}
+                    {fly.hookType === "short" && <Short />}
+                    {fly.hookType === "nymph" && <Nymph />}
+                    {fly.hookType === "klinkhammer" && <Klinkhammer />}
                   </div>
                   <div>
                     {fly.hookType === "jig" && <p className="citation">jig</p>}
-                  </div>
-                  <div>
+                    {fly.hookType === "short" && (
+                      <p className="citation">short</p>
+                    )}
+                    {fly.hookType === "supreme" && (
+                      <p className="citation">wide gape</p>
+                    )}
+                    {fly.hookType === "klinkhammer" && (
+                      <p className="citation">klinkhammer</p>
+                    )}
+                    {fly.hookType === "nymph" && (
+                      <p className="citation">nymph</p>
+                    )}
                     {fly.hookType === "czech" && (
                       <p className="citation">czech</p>
                     )}
-                  </div>
-                  <div>
                     {fly.hookType === "wetfly" && (
                       <p className="citation">wetfly</p>
                     )}
                   </div>
                 </div>
               </div>
-
               <div className="stack">
                 <div>
                   {fly.beadType === "faceted" && <Facted />}
@@ -83,12 +104,8 @@ export default function Movies({ movies: patterns }) {
                   )}
                 </div>
               </div>
-              <div></div>
-              <div></div>
-              <div></div>
             </div>
             <p>{fly.description}</p>
-
             <ul>
               {fly.hook && (
                 <li>

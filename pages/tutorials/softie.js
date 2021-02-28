@@ -211,6 +211,7 @@ function App() {
             text="Groom away enough material as required to keep things thin and sparse. Here I created the illusion of bulk without actually creating it; allowing for a quickly sinking fly with a natural animation."
           />
         </section>
+
         <Footer />
       </main>
     </>

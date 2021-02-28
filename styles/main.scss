@@ -199,7 +199,9 @@ strong {
     @include block;
     // @include border;
     cursor: pointer;
+    margin: $margin + 5;
     background: $white;
+
     max-width: 400px;
     img {
         border-radius: 10px;

@@ -3,7 +3,7 @@ import Link from "next/link";
 
 export default function footer() {
   return (
-    <>
+    <footer>
       <div className="col-5">
         <div className="center">
           <Image
@@ -46,6 +46,6 @@ export default function footer() {
           </a>
         </Link>
       </div>
-    </>
+    </footer>
   );
 }

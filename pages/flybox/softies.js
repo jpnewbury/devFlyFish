@@ -22,6 +22,10 @@ import Cloud from "../../components/cloud";
 import Anchor from "../../components/anchor";
 import Cased from "../../components/svg/cased";
 import Magnet from "../../components/svg/magnet";
+import Nymph from "../../components/svg/hooks/nymph";
+import Supreme from "../../components/svg/hooks/supreme";
+import Short from "../../components/svg/hooks/short";
+import Klinkhammer from "../../components/svg/hooks/klinkhammer";
 export default function Movies({ movies: patterns }) {
   return (
     <main className="container">
@@ -52,23 +56,34 @@ export default function Movies({ movies: patterns }) {
                     {fly.hookType === "wetfly" && <Wetfly />}
                     {fly.hookType === "czech" && <Czech />}
                     {fly.hookType === "jig" && <Jig />}
+                    {fly.hookType === "supreme" && <Supreme />}
+                    {fly.hookType === "short" && <Short />}
+                    {fly.hookType === "nymph" && <Nymph />}
+                    {fly.hookType === "klinkhammer" && <Klinkhammer />}
                   </div>
                   <div>
                     {fly.hookType === "jig" && <p className="citation">jig</p>}
-                  </div>
-                  <div>
+                    {fly.hookType === "short" && (
+                      <p className="citation">short</p>
+                    )}
+                    {fly.hookType === "supreme" && (
+                      <p className="citation">wide gape</p>
+                    )}
+                    {fly.hookType === "klinkhammer" && (
+                      <p className="citation">klinkhammer</p>
+                    )}
+                    {fly.hookType === "nymph" && (
+                      <p className="citation">nymph</p>
+                    )}
                     {fly.hookType === "czech" && (
                       <p className="citation">czech</p>
                     )}
-                  </div>
-                  <div>
                     {fly.hookType === "wetfly" && (
                       <p className="citation">wetfly</p>
                     )}
                   </div>
                 </div>
               </div>
-
               <div className="stack">
                 <div>
                   {fly.beadType === "faceted" && <Facted />}
@@ -87,12 +102,8 @@ export default function Movies({ movies: patterns }) {
                   )}
                 </div>
               </div>
-              <div></div>
-              <div></div>
-              <div></div>
             </div>
             <p>{fly.description}</p>
-
             <ul>
               {fly.hook && (
                 <li>
@@ -192,7 +203,6 @@ export default function Movies({ movies: patterns }) {
             </ul>
 
             <h4> Best For:</h4>
-
             {fly.clinger === "true" && <Clinger />}
             {fly.crawler === "true" && <Crawler />}
             {fly.minnow === "true" && <Swimmers />}

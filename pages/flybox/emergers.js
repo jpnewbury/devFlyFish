@@ -5,40 +5,41 @@ import Swimmers from "../../components/svg/swimmers";
 import Stoneflies from "../../components/svg/stones";
 import Caddis from "../../components/svg/caddis";
 import Hydropsyche from "../../components/svg/hydropsyche";
-import Rockworm from "../../components/svg/rockworm";
+
 import Midge from "../../components/svg/midge";
 import Featured from "../../components/svg/featured";
 import Header from "../../components/header";
 import BugbarNav from "../../components/bugbarNav";
 import Image from "next/image";
 import Footer from "../../components/footer";
-import HeaderSlug from "../../components/headerSlug";
 import Wetfly from "../../components/svg/hooks/h260bk";
 import Czech from "../../components/svg/hooks/h333";
+import Nymph from "../../components/svg/hooks/nymph";
+import Supreme from "../../components/svg/hooks/supreme";
+import Short from "../../components/svg/hooks/short";
+import Klinkhammer from "../../components/svg/hooks/klinkhammer";
 import Facted from "../../components/svg/hooks/faceted";
 import Slotted from "../../components/svg/hooks/slotted";
 import Round from "../../components/svg/hooks/round";
 import Jig from "../../components/svg/hooks/jig";
 import Anchor from "../../components/anchor";
 import Cloud from "../../components/cloud";
-import Magnet from "../../components/svg/magnet";
-import Nymph from "../../components/svg/hooks/nymph";
-import Supreme from "../../components/svg/hooks/supreme";
-import Short from "../../components/svg/hooks/short";
-import Klinkhammer from "../../components/svg/hooks/klinkhammer";
 import Cased from "../../components/svg/cased";
+import Magnet from "../../components/svg/magnet";
+import HeaderSlug from "../../components/headerSlug";
 
 export default function Movies({ movies: patterns }) {
   return (
     <main className="container">
-      <Header title="Fly Box - Midges" background="rainbow" />
+      <Header title="Fly Box " background="rainbow" />
       <BugbarNav />
       <HeaderSlug
-        title="Midges"
-        image="/chironomidPupa.png"
-        height="100px"
-        width="150px"
-        content="Midges are available as food for trout on a nearly daily basis and often out-weather many burly mans tolerance for extreme weather."
+        title="Emergers"
+        image="/gallery/SnowshoeSoftiePT.jpg"
+        alt="Suggested Emerger Patterns"
+        height="400px"
+        width="400px"
+        content="The in-between stage is the most vulnerable for an insect and trout often key in on nymphs just before they can fly away."
       />
 
       <div className="grid-ish">
@@ -86,6 +87,7 @@ export default function Movies({ movies: patterns }) {
                   </div>
                 </div>
               </div>
+
               <div className="stack">
                 <div>
                   {fly.beadType === "faceted" && <Facted />}
@@ -104,8 +106,12 @@ export default function Movies({ movies: patterns }) {
                   )}
                 </div>
               </div>
+              <div></div>
+              <div></div>
+              <div></div>
             </div>
             <p>{fly.description}</p>
+
             <ul>
               {fly.hook && (
                 <li>
@@ -229,7 +235,7 @@ export async function getServerSideProps() {
 
   const patterns = await db
     .collection("patterns")
-    .find({ midgepupa: "true" })
+    .find({ emerger: "true" })
     .sort({ name: 1 })
     .limit(200)
     .toArray();
