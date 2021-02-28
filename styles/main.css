@@ -185,11 +185,15 @@ strong {
 .card {
   padding: 7px;
   margin: 5px;
-  border: 1px solid black;
-  border-radius: 7px;
   cursor: pointer;
   background: white;
   max-width: 400px;
+}
+
+.card img {
+  border-radius: 10px;
+  border: 1px solid black;
+  border-radius: 7px;
 }
 
 .card__button {

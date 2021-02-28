@@ -197,12 +197,15 @@ strong {
 
 .card {
     @include block;
-    @include border;
+    // @include border;
     cursor: pointer;
     background: $white;
     max-width: 400px;
+    img {
+        border-radius: 10px;
+        @include border;
+    }
 }
-
 .card__button {
     cursor: pointer;
     @include block;
