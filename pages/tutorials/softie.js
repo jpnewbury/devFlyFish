@@ -118,12 +118,12 @@ function App() {
           <Tutorial
             image="/sbs/softie/1.jpg"
             step="Step 1"
-            text="Establish the thread and build a small jam behind the bead to secure."
+            text="Establish the thread onto the hook shank and build a small jam behind the bead to secure it place."
           />
           <Tutorial
             image="/sbs/softie/2.jpg"
             step="Step 2"
-            text="Attach several strands of CDL tailing to the top of the hook shank and tie down to the bend of the hook. Attach the ribbing at the same time."
+            text="Attach several strands of CDL tailing fibers to the top of the hook shank, and tie down to the bend of the hook. Attach the ribbing at the same time."
           />
           <Tutorial
             image="/sbs/softie/3.jpg"
@@ -133,7 +133,7 @@ function App() {
           <Tutorial
             image="/sbs/softie/4.jpg"
             step="Step 4"
-            text="Dab small amounts of the dubbing onto the waxed thread so that strands begin to adhere to the wax. "
+            text="Dab small amounts of the dubbing blend onto the waxed thread so that strands begin to adhere to the wax. "
           />
           <Tutorial
             image="/sbs/softie/5.jpg"
@@ -188,12 +188,12 @@ function App() {
           <Tutorial
             image="/sbs/softie/15.jpg"
             step="Ste15"
-            text="pull the strands of speactra forward and pull to shred away leaving a soft frayed collar."
+            text="pull the strands of spectra forward and shred away the extra, leaving a soft frayed collar."
           />
           <Tutorial
             image="/sbs/softie/16.jpg"
             step="Step 16"
-            text=" Keep pruning away untill you have.."
+            text=" Keep pruning away untill you have..."
           />
           <Tutorial
             image="/sbs/softie/17.jpg"
@@ -208,7 +208,7 @@ function App() {
           <Tutorial
             image="/sbs/softie/19.jpg"
             step="Ste19"
-            text="Groom away as much extra material as required to keep things thin and sparse. Here I created the illusion of bulk without actually creating bulk."
+            text="Groom away enough material as required to keep things thin and sparse. Here I created the illusion of bulk without actually creating it allowing for a quickly sinking fly with a natural animation."
           />
         </section>
         <Footer />
