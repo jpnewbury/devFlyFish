@@ -143,7 +143,7 @@ function App() {
           <Tutorial
             image="/sbs/czech/5.jpg"
             step="Step 6"
-            text="Compress the dubbing thin and tight to begin to wrapping the abdomen. Keep firm pressure in touching wraps as you advance the dubbing forward. What is important to bear in mind at this step is to eliminate the pillow cushion of space in the dubbing itself. A tightly dubbed abdomen will prevent our ribbings from dissapearing into the body."
+            text="Compress the dubbing thin and tight to begin wrapping the abdomen. Keep firm pressure in touching wraps as you advance the dubbing forward. What is important at this step is to eliminate the pillow cushion of space in the dubbing itself. A tightly dubbed abdomen will prevent our ribbings from dissapearing into the body."
           />
           <Tutorial
             image="/sbs/czech/6.jpg"
@@ -168,7 +168,7 @@ function App() {
           <Tutorial
             image="/sbs/czech/10.jpg"
             step="Step 11"
-            text="Stretch the shellback rearward with your material hand while performing evenly spaced rearward bound counter wraps. Adjusting tension of the nmaterial while wrapping each segment will help to enhance the segmented look we are aimaing to acheive."
+            text="Stretch the shellback rearward with your material hand while performing evenly spaced rearward counter wraps. Adjusting tension of the nmaterial while wrapping each segment will help to enhance the segmented look we are aimaing to acheive."
           />
           <Tutorial
             image="/sbs/czech/11.jpg"
