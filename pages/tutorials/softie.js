@@ -183,7 +183,7 @@ function App() {
           <Tutorial
             image="/sbs/softie/14.jpg"
             step="Step 14"
-            text="Perform a full loose wrap of thread to capture the fibers and then bind it into the space between the hackle and bead with a few more tight, cinching wraps. "
+            text="Perform a capturing wrap of thread to collect the fibers at the collar and then bind them it into the space between the hackle and bead with a few more tight, cinching wraps. "
           />
           <Tutorial
             image="/sbs/softie/15.jpg"
