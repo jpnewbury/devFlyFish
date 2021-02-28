@@ -33,14 +33,7 @@ export default function Movies({ movies: patterns }) {
     <main className="container">
       <Header title="Fly Box " background="rainbow" />
       <BugbarNav />
-      <HeaderSlug
-        title="Big Softies"
-        image="/gallery/SnowshoeSoftiePT.jpg"
-        alt="Soft Hackled Heavy Jigs"
-        height="400px"
-        width="400px"
-        content="A very useful fly for fishing extended and deep drifts. Don't forget to finish the presentation off with a swing."
-      />
+      <h2>Featured Patterns</h2>
       <div className="grid-ish">
         {patterns.map((fly) => (
           <div className="card" key={fly._id}>
