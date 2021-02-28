@@ -168,7 +168,7 @@ function App() {
           <Tutorial
             image="/sbs/softie/11.jpg"
             step="Step 11"
-            text="Spin the dubbing loop into a brush. Use a dubbing brush to liberate any trapped fibers."
+            text="Spin the dubbing loop into a brush. Use a dubbing brush tool to liberate any trapped fibers."
           />
           <Tutorial
             image="/sbs/softie/12.jpg"
@@ -178,12 +178,12 @@ function App() {
           <Tutorial
             image="/sbs/softie/13.jpg"
             step="Step 13"
-            text="Pull a small amount of spectra fibers free from a clump and enshroud the front of the fly."
+            text="Pull a small amount of spectra fibers from a clump and enshroud the front of the fly."
           />
           <Tutorial
             image="/sbs/softie/14.jpg"
             step="Step 14"
-            text="Perform a full loose wrap of thread to capture the fibers and bind it into the space between the hackle and bead. "
+            text="Perform a full loose wrap of thread to capture the fibers and then bind it into the space between the hackle and bead with a few more tight, cinching wraps. "
           />
           <Tutorial
             image="/sbs/softie/15.jpg"

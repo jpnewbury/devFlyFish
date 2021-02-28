@@ -8,7 +8,7 @@ export default function tutorialCard(props) {
           <Image src={props.image} width={400} height={400} alt="" />
         </div>
         <div>
-          <b>{props.step} :</b>
+          <h3>{props.step} :</h3>
           <p />
           <p>{props.text}</p>
         </div>

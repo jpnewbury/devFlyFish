@@ -79,14 +79,14 @@ h2 {
 h3 {
     padding-left: $padding + 6;
     font-size: clamp(1.2rem, 1.3rem, 2vw); /* min, val, max */
-    font-family: $font-body;
+    font-family: $font-heading;
 }
 h4 {
     margin-top: $margin;
     padding-left: $padding + 10;
-    font-family: $font-heading;
+    font-family: $font-body;
     font-size: clamp(0.9rem, 1rem, 2vw); /* min, val, max */
-    font-weight: 100;
+    font-weight: 700;
 }
 h5 {
     font-size: 1.5rem;

@@ -45,16 +45,16 @@ h3 {
   padding-left: 13px;
   font-size: clamp(1.2rem, 1.3rem, 2vw);
   /* min, val, max */
-  font-family: "Lato", sans-serif;
+  font-family: "Passion One", cursive;
 }
 
 h4 {
   margin-top: 5px;
   padding-left: 17px;
-  font-family: "Passion One", cursive;
+  font-family: "Lato", sans-serif;
   font-size: clamp(0.9rem, 1rem, 2vw);
   /* min, val, max */
-  font-weight: 100;
+  font-weight: 700;
 }
 
 h5 {
