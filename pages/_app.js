@@ -6,9 +6,9 @@ function MyApp({ Component, pageProps, router }) {
   return (
     <AnimatePresence>
       <motion.div
-        animate={{
-          opacity: [0.8, 1],
-        }}
+      // animate={{
+      //   opacity: [0.8, 1],
+      // }}
       >
         <Component {...pageProps} />
       </motion.div>
