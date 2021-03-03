@@ -248,6 +248,7 @@ strong {
 }
 
 .container {
+  position: relative;
   background: white;
   position: relative;
   max-width: 1200px;
@@ -287,6 +288,11 @@ strong {
   display: grid;
   -ms-grid-columns: (1fr)[5];
       grid-template-columns: repeat(5, 1fr);
+}
+
+.detail-card {
+  background-color: white;
+  max-width: 1200px;
 }
 
 .float-left {
@@ -341,7 +347,7 @@ strong {
   margin: 5px;
   height: 50px;
   width: 50px;
-  background: #fafafa;
+  background: white;
   border-radius: 5px;
   fill: #4b4b4b;
   -webkit-transition: all 0.35s ease;

@@ -149,7 +149,6 @@ strong {
     @include block;
     cursor: pointer;
     background: $white;
-
     max-width: 400px;
     small {
         @include block;
@@ -242,6 +241,7 @@ strong {
     padding: $padding;
 }
 .container {
+    position: relative;
     background: $white;
     position: relative;
     max-width: 1200px;
@@ -269,6 +269,10 @@ strong {
     grid-template-columns: repeat(5, 1fr);
 }
 
+.detail-card {
+    background-color: white;
+    max-width: 1200px;
+}
 .float-left {
     float: left;
 }
@@ -314,7 +318,7 @@ strong {
     @include block;
     height: 50px;
     width: 50px;
-    background: $gray-9;
+    background: $white;
     // border: 1px solid gray;
     border-radius: 5px;
     fill: $gray-2;
@@ -347,7 +351,6 @@ strong {
 
 .icon:hover {
     @include block;
-
     fill: black;
 }
 .list-box {

@@ -38,22 +38,17 @@ export default function Top({ movies: patterns }) {
           <div>
             <span className="first-letter">
               <p>
-                Welcome to my new page about fly fishing and fly tying. I've
-                spent the better part of a viral outbreak, drought, record
-                setting wildfires, hurricanes, scandalous elections and anything
-                else that 2020-21 might yet throw at us updating my professional
-                portfolio and this website.
+                Welcome Anglers,
+                <br /> If you are a returning guest, You will notice a new
+                feature to the website called the "Bug Bar" where the fly
+                patterns listed on this website can be associated with a nymph
+                type and the suggested patterns you can choose. I hope that this
+                relationship with the natural and our imitations serve to
+                inspire you into turning over some stones in your favorite
+                stream and look at what's crawling underneath.
               </p>
             </span>
-            <p>
-              If you are a returning guest, I hope you like the updates and
-              streamlined content. You will notice a new feature called the "Bug
-              Bar" where the fly patterns listed here can be associated with a
-              nymph type and the suggested patterns you can choose. I hope that
-              this relationship with the natural and our imitations serve to
-              inspire you into turning over some stones in your favorite stream
-              and look at what's crawling underneath.
-            </p>
+
             <p>
               In the next few weeks of early spring 2021, you will see the
               reading list and tutorials sections expand as I push and pull new
@@ -61,13 +56,6 @@ export default function Top({ movies: patterns }) {
               fly pattern database will also be growing to include dry flies and
               streamers.
             </p>
-            <p>
-              If you would like to purchase my flies, please contact your{" "}
-              <Link href="https://highpeaksrep.com/">
-                <a>Fullingmill Rep.</a>
-              </Link>
-            </p>
-
             <p>
               On a personal note, I am deeply humbled when I see other fly tyers
               posting my patterns filling their fly boxes on the internet. I am
@@ -79,17 +67,22 @@ export default function Top({ movies: patterns }) {
           </div>
           <div className="center  stack">
             <div className="multiply">
+              <h3>Featured Fly:</h3>
+
               <Image
-                src="/gallery/DropDeadSexyWalts.jpg"
-                width={200}
-                height={200}
-                alt="Drop Dead Sexy Walts"
+                src="/gallery/Drop-Dead-Sexy-Dark.jpg"
+                width={400}
+                height={400}
+                alt="Featured Fly, Pink PIne Cone"
                 quality="50"
               />
+              <Link href="/flybox/pinecone">
+                <a>
+                  <button className="card__button">View More</button>
+                </a>
+              </Link>
             </div>
-            <div className="center">
-              <small> Drop Dead Sexy Walts</small>
-            </div>
+            <div className="center"></div>
           </div>
         </section>
 

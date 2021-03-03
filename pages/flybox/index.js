@@ -1,3 +1,4 @@
+import Image from "next/image";
 import { connectToDatabase } from "../../util/mongodb";
 import Clinger from "../../components/svg/clinger";
 import Crawler from "../../components/svg/crawlers";
@@ -5,12 +6,10 @@ import Swimmers from "../../components/svg/swimmers";
 import Stoneflies from "../../components/svg/stones";
 import Caddis from "../../components/svg/caddis";
 import Hydropsyche from "../../components/svg/hydropsyche";
-
 import Midge from "../../components/svg/midge";
 import Featured from "../../components/svg/featured";
 import Header from "../../components/header";
 import BugbarNav from "../../components/bugbarNav";
-import Image from "next/image";
 import Footer from "../../components/footer";
 import Wetfly from "../../components/svg/hooks/h260bk";
 import Czech from "../../components/svg/hooks/h333";
@@ -26,7 +25,6 @@ import Anchor from "../../components/anchor";
 import Cloud from "../../components/cloud";
 import Cased from "../../components/svg/cased";
 import Magnet from "../../components/svg/magnet";
-import HeaderSlug from "../../components/headerSlug";
 
 export default function Movies({ movies: patterns }) {
   return (
