@@ -41,7 +41,7 @@ export default function Top({ movies: patterns }) {
           <div>
             <span className="first-letter">
               <p>
-                Welcome Anglers,
+                Welcome,
                 <br /> Angling Arts is website focused on fly fishing and tying
                 with an emphasis on nymphs. If you are a retrning guest, you
                 will notice a new feature to the website called the "Bug Bar"
