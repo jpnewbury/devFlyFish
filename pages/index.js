@@ -57,7 +57,7 @@ export default function Top({ movies: patterns }) {
 
             <p>
               In the next few weeks of early spring 2021, you will see the
-              reading list and tutorials sections expand as I push and pull new
+              reading list and tutorials section expand as I push and pull new
               content around, send it to an editor and finally post it here. The
               fly pattern database will also be growing to include dry flies and
               streamers.
