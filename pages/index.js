@@ -48,8 +48,9 @@ export default function Top({ movies: patterns }) {
                 where the fly patterns listed on this website can be associated
                 with a nymph type and the suggested patterns you can choose. I
                 hope that this relationship with the natural and our imitations
-                serve to inspire you into turning over some stones in your
-                favorite stream and look at what's crawling underneath.
+                serve to inspire the curious angler into turning over some
+                stones in your favorite stream and studying what's crawling
+                underneath.
               </p>
             </span>
 
