@@ -41,15 +41,16 @@ export default function Top({ movies: patterns }) {
           <div>
             <span className="first-letter">
               <p>
-                Welcome,
-                <br /> Angling Arts is website focused on fly fishing and tying
-                with an emphasis on nymphs. If you are a retrning guest, you
-                will notice a new feature to the website called the "Bug Bar"
-                where the fly patterns listed on this website can be associated
-                with a nymph type and the suggested patterns you can choose. I
-                hope that this relationship with the natural and our imitations
-                serve to inspire the curious angler into turning over some
-                stones in your favorite stream and studying what's crawling
+                Welcome everyone,
+                <br />
+                My Angling Arts website focuses on fly fishing and tying with an
+                emphasis on tactical style nymphs. If you are a retrning guest,
+                you will notice a new feature to the website called the "Bug
+                Bar" where the fly patterns listed on this website can be
+                associated with a nymph type and the suggested patterns you can
+                choose. I hope that this relationship with the natural and our
+                imitations serve to inspire the curious angler into turning over
+                some stones in your favorite stream and studying what's crawling
                 underneath.
               </p>
             </span>
