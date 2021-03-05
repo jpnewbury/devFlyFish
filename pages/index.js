@@ -43,7 +43,7 @@ export default function Top({ movies: patterns }) {
               <p>
                 Welcome to the new Angling Arts website. This website focuses on
                 fly fishing and tying tactical style nymphs. If you are a
-                retrning guest, you will notice a new feature to the website
+                returning guest, you will notice a new feature to the website
                 called the "Bug Bar" which sorts fly patterns based on the type
                 of nymph the fly best immitates. I hope that this relationship
                 with the natural and our imitations serve to inspire the curious
