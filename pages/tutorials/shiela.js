@@ -32,7 +32,7 @@ function App() {
           />
         </header>
         <section>
-          <h2>Tying a Shiela Bugger</h2>
+          <h2>Tying a Femme Bot</h2>
           <h3>Materials</h3>
           <div className="col-2">
             <div>
