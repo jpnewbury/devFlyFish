@@ -40,7 +40,7 @@ export default function Top({ movies: patterns }) {
           <div className="grid-ish">
             <Link href="/tutorials/softie">
               <div className="card">
-                <h2>Tying A Femme Bot</h2>
+                <h2>Tying a Femme Bot</h2>
 
                 <p>
                   An all around agitator pattern with multi-species
@@ -58,7 +58,7 @@ export default function Top({ movies: patterns }) {
             </Link>
             <Link href="/tutorials/softie">
               <div className="card">
-                <h2>Tying A Big Softie</h2>
+                <h2>Tying a Big Softie</h2>
 
                 <p>
                   A thinly dressed pattern for extended drifts and impromptu
