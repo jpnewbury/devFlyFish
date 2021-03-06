@@ -43,7 +43,8 @@ export default function Top({ movies: patterns }) {
                 <h2>Tying A Femme Bot</h2>
 
                 <p>
-                  An all around agitator pattern with mult-species applications.
+                  An all around agitator pattern with multi-species
+                  applications.
                 </p>
                 <span className="center multiply">
                   <Image
