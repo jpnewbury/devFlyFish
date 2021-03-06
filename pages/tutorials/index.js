@@ -38,7 +38,7 @@ export default function Top({ movies: patterns }) {
         <section className="section">
           <h2>Fly Tying Tutorials</h2>
           <div className="grid-ish">
-            <Link href="/tutorials/softie">
+            <Link href="/tutorials/shilea">
               <div className="card">
                 <h2>Tying a Femme Bot</h2>
 
