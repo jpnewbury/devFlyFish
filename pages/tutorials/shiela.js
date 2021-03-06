@@ -1,6 +1,6 @@
 import React from "react";
 import Image from "next/image";
-import Link from "next/link";
+
 import Header from "../../components/header";
 import Footer from "../../components/footer";
 import Tutorial from "../../components/tutorialCard";
@@ -74,7 +74,7 @@ function App() {
           </ul>
         </section>
         <section className="section">
-          <p> An all purpose agitator, this fly wakes em up fast!</p>
+          <p> A multi-species agitator, this fly wakes em up fast!</p>
         </section>
 
         <section className="grid-ish">
@@ -122,7 +122,7 @@ function App() {
           <Tutorial
             image="/sbs/shiela/10.jpg"
             step="Step 9"
-            text="Tidy up the thorax by trimming away tag ends and making sure you have a nice clean base to tie over."
+            text="Tidy up the thorax by trimming away tag ends and making sure you have a nice clean base to tie over. Trim the tinsel sides the length of the tail."
           />
           <Tutorial
             image="/sbs/shiela/12.jpg"
