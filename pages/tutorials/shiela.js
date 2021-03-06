@@ -54,8 +54,7 @@ function App() {
               <b>Thread:</b> 50D GSP.
             </li>
             <li>
-              <b>Tail:</b> Australian possum gaurd hairs. Tinsel from abdomen
-              along sides.
+              <b>Tail:</b> Australian possum gaurd hairs. Tinsel along sides.
             </li>
             <li>
               <b>Abdomen:</b> Blend of australian possum and uv tracer squirrel
