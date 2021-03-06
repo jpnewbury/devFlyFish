@@ -40,8 +40,25 @@ export default function Top({ movies: patterns }) {
           <div className="grid-ish">
             <Link href="/tutorials/softie">
               <div className="card">
+                <h2>Tying A Femme Bot</h2>
+
+                <p>
+                  An all around agitator pattern with mult-species applications.
+                </p>
+                <span className="center multiply">
+                  <Image
+                    src="/sbs/shiela/15.jpg"
+                    width={300}
+                    height={300}
+                    alt="Femme bot"
+                  />
+                </span>
+              </div>
+            </Link>
+            <Link href="/tutorials/softie">
+              <div className="card">
                 <h2>Tying A Big Softie</h2>
-                {/* <Video /> */}
+
                 <p>
                   A thinly dressed pattern for extended drifts and impromptu
                   wetfly swings.
@@ -51,7 +68,7 @@ export default function Top({ movies: patterns }) {
                     src="/sbs/softie/19.jpg"
                     width={300}
                     height={300}
-                    alt="Yellow Sally Perdigone"
+                    alt="Tying a Big Softie"
                   />
                 </span>
               </div>
@@ -66,7 +83,7 @@ export default function Top({ movies: patterns }) {
                     src="/gallery/GreenPapaya.jpg"
                     width={300}
                     height={300}
-                    alt="Yellow Sally Perdigone"
+                    alt="TYing Czech Nymphs"
                   />
                 </span>
               </div>
@@ -99,7 +116,7 @@ export default function Top({ movies: patterns }) {
                     src="/gallery/Drop-Dead-Sexy-Dark.jpg"
                     width={300}
                     height={300}
-                    alt="Drope Dea exy Walts"
+                    alt="Drope Dea Sexy Walts"
                   />
                 </span>
               </div>
