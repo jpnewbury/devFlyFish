@@ -5,7 +5,7 @@ import Header from "../../components/header";
 import Footer from "../../components/footer";
 import Tutorial from "../../components/tutorialCard";
 import Head from "next/head";
-import Jig from "../../components/svg/hooks/jig";
+import Supreme from "../../components/svg/hooks/supreme";
 import Slotted from "../../components/svg/hooks/slotted";
 
 function App() {
@@ -27,7 +27,7 @@ function App() {
       <main className="container">
         <header className="header">
           <Header
-            title="Tutorials -  Tying a Shiela Bugger"
+            title="Tutorials -  Tying a Femme Bot"
             background="rainbow2"
           />
         </header>
@@ -37,7 +37,7 @@ function App() {
           <div className="col-2">
             <div>
               <span className="center ">
-                <Jig />
+                <Supreme />
                 <Slotted />
               </span>
             </div>
