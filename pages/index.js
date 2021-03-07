@@ -25,14 +25,14 @@ export default function Top({ movies: patterns }) {
           content="A place for fly fishers to to learn new fly patterns and fishing methods from a life-long fly fishing addict."
         />
         <meta name="revised" content="Angling Arts, 3/4/2021" />
+        <meta name="robots" content="index, follow" />
         <meta
           name="og:title"
           property="og:title"
           content="John P. Newbury Angling Arts"
         />
         <meta name="twitter:card" content="John P. Newbury Angling Arts" />
-        <meta name="robots" content="index, follow" />
-        <meta property="og:title" content="Newbury Angling Arts" />
+
         <meta
           property="og:description"
           content="A place for fly fishers to to learn new fly patterns and fishing methods from a life-long fly fishing addict.."
