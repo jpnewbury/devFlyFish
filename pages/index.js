@@ -37,14 +37,8 @@ export default function Top({ movies: patterns }) {
           property="og:description"
           content="A place for fly fishers to to learn new fly patterns and fishing methods from a life-long fly fishing addict.."
         />
-        <meta
-          property="og:image"
-          content="https://scontent-sjc3-1.xx.fbcdn.net/v/t1.0-1/p480x480/146040392_507213864007283_135257940382927085_o.jpg?_nc_cat=101&ccb=1-3&_nc_sid=7206a8&_nc_ohc=i5LM8PFYVKEAX-BubJ7&_nc_ht=scontent-sjc3-1.xx&tp=6&oh=36ecca340fa44aa894681c7e0ef1bfdd&oe=606B621E"
-        />
-        <meta
-          property="og:url"
-          content="https://portfolio-theta-orpin.vercel.app/_next/image?url=%2Flogo.png&w=640&q=90"
-        />
+        <meta property="og:image" content="" />
+        <meta property="og:url" content="https://flyfish-pied.vercel.app/" />
       </Head>
 
       <main className="container">
