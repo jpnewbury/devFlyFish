@@ -84,20 +84,23 @@ export default function Top({ movies: patterns }) {
           </div>
           <div className="center  stack">
             <div className="multiply">
-              <h3>Featured Fly:</h3>
-
-              <Image
-                src="/gallery/Drop-Dead-Sexy-Dark.jpg"
-                width={400}
-                height={400}
-                alt="Featured Fly, Pink PIne Cone"
-                quality="50"
-              />
-              <Link href="/flybox/pinecone">
-                <a>
-                  <button className="card__button">View More</button>
-                </a>
-              </Link>
+              <h3>Featured Fly: Femme Bot</h3>
+              <div className="center">
+                <Image
+                  src="/gallery/FemmeBotGen1.jpg"
+                  width={400}
+                  height={400}
+                  alt="Feme Bot"
+                  quality="20"
+                />
+              </div>
+              <div className="center">
+                <Link href="/tutorials/shiela">
+                  <a>
+                    <button className="card__button">View the Femme Bot</button>
+                  </a>
+                </Link>
+              </div>
             </div>
             <div className="center"></div>
           </div>
