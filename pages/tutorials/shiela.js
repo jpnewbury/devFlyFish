@@ -15,15 +15,29 @@ function App() {
         <title>John P. Newbury's Angling Arts</title>
         <meta name="viewport" content="initial-scale=1.0, width=device-width" />
         <meta
-          name="keywords"
-          content="Fly Fishing, Fly Tying, Newbury Fly Tying, Fullingmill"
+          name="description"
+          content="A place for fly fishers to to learn new fly patterns and fishing methods from a life-long fly fishing addict."
+        />
+        <meta name="revised" content="Angling Arts, 3/4/2021" />
+        <meta name="robots" content="index, follow" />
+        <meta
+          name="og:title"
+          property="og:title"
+          content="John P. Newbury Angling Arts"
+        />
+        <meta name="twitter:card" content="John P. Newbury Angling Arts" />
+
+        <meta
+          property="og:description"
+          content="A place for fly fishers to to learn new fly patterns and fishing methods from a life-long fly fishing addict.."
         />
         <meta
-          name="description"
-          content="A place for fly fishers to to learn about some new fly patterns and fishing methods from a life-long fly fishing addict."
+          property="og:image"
+          content="https://dev-fly-fish.vercel.app/header.jpg"
         />
-        <meta name="revised" content="Angling Arts, 2/14/2021" />
+        <meta property="og:url" content="https://flyfish-pied.vercel.app/" />
       </Head>
+
       <main className="container">
         <header className="header">
           <Header
@@ -32,49 +46,62 @@ function App() {
           />
         </header>
         <section>
-          <h2>Tying a Femme Bot</h2>
-          <h3>Materials</h3>
-          <div className="col-2">
-            <div>
-              <span className="center ">
-                <Supreme />
-                <Slotted />
-              </span>
+          <div className="grid-ish">
+            <div className="card">
+              <h2>Tying a Femme Bot</h2>
+              <Image
+                src="/gallery/FemmeBotGen1.jpg"
+                width={400}
+                height={400}
+                alt="Femme Bot Jig"
+              />
             </div>
-            <div></div>
+            <div className="card">
+              <div className="col-2">
+                <div>
+                  <h3>Materials</h3>
+                  <span className="center ">
+                    <Supreme />
+                    <Slotted />
+                  </span>
+                </div>
+                <div></div>
+              </div>
+
+              <ul>
+                <li>
+                  <b>Hook:</b> Jig supreme.
+                </li>
+                <li>
+                  <b>Bead :</b> Big pink tungsten.
+                </li>
+                <li>
+                  <b>Thread:</b> 50D GSP.
+                </li>
+                <li>
+                  <b>Tail:</b> Australian possum gaurd hairs. Tinsel along
+                  sides.
+                </li>
+                <li>
+                  <b>Abdomen:</b> Blend of australian possum and uv tracer
+                  squirrel natural gray fox. Small uv pearl tinsel along the
+                  sides. Secured with ribbing. Tag ends left to flank the tail.
+                </li>
+                <li>
+                  <b>Rib:</b> Small oval gold tinsel securing the sides.
+                </li>
+                <li>
+                  <b>Thorax:</b> Equal blend spectra #15 and UV tracer squirrel
+                  natural red fox.
+                </li>
+                <li>
+                  <b>Collar:</b> Black UV tracer squirrel.
+                </li>
+              </ul>
+
+              <p> A multi-species agitator, this fly wakes em up fast!</p>
+            </div>
           </div>
-          <ul>
-            <li>
-              <b>Hook:</b> Jig supreme.
-            </li>
-            <li>
-              <b>Bead :</b> Big pink tungsten.
-            </li>
-            <li>
-              <b>Thread:</b> 50D GSP.
-            </li>
-            <li>
-              <b>Tail:</b> Australian possum gaurd hairs. Tinsel along sides.
-            </li>
-            <li>
-              <b>Abdomen:</b> Blend of australian possum and uv tracer squirrel
-              natural gray fox. Small uv pearl tinsel along the sides. Secured
-              with ribbing. Tag ends left to flank the tail.
-            </li>
-            <li>
-              <b>Rib:</b> Small oval gold tinsel securing the sides.
-            </li>
-            <li>
-              <b>Thorax:</b> Equal blend spectra #15 and UV tracer squirrel
-              natural red fox.
-            </li>
-            <li>
-              <b>Collar:</b> Black UV tracer squirrel.
-            </li>
-          </ul>
-        </section>
-        <section className="section">
-          <p> A multi-species agitator, this fly wakes em up fast!</p>
         </section>
 
         <section className="grid-ish">
