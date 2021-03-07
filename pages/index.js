@@ -37,7 +37,10 @@ export default function Top({ movies: patterns }) {
           property="og:description"
           content="A place for fly fishers to to learn new fly patterns and fishing methods from a life-long fly fishing addict.."
         />
-        <meta property="og:image" content="" />
+        <meta
+          property="og:image"
+          content="https://dev-fly-fish.vercel.app/header.jpg"
+        />
         <meta property="og:url" content="https://flyfish-pied.vercel.app/" />
       </Head>
 
