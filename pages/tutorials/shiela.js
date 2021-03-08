@@ -29,11 +29,11 @@ function App() {
 
         <meta
           property="og:description"
-          content="A place for fly fishers to to learn new fly patterns and fishing methods from a life-long fly fishing addict.."
+          content="A Femme Bot jig that agitates a varaiety of species."
         />
         <meta
           property="og:image"
-          content="https://dev-fly-fish.vercel.app/header.jpg"
+          content="https://dev-fly-fish.vercel.app/_next/image?url=%2Fgallery%2FFemmeBotGen1.jpg&w=828&q=75"
         />
         <meta
           property="og:url"
