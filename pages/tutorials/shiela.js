@@ -35,7 +35,10 @@ function App() {
           property="og:image"
           content="https://dev-fly-fish.vercel.app/header.jpg"
         />
-        <meta property="og:url" content="https://flyfish-pied.vercel.app/" />
+        <meta
+          property="og:url"
+          content="https://flyfish-pied.vercel.app/tutorials/shiela"
+        />
       </Head>
 
       <main className="container">
