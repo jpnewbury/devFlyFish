@@ -29,7 +29,7 @@ function App() {
 
         <meta
           property="og:description"
-          content="A Femme Bot jig that agitates a varaiety of species."
+          content="A Femme Bot jig that agitates a variety of species."
         />
         <meta
           property="og:image"
