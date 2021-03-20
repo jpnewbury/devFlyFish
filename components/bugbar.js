@@ -88,9 +88,9 @@ class Bugbar extends Component {
           </div>
         </div>
         <div className="bookshelf">
-          <svg viewBox="0 0 469 34" className="shelf">
+          {/* <svg viewBox="0 0 469 34" className="shelf">
             <path d="M469,8V0H0V8H10v6H0v8H10V34h8V22H451V34h8V22h10V14H459V8Zm-18,6H18V8H451Z" />
-          </svg>
+          </svg> */}
         </div>
 
         <div className="col-5"></div>
@@ -110,12 +110,12 @@ class Bugbar extends Component {
 
             filter: drop-shadow(0px 4px 3px rgba(0, 0, 0, 0.2));
           }
-          .shelf {
+          .bookshelf {
             fill: rgba(230, 230, 230, 1);
             height: 30px;
             width: 100%;
             filter: drop-shadow(0px 2px 2px rgba(0, 0, 0, 0.3));
-            margin-bottom: 10px;
+            margin-bottom: 20px;
             margin-top: 5px;
           }
         `}</style>
