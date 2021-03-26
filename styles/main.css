@@ -101,6 +101,10 @@ li {
   margin: 5px;
 }
 
+nav {
+  padding: 20px;
+}
+
 section {
   padding: 7px;
   margin: 5px;
@@ -404,8 +408,8 @@ strong {
   cursor: pointer;
   padding: 7px;
   margin: 5px;
-  height: 80px;
-  width: 80px;
+  height: 70px;
+  width: 70px;
   background: white;
   fill: white;
   background: #0a0a0a;

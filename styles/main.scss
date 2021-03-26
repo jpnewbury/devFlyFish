@@ -127,7 +127,9 @@ li {
 
     margin: $margin;
 }
-
+nav {
+    padding: 20px;
+}
 section {
     @include block;
 }
@@ -142,6 +144,7 @@ strong {
     font-size: 1rem;
     font-family: $font-body;
 }
+
 .one {
     @include block;
     height: 30px;
@@ -356,8 +359,8 @@ strong {
 .menu-icon {
     cursor: pointer;
     @include block;
-    height: 80px;
-    width: 80px;
+    height: 70px;
+    width: 70px;
     background: $white;
     fill: $white;
     background: $black;
