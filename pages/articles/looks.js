@@ -25,7 +25,10 @@ export default function Home() {
       <div className="container">
         <main className="content">
           <header className="header">
-            <Header title="Reading: Hot Tags" background="anthony" />
+            <Header
+              title="Reading: If Hooks CVould Kill"
+              background="anthony"
+            />
           </header>
 
           <span className="title">
