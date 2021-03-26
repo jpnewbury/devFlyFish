@@ -94,8 +94,8 @@ export default function Home() {
                 junkie will testify on that behalf. In fact, the whole history
                 of the Femme Bot comes directly from the Possie Bugger pattern
                 and the Possie Bugger is just another variation of a bugger and
-                the bugger by design has a tail equal length and volume as the
-                body.
+                the bugger by design has a tail equal in length and in volume as
+                the body.
               </p>
               <div className="center">
                 <Link href="/tutorials/shiela">
