@@ -408,6 +408,7 @@ strong {
   cursor: pointer;
   padding: 7px;
   margin: 5px;
+  margin: 15px;
   height: 70px;
   width: 70px;
   background: white;
@@ -487,6 +488,18 @@ strong {
   padding: 7px;
   margin: 5px;
   fill: black;
+}
+
+.intro {
+  border: 1px solid black;
+  border-radius: 7px;
+  padding: 15px;
+  margin: 25px;
+  background: #e1e1e1;
+}
+
+.intro p {
+  font-weight: 600;
 }
 
 .list-box {
@@ -572,6 +585,11 @@ strong {
 
 .svg-quote-sm {
   width: 20px;
+}
+
+.title h3 {
+  font-size: 2rem;
+  padding-left: 25px;
 }
 
 .quote-box {

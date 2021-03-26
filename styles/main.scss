@@ -359,6 +359,7 @@ strong {
 .menu-icon {
     cursor: pointer;
     @include block;
+    margin: 15px;
     height: 70px;
     width: 70px;
     background: $white;
@@ -424,6 +425,15 @@ strong {
     @include block;
     fill: black;
 }
+.intro {
+    @include border;
+    padding: 15px;
+    margin: 25px;
+    background: $gray-8;
+    p {
+        font-weight: 600;
+    }
+}
 .list-box {
     @include block;
     background-color: rgba($gray-8, 0.5);
@@ -488,6 +498,12 @@ strong {
 .svg-quote-sm {
     width: 20px;
     // margin-bottom: -20px;
+}
+.title {
+    h3 {
+        font-size: 2rem;
+        padding-left: 25px;
+    }
 }
 .quote-box {
     @include block;

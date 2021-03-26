@@ -48,59 +48,100 @@ export default function Top({ movies: patterns }) {
         <header className="header">
           <Header title="for creative fly fishers" background="default" />
         </header>
+
+        <section className="intro">
+          <p>
+            Welcome friends, in the next few weeks of early spring 2021, you
+            will see the reading list and tutorials section expand as I push and
+            pull new content around, send it to an editor and finally post it
+            here. The fly pattern database will also be growing to include dry
+            flies and streamers.
+          </p>
+          <p>
+            On a personal note, I am deeply humbled when I see other fly tyers
+            posting my patterns filling their fly boxes on the internet. I am
+            even more humbled when they give proper credit to the patterns
+            originator. -- whomever that may be -- <b>Thank you!</b>
+            <br />
+            <br /> <i>John P. Newbury</i>
+          </p>
+        </section>
+        <span className="title">
+          <h3>If Hooks Could Kill</h3>
+        </span>
         <section className="section1">
           <div>
-            <span className="first-letter">
-              <p>
-                Welcome to the new Angling Arts website. This website focuses on
-                fly fishing and tying tactical style nymphs. If you are a
-                returning guest, you will notice a new feature to the website
-                called the "Bug Bar" which sorts fly patterns based on the type
-                of nymph the fly best immitates. I hope that this relationship
-                with the natural and our imitations serve to inspire the curious
-                angler into turning over some stones in your favorite stream and
-                studying what's crawling underneath.
-              </p>
-            </span>
+            <p>
+              Did you know it doesn’t take much effort inflict a mortal wound to
+              a fish with a hook that is too large, potentially damaging vital
+              arteries or even damaging the nervous system?
+            </p>
+            <p>
+              The angling techniques I prefer are always mindful to mitigate as
+              many risks for harm to the fish when we catch them. One measure I
+              have adopted is to use tactical hook designs that are extremely
+              sharp with rolled points that hold the fish under line tension,
+              but fall free in the net when the fly is no longer under tension.
+            </p>
 
             <p>
-              In the next few weeks of early spring 2021, you will see the
-              reading list and tutorials section expand as I push and pull new
-              content around, send it to an editor and finally post it here. The
-              fly pattern database will also be growing to include dry flies and
-              streamers.
+              Being mindful of good hook design and increased potential for
+              injury to the fish, I have been implementing a set of rules for my
+              own best practices. A big rule is not fish a hook size any larger
+              than a size 10 wide gap jig supreme to reduce the risk of a mortal
+              injury. The Femme Bot pictured here is currently the largest fly
+              in my box.
+            </p>
+            <Image
+              src="/gallery/FemmeBotGen1.jpg"
+              width={400}
+              height={400}
+              alt="Feme Bot"
+              quality="20"
+            />
+            <p>
+              To overcome the size limitation yet still fish with a large
+              attractive fly means thinking about fly design. Having been
+              schooled in the west coast spey casting scene fishing large heavy
+              intruder style patterns taught me how to tie a large bulky fly
+              with minimal mass. By using soft and stiff materials together, you
+              can inflate the size of a fly without actually increasing the mass
+              of the fly itself.
             </p>
             <p>
-              On a personal note, I am deeply humbled when I see other fly tyers
-              posting my patterns filling their fly boxes on the internet. I am
-              even more humbled when they give proper credit to the patterns
-              originator. -- whomever that may be -- <b>Thank you!</b>
-              <br />
-              <br /> <i>John P. Newbury</i>
+              The Femme Bot (Sheila Bugger) as an example, is one of the the
+              first jig designs that I have implemented using this design
+              pattern. By adding a long soft tail with guard hairs plucked from
+              the hide equal in volume and length of the body, you can double
+              the size of the fly, yet still allow us to fish a hook within a
+              safer size range. Using a fur tail to accomplish this is nothing
+              new, as the old traditional Gold Ribbed Hares Ear also calls for
+              the same kind of tail. The dubbing method I use requires a bare
+              minimum of material thoughtfully applied so that the stiff guard
+              hair fibers radiate from the hook shank, creating a large visual
+              size yet very little bulk.{" "}
             </p>
-          </div>
-          <div className="center  stack">
-            <div className="multiply">
-              <h3>Featured Fly: Femme Bot</h3>
-              <div className="center">
-                <Image
-                  src="/gallery/FemmeBotGen1.jpg"
-                  width={400}
-                  height={400}
-                  alt="Feme Bot"
-                  quality="20"
-                />
-              </div>
-              <div className="center">
-                <Link href="/tutorials/shiela">
-                  <a>
-                    <button className="card__button">View the Femme Bot</button>
-                  </a>
-                </Link>
-              </div>
+            <p>
+              Using an analogue that we want the fly to be like a big fluffy
+              Persian cat. Persian cats looks large and until you get them wet,
+              thus revealing tiny little bodies. If we observed that same fluffy
+              little cat swimming underwater, you would see the animals long
+              billowing fur outstretched under neutral buoyancy regaining its
+              optical size. Again, nothing new to see here as any streamer
+              junkie will testify on that behalf. In fact, the whole history of
+              the Femme Bot comes directly from the Possie Bugger pattern and
+              the Possie Bugger is just another variation of a bugger and the
+              bugger by design has a tail equal length and volume as the body.
+            </p>
+            <div className="center">
+              <Link href="/tutorials/shiela">
+                <a>
+                  <button className="card__button">View the Femme Bot</button>
+                </a>
+              </Link>
             </div>
-            <div className="center"></div>
           </div>
+          <div className="center"></div>
         </section>
 
         <section>
