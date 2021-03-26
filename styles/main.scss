@@ -133,8 +133,9 @@ section {
 }
 
 small {
-    font-size: 0.65rem;
+    font-size: 0.85rem;
     font-family: $font-body;
+    font-weight: 600;
 }
 strong {
     @include block;

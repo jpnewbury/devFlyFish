@@ -24,7 +24,7 @@ class Bugbar extends Component {
                 </Link>
 
                 <div className="center">
-                  <small>home</small>
+                  <small>Home</small>
                 </div>
               </div>
             </div>
@@ -86,11 +86,6 @@ class Bugbar extends Component {
               <small>Flybox</small>
             </div>
           </div>
-        </div>
-        <div className="bookshelf">
-          {/* <svg viewBox="0 0 469 34" className="shelf">
-            <path d="M469,8V0H0V8H10v6H0v8H10V34h8V22H451V34h8V22h10V14H459V8Zm-18,6H18V8H451Z" />
-          </svg> */}
         </div>
 
         <div className="col-5"></div>

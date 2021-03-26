@@ -107,8 +107,9 @@ section {
 }
 
 small {
-  font-size: 0.65rem;
+  font-size: 0.85rem;
   font-family: "Open Sans", sans-serif;
+  font-weight: 600;
 }
 
 strong {
