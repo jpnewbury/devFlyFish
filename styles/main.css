@@ -378,7 +378,7 @@ strong {
 
 .hero-box {
   margin-top: -10px;
-  height: 240px;
+  height: 420px;
   width: 100%;
   background-repeat: no-repeat;
   background-size: cover;
@@ -397,6 +397,29 @@ strong {
   color: white;
   -webkit-text-stroke-width: 1px;
   -webkit-text-stroke-color: black;
+}
+
+.menu-icon {
+  cursor: pointer;
+  padding: 7px;
+  margin: 5px;
+  height: 80px;
+  width: 80px;
+  background: white;
+  fill: white;
+  background: #0a0a0a;
+  -webkit-transition: all 0.35s ease;
+  transition: all 0.35s ease;
+  -webkit-box-shadow: rgba(0, 0, 0, 0.6) 0px 1px 4px;
+          box-shadow: rgba(0, 0, 0, 0.6) 0px 1px 4px;
+}
+
+.menu-icon:hover,
+.menu-icon:active {
+  background: #e1e1e1;
+  -webkit-transition: all 0.35s ease;
+  transition: all 0.35s ease;
+  fill: #006eff;
 }
 
 .icon {
