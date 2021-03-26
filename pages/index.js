@@ -51,11 +51,21 @@ export default function Top({ movies: patterns }) {
 
         <section className="intro">
           <p>
-            Welcome friends, in the next few weeks of early spring 2021, you
-            will see the reading list and tutorials section expand as I push and
-            pull new content around, send it to an editor and finally post it
-            here. The fly pattern database will also be growing to include dry
-            flies and streamers.
+            Welcome to the new Angling Arts website. This website focuses on fly
+            fishing and tying tactical style nymphs. If you are a returning
+            guest, you will notice a new feature to the website called the "Bug
+            Bar" which sorts fly patterns based on the type of nymph the fly
+            best immitates. I hope that this relationship with the natural and
+            our imitations serve to inspire the curious angler into turning over
+            some stones in your favorite stream and studying what's crawling
+            underneath.
+          </p>
+          <p>
+            in the next few weeks of early spring 2021, you will see the reading
+            list and tutorials section expand as I push and pull new content
+            around, send it to an editor and finally post it here. The fly
+            pattern database will also be growing to include dry flies and
+            streamers.
           </p>
           <p>
             On a personal note, I am deeply humbled when I see other fly tyers
