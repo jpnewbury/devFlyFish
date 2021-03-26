@@ -111,7 +111,7 @@ function App() {
           <Tutorial
             image="/sbs/shiela/1.jpg"
             step="Step 1"
-            text="Mount a bead and build a thread jam behind the base."
+            text="Mount a bead and build a thread jam behind the base of the bead."
           />
           <Tutorial
             image="/sbs/shiela/2.jpg"
