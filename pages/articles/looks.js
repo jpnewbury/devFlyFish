@@ -50,10 +50,10 @@ export default function Home() {
               <p>
                 Mindful of good hook design and increased potential for injury
                 to the fish, I have been implementing a set of rules for my own
-                best practices. A big rule is not fish a hook size any larger
-                than a size 10 wide gap jig supreme to reduce the risk of a
-                mortal injury. The Femme Bot pictured here is currently the
-                largest fly in my box.
+                best practices. A big rule is to not fish a hook any larger than
+                a size 10 wide gap jig supreme to reduce the risk of a mortal
+                injury. The Femme Bot pictured here is currently the largest fly
+                in my box.
               </p>
               <Image
                 src="/gallery/FemmeBotGen1.jpg"
