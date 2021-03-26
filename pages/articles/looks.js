@@ -5,7 +5,7 @@ import Suggested from "../../components/suggested";
 import Head from "next/head";
 import Header from "../../components/header";
 import Footer from "../../components/footer";
-
+``;
 export default function Home() {
   return (
     <>
@@ -51,11 +51,11 @@ export default function Home() {
               </p>
 
               <p>
-                Being mindful of good hook design and increased potential for
-                injury to the fish, I have been implementing a set of rules for
-                my own best practices. A big rule is not fish a hook size any
-                larger than a size 10 wide gap jig supreme to reduce the risk of
-                a mortal injury. The Femme Bot pictured here is currently the
+                Mindful of good hook design and increased potential for injury
+                to the fish, I have been implementing a set of rules for my own
+                best practices. A big rule is not fish a hook size any larger
+                than a size 10 wide gap jig supreme to reduce the risk of a
+                mortal injury. The Femme Bot pictured here is currently the
                 largest fly in my box.
               </p>
               <Image
