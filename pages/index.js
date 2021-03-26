@@ -82,9 +82,9 @@ export default function Top({ movies: patterns }) {
         <section className="section1">
           <div>
             <p>
-              Did you know it doesn’t take much effort inflict a mortal wound to
-              a fish with a hook that is too large, potentially damaging vital
-              arteries or even damaging the nervous system?
+              Did you know it doesn’t take much effort to inflict a mortal wound
+              to a fish because of a hook that is too large, potentially
+              damaging vital arteries or even damaging the nervous system?
             </p>
             <p>
               The angling techniques I prefer are always mindful to mitigate as
