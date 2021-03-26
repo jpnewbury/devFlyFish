@@ -1,19 +1,19 @@
 import { connectToDatabase } from "../util/mongodb";
+import BugbarNav from "../components/bugbarNav";
+import Caddis from "../components/svg/caddis";
 import Clinger from "../components/svg/clinger";
 import Crawler from "../components/svg/crawlers";
-import Swimmers from "../components/svg/swimmers";
-import Stoneflies from "../components/svg/stones";
-import Caddis from "../components/svg/caddis";
-import Hydropsyche from "../components/svg/hydropsyche";
-import Rockworm from "../components/svg/rockworm";
-import Midge from "../components/svg/midge";
 import Featured from "../components/svg/featured";
-import Header from "../components/header";
 import Footer from "../components/footer";
-import BugbarNav from "../components/bugbarNav";
-import Image from "next/image";
-import Link from "next/link";
 import Head from "next/head";
+import Header from "../components/header";
+import Hydropsyche from "../components/svg/hydropsyche";
+import Link from "next/link";
+import Image from "next/image";
+import Midge from "../components/svg/midge";
+import Rockworm from "../components/svg/rockworm";
+import Stoneflies from "../components/svg/stones";
+import Swimmers from "../components/svg/swimmers";
 export default function Top({ movies: patterns }) {
   return (
     <>
