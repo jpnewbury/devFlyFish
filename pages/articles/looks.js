@@ -42,8 +42,8 @@ export default function Home() {
                 damaging vital arteries or even damaging the nervous system?
               </p>
               <p>
-                The angling techniques I prefer are always mindful to mitigate
-                as many risks for harm to the fish when we catch them. One
+                The angling techniques I prefer are syrtive to mitigate as many
+                risks for harm to the fish as possible when we catch them. One
                 measure I have adopted is to use tactical hook designs that are
                 extremely sharp with rolled points that hold the fish under line
                 tension, but fall free in the net when the fly is no longer
