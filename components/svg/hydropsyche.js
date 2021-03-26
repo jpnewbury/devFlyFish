@@ -1,10 +1,10 @@
 import Link from "next/link";
 
-export default function clinger() {
+export default function Hydropsyche(props) {
   return (
     <Link href="/flybox/freeliving">
       <a>
-        <svg viewBox="0 0 54.01 30.94" className="bugbar-icon">
+        <svg viewBox="0 0 54.01 30.94" className={props.style}>
           <g id="Layer_2" data-name="Layer 2">
             <g id="Layer_1-2" data-name="Layer 1">
               <g id="Layer_2-2" data-name="Layer 2">

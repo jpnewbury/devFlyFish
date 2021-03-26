@@ -363,14 +363,14 @@ export default function Top({ movies: patterns }) {
                     </li>
                   )}
                 </ul>
-                {fly.clinger === "true" && <Clinger />}
-                {fly.crawler === "true" && <Crawler />}
-                {fly.minnow === "true" && <Swimmers />}
-                {fly.stonefly === "true" && <Stoneflies />}
-                {fly.caddis === "true" && <Caddis />}
-                {fly.hydropsyche === "true" && <Hydropsyche />}
-                {fly.rockworm === "true" && <Rockworm />}
-                {fly.midgePupa === "true" && <Midge />}
+                {fly.clinger === "true" && <Clinger style="icon" />}
+                {fly.crawler === "true" && <Crawler style="icon" />}
+                {fly.minnow === "true" && <Swimmers style="icon" />}
+                {fly.stonefly === "true" && <Stoneflies style="icon" />}
+                {fly.caddis === "true" && <Caddis style="icon" />}
+                {fly.hydropsyche === "true" && <Hydropsyche style="icon" />}
+                {fly.rockworm === "true" && <Rockworm style="icon" />}
+                {fly.midgePupa === "true" && <Midge style="icon" />}
               </div>
             ))}
           </div>

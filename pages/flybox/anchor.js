@@ -1,31 +1,31 @@
 import { connectToDatabase } from "../../util/mongodb";
-import Clinger from "../../components/svg/clinger";
-import Crawler from "../../components/svg/crawlers";
-import Swimmers from "../../components/svg/swimmers";
-import Stoneflies from "../../components/svg/stones";
-import Caddis from "../../components/svg/caddis";
-import Hydropsyche from "../../components/svg/hydropsyche";
-import Midge from "../../components/svg/midge";
-import Featured from "../../components/svg/featured";
-import Header from "../../components/header";
-import Footer from "../../components/footer";
-import BugbarNav from "../../components/bugbarNav";
-import Image from "next/image";
-import HeaderSlug from "../../components/headerSlug";
-import Wetfly from "../../components/svg/hooks/h260bk";
-import Czech from "../../components/svg/hooks/h333";
-import Nymph from "../../components/svg/hooks/nymph";
-import Supreme from "../../components/svg/hooks/supreme";
-import Short from "../../components/svg/hooks/short";
-import Klinkhammer from "../../components/svg/hooks/klinkhammer";
-import Facted from "../../components/svg/hooks/faceted";
-import Slotted from "../../components/svg/hooks/slotted";
-import Round from "../../components/svg/hooks/round";
-import Jig from "../../components/svg/hooks/jig";
 import Anchor from "../../components/anchor";
-import Cloud from "../../components/cloud";
-import Magnet from "../../components/svg/magnet";
+import BugbarNav from "../../components/bugbarNav";
+import Caddis from "../../components/svg/caddis";
 import Cased from "../../components/svg/cased";
+import Clinger from "../../components/svg/clinger";
+import Cloud from "../../components/cloud";
+import Crawler from "../../components/svg/crawlers";
+import Czech from "../../components/svg/hooks/h333";
+import Facted from "../../components/svg/hooks/faceted";
+import Featured from "../../components/svg/featured";
+import Footer from "../../components/footer";
+import Header from "../../components/header";
+import HeaderSlug from "../../components/headerSlug";
+import Hydropsyche from "../../components/svg/hydropsyche";
+import Image from "next/image";
+import Jig from "../../components/svg/hooks/jig";
+import Klinkhammer from "../../components/svg/hooks/klinkhammer";
+import Magnet from "../../components/svg/magnet";
+import Midge from "../../components/svg/midge";
+import Nymph from "../../components/svg/hooks/nymph";
+import Round from "../../components/svg/hooks/round";
+import Short from "../../components/svg/hooks/short";
+import Slotted from "../../components/svg/hooks/slotted";
+import Stoneflies from "../../components/svg/stones";
+import Supreme from "../../components/svg/hooks/supreme";
+import Swimmers from "../../components/svg/swimmers";
+import Wetfly from "../../components/svg/hooks/h260bk";
 
 export default function Movies({ movies: patterns }) {
   return (
@@ -204,17 +204,17 @@ export default function Movies({ movies: patterns }) {
             </ul>
 
             <h4> Best For:</h4>
-            {fly.clinger === "true" && <Clinger />}
-            {fly.crawler === "true" && <Crawler />}
-            {fly.minnow === "true" && <Swimmers />}
-            {fly.stonefly === "true" && <Stoneflies />}
-            {fly.caddis === "true" && <Caddis />}
-            {fly.cased === "true" && <Cased />}
-            {fly.freeliving === "true" && <Hydropsyche />}
-            {fly.midgepupa === "true" && <Midge />}
-            {fly.cloud === "true" && <Cloud />}
-            {fly.anchor === "true" && <Anchor />}
-            {fly.attractor === "true" && <Magnet />}
+            {fly.cloud === "true" && <Cloud style="icon" />}
+            {fly.clinger === "true" && <Clinger style="icon" />}
+            {fly.crawler === "true" && <Crawler style="icon" />}
+            {fly.minnow === "true" && <Swimmers style="icon" />}
+            {fly.stonefly === "true" && <Stoneflies style="icon" />}
+            {fly.caddis === "true" && <Caddis style="icon" />}
+            {fly.cased === "true" && <Cased style="icon" />}
+            {fly.freeliving === "true" && <Hydropsyche style="icon" />}
+            {fly.midgepupa === "true" && <Midge style="icon" />}
+            {fly.anchor === "true" && <Anchor style="icon" />}
+            {fly.attractor === "true" && <Magnet style="icon" />}
           </div>
         ))}
       </div>

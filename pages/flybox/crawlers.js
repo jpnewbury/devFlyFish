@@ -208,17 +208,17 @@ export default function Movies({ movies: patterns }) {
             </ul>
 
             <h4> Best For:</h4>
-            {fly.clinger === "true" && <Clinger />}
-            {fly.crawler === "true" && <Crawler />}
-            {fly.minnow === "true" && <Swimmers />}
-            {fly.stonefly === "true" && <Stoneflies />}
-            {fly.caddis === "true" && <Caddis />}
-            {fly.cased === "true" && <Cased />}
-            {fly.freeliving === "true" && <Hydropsyche />}
-            {fly.midgepupa === "true" && <Midge />}
-            {fly.cloud === "true" && <Cloud />}
-            {fly.anchor === "true" && <Anchor />}
-            {fly.attractor === "true" && <Magnet />}
+            {fly.clinger === "true" && <Clinger style="icon" />}
+            {fly.crawler === "true" && <Crawler style="icon" />}
+            {fly.minnow === "true" && <Swimmers style="icon" />}
+            {fly.stonefly === "true" && <Stoneflies style="icon" />}
+            {fly.caddis === "true" && <Caddis style="icon" />}
+            {fly.cased === "true" && <Cased style="icon" />}
+            {fly.freeliving === "true" && <Hydropsyche style="icon" />}
+            {fly.midgepupa === "true" && <Midge style="icon" />}
+            {fly.cloud === "true" && <Cloud style="icon" />}
+            {fly.anchor === "true" && <Anchor style="icon" />}
+            {fly.attractor === "true" && <Magnet style="icon" />}
           </div>
         ))}
       </div>

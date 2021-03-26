@@ -1,6 +1,6 @@
-export default function clinger() {
+export default function cloud(props) {
   return (
-    <svg viewBox="0 0 30 30" className="bugbar-icon">
+    <svg viewBox="0 0 30 30" className={props.style}>
       <g>
         <path
           d="M3.89,17.6c0-0.99,0.31-1.88,0.93-2.65s1.41-1.27,2.38-1.49c0.26-1.17,0.85-2.14,1.78-2.88c0.93-0.75,2-1.12,3.22-1.12
