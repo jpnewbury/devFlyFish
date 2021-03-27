@@ -135,9 +135,10 @@ section {
 }
 
 small {
-    font-size: 0.85rem;
+    font-size: 0.75rem;
     font-family: $font-body;
     font-weight: 600;
+    padding: 5px;
 }
 strong {
     @include block;
@@ -377,13 +378,13 @@ strong {
 .icon {
     cursor: pointer;
     @include block;
-    height: 50px;
-    width: 50px;
-    background: $white;
-    // border: 1px solid gray;
+    padding: 5px;
+    height: 45px;
+    width: 45px;
     border-radius: 5px;
-    fill: $gray-2;
     transition: $transition;
+    fill: $black;
+    box-shadow: rgba(0, 0, 0, 0.6) 0px 1px 4px;
 }
 .icon:hover,
 .icon:active {

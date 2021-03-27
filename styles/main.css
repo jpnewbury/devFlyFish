@@ -111,9 +111,10 @@ section {
 }
 
 small {
-  font-size: 0.85rem;
+  font-size: 0.75rem;
   font-family: "Open Sans", sans-serif;
   font-weight: 600;
+  padding: 5px;
 }
 
 strong {
@@ -431,13 +432,15 @@ strong {
   cursor: pointer;
   padding: 7px;
   margin: 5px;
-  height: 50px;
-  width: 50px;
-  background: white;
+  padding: 5px;
+  height: 45px;
+  width: 45px;
   border-radius: 5px;
-  fill: #4b4b4b;
   -webkit-transition: all 0.35s ease;
   transition: all 0.35s ease;
+  fill: #0a0a0a;
+  -webkit-box-shadow: rgba(0, 0, 0, 0.6) 0px 1px 4px;
+          box-shadow: rgba(0, 0, 0, 0.6) 0px 1px 4px;
 }
 
 .icon:hover,
