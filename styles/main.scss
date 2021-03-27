@@ -359,9 +359,8 @@ strong {
 .menu-icon {
     cursor: pointer;
     @include block;
-    margin: 15px;
-    height: 70px;
-    width: 70px;
+    height: 60px;
+    width: 60px;
     background: $white;
     fill: $white;
     background: $black;
