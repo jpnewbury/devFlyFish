@@ -132,7 +132,7 @@ export default function Top({ movies: patterns }) {
               size yet very little bulk.{" "}
             </p>
             <p>
-              Using an analogue that we want the fly to be like a big fluffy
+              Using an analogy that we want the fly to be like a big fluffy
               Persian cat. Persian cats looks large and until you get them wet,
               thus revealing tiny little bodies. If we observed that same fluffy
               little cat swimming underwater, you would see the animals long
