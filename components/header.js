@@ -23,6 +23,9 @@ export default function header(props) {
         <style global jsx>{`
           .hero-box {
             background-image: url("/20190603-img_4298-1.JPG");
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: center;
           }
         `}</style>
       ) : null}
@@ -30,6 +33,9 @@ export default function header(props) {
         <style global jsx>{`
           .hero-box {
             background-image: url("/IMG_2192.jpg");
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: center;
           }
         `}</style>
       ) : null}
@@ -37,6 +43,9 @@ export default function header(props) {
         <style global jsx>{`
           .hero-box {
             background-image: url("/RainbowHeadHighRez.jpg");
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: center;
           }
         `}</style>
       ) : null}

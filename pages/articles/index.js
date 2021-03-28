@@ -53,7 +53,7 @@ export default function index(props) {
                   <span className="center multiply">
                     <Image
                       src="/drunella1.png"
-                      width={400}
+                      width={300}
                       height={400}
                       alt=""
                     />
@@ -78,6 +78,21 @@ export default function index(props) {
                     <Image
                       src="/1459631621054-6BK5JNE19IEGLXZUA5W9.jpeg"
                       width={400}
+                      height={400}
+                      alt=""
+                    />
+                  </span>
+                </div>
+              </Link>
+
+              <Link href="/articles/threecs">
+                <div className="card">
+                  <h2>If Hooks Cold Kill</h2>
+                  <h3>Consider your hook sizes for fishes sake</h3>
+                  <span className="center multiply">
+                    <Image
+                      src="/IMG_1964.jpg"
+                      width={300}
                       height={400}
                       alt=""
                     />
