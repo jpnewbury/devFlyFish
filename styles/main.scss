@@ -342,7 +342,7 @@ strong {
 }
 .hero-box {
     margin-top: -10px;
-    height: 550px;
+    height: 375px;
     width: 100%;
 
     background-repeat: no-repeat;
@@ -387,8 +387,8 @@ strong {
     height: 40px;
     width: 40px;
     border-radius: 5px;
-    transition: $transition;
     fill: $black;
+    transition: $transition;
     box-shadow: rgba(0, 0, 0, 0.6) 0px 1px 4px;
 }
 .icon:hover,
@@ -403,8 +403,8 @@ strong {
     cursor: pointer;
     @include block;
     padding: 5px;
-    height: 60px;
-    width: 60px;
+    height: 80px;
+    width: 80px;
     border-radius: 5px;
     transition: $transition;
     fill: $black;

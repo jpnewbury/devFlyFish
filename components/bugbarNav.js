@@ -9,7 +9,7 @@ import Left from "./svg/bugbar";
 
 export default function bugbarNav() {
   return (
-    <div className="section2">
+    <div className="">
       <div className="col-2l">
         <div className="padding-left">
           <Left />

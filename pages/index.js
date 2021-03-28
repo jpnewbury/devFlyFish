@@ -76,7 +76,19 @@ export default function Top({ movies: patterns }) {
             <br /> <i>John P. Newbury</i>
           </p>
         </section>
+
+        <div>
+          <h2>Bug Bar</h2>
+          <h3>A helpful guide to select the best fly</h3>
+          <p>
+            All fly patterns listed sitewide can be sorted by the type of nymph
+            that they best imitate.
+          </p>
+          <BugbarNav />
+        </div>
+        <div className="section1" />
         <span className="title">
+          <p />
           <h3>If Hooks Could Kill</h3>
         </span>
         <section className="section1">
@@ -192,18 +204,7 @@ export default function Top({ movies: patterns }) {
             </div>
           </div>
         </section>
-        <section className="section1" />
-        <section>
-          <div className="">
-            <h2>Bug Bar</h2>
-            <h3>A helpful guide to select the best fly</h3>
-            <p>
-              All fly patterns listed sitewide can be sorted by the type of
-              nymph that they best imitate.
-            </p>
-            <BugbarNav />
-          </div>
-        </section>
+
         <section className="section1" />
         <h2>Current Reading:</h2>
         <section className="quote-box">
@@ -302,6 +303,7 @@ export default function Top({ movies: patterns }) {
               <button className="card__button">More Articles</button>
             </a>
           </Link>
+          <section />
         </section>
         <section>
           <h2>Fly Box</h2>
