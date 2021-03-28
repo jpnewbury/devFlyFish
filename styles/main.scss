@@ -135,7 +135,7 @@ section {
 }
 
 small {
-    font-size: 0.75rem;
+    font-size: 0.8rem;
     font-family: $font-body;
     font-weight: 600;
     padding: 5px;
@@ -188,6 +188,9 @@ strong {
     img {
         border-radius: 10px;
     }
+}
+.bug-card {
+    margin: $margin;
 }
 .bugbar-icon {
     @include block;
@@ -327,6 +330,8 @@ strong {
     flex: 1 1 300px;
 }
 .grid-small {
+    @include block;
+    margin-bottom: 40px;
     display: flex;
     flex-wrap: wrap;
     align-items: flex-end;
@@ -379,8 +384,8 @@ strong {
     cursor: pointer;
     @include block;
     padding: 5px;
-    height: 45px;
-    width: 45px;
+    height: 40px;
+    width: 40px;
     border-radius: 5px;
     transition: $transition;
     fill: $black;
@@ -388,6 +393,25 @@ strong {
 }
 .icon:hover,
 .icon:active {
+    cursor: pointer;
+    @include block;
+    background: $gray-8;
+
+    transition: $transition;
+}
+.icon-1 {
+    cursor: pointer;
+    @include block;
+    padding: 5px;
+    height: 60px;
+    width: 60px;
+    border-radius: 5px;
+    transition: $transition;
+    fill: $black;
+    box-shadow: rgba(0, 0, 0, 0.6) 0px 1px 4px;
+}
+.icon-1:hover,
+.icon-1:active {
     cursor: pointer;
     @include block;
     background: $gray-8;
@@ -504,6 +528,10 @@ strong {
         font-size: 2rem;
         padding-left: 25px;
     }
+}
+.padding-left {
+    padding: $padding;
+    padding-top: 20px;
 }
 .quote-box {
     @include block;

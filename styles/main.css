@@ -111,7 +111,7 @@ section {
 }
 
 small {
-  font-size: 0.75rem;
+  font-size: 0.8rem;
   font-family: "Open Sans", sans-serif;
   font-weight: 600;
   padding: 5px;
@@ -176,6 +176,10 @@ strong {
 
 .border img {
   border-radius: 10px;
+}
+
+.bug-card {
+  margin: 5px;
 }
 
 .bugbar-icon {
@@ -366,6 +370,9 @@ strong {
 }
 
 .grid-small {
+  padding: 7px;
+  margin: 5px;
+  margin-bottom: 40px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -433,8 +440,8 @@ strong {
   padding: 7px;
   margin: 5px;
   padding: 5px;
-  height: 45px;
-  width: 45px;
+  height: 40px;
+  width: 40px;
   border-radius: 5px;
   -webkit-transition: all 0.35s ease;
   transition: all 0.35s ease;
@@ -445,6 +452,31 @@ strong {
 
 .icon:hover,
 .icon:active {
+  cursor: pointer;
+  padding: 7px;
+  margin: 5px;
+  background: #e1e1e1;
+  -webkit-transition: all 0.35s ease;
+  transition: all 0.35s ease;
+}
+
+.icon-1 {
+  cursor: pointer;
+  padding: 7px;
+  margin: 5px;
+  padding: 5px;
+  height: 60px;
+  width: 60px;
+  border-radius: 5px;
+  -webkit-transition: all 0.35s ease;
+  transition: all 0.35s ease;
+  fill: #0a0a0a;
+  -webkit-box-shadow: rgba(0, 0, 0, 0.6) 0px 1px 4px;
+          box-shadow: rgba(0, 0, 0, 0.6) 0px 1px 4px;
+}
+
+.icon-1:hover,
+.icon-1:active {
   cursor: pointer;
   padding: 7px;
   margin: 5px;
@@ -592,6 +624,11 @@ strong {
 .title h3 {
   font-size: 2rem;
   padding-left: 25px;
+}
+
+.padding-left {
+  padding: 7px;
+  padding-top: 20px;
 }
 
 .quote-box {
