@@ -46,7 +46,7 @@ h3 {
   padding-left: 13px;
   font-size: clamp(1.2rem, 1.3rem, 2vw);
   /* min, val, max */
-  font-family: "Passion One", cursive;
+  font-family: "Open Sans", sans-serif;
 }
 
 h4 {
@@ -410,6 +410,16 @@ strong {
   color: white;
   -webkit-text-stroke-width: 1px;
   -webkit-text-stroke-color: black;
+}
+
+.hero-box1 {
+  margin-top: -10px;
+  height: 375px;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-image: url("/20190603-img_4298-1.JPG");
 }
 
 .menu-icon {

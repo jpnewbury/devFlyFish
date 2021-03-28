@@ -203,9 +203,12 @@ export default function Top({ movies: patterns }) {
               </div>
             </div>
           </div>
-        </section>
 
-        <section className="section1" />
+          <p />
+        </section>
+        <p />
+        <div className="hero-box1"></div>
+        <p />
         <h2>Current Reading:</h2>
         <section className="quote-box">
           <div className="col-2l">
