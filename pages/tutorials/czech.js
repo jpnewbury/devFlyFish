@@ -71,7 +71,7 @@ function App() {
         <section className="section1">
           <p>
             To many anglers, czech nymphs mean one thing, scuds! Ask another and
-            they will proclaim cadis larva. Ask me and I will have to add
+            they will proclaim caddis larva. Ask me and I will have to add
             stoneflies, craneflies, aquatic beetle, and water snipe into the
             arena.
           </p>
@@ -168,7 +168,7 @@ function App() {
           <Tutorial
             image="/sbs/czech/10.jpg"
             step="Step 11"
-            text="Stretch the shellback rearward with your material hand while performing evenly spaced rearward counter wraps. Adjusting tension of the nmaterial while wrapping each segment will help to enhance the segmented look we are aimaing to acheive."
+            text="Stretch the shellback rearward with your material hand while performing evenly spaced rearward counter wraps. Adjusting tension of the material while wrapping each segment will help to enhance the segmented look we are aimaing to acheive."
           />
           <Tutorial
             image="/sbs/czech/11.jpg"
