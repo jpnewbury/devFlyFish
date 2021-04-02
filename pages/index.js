@@ -67,13 +67,11 @@ export default function Top({ movies: patterns }) {
             pattern database will also be growing to include dry flies and
             streamers.
           </p>
+          <h3>What happened to my store?</h3>
           <p>
-            On a personal note, I am deeply humbled when I see other fly tyers
-            posting my patterns filling their fly boxes on the internet. I am
-            even more humbled when they give proper credit to the patterns
-            originator. -- whomever that may be -- <b>Thank you!</b>
-            <br />
-            <br /> <i>John P. Newbury</i>
+            I had to stop selling flies because I could not keep pace with the
+            growing demand for modern tactical nymphs. If you would like to
+            purchase my patterns, please visit your local Fullingmill dealer.
           </p>
         </section>
 
