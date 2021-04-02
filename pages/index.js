@@ -231,7 +231,7 @@ export default function Top({ movies: patterns }) {
         <section>
           <h2>Hot List</h2>
           <h3>What's attached to my tippet</h3>
-          <p>The three flies I am fishing Today’s</p>
+          <p>The three flies I am currently fishing.</p>
 
           <div className="grid-ish">
             {patterns.map((fly) => (
