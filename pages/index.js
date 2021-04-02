@@ -347,6 +347,7 @@ export default function Top({ movies: patterns }) {
                 {fly.caddis === "true" && <Caddis style="icon" />}
                 {fly.hydropsyche === "true" && <Hydropsyche style="icon" />}
                 {fly.rockworm === "true" && <Rockworm style="icon" />}
+                {fly.midgepupa === "true" && <Midge style="icon" />}
                 {fly.midgePupa === "true" && <Midge style="icon" />}
               </div>
             ))}
