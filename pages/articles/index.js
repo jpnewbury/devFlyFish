@@ -85,7 +85,7 @@ export default function index(props) {
                 </div>
               </Link>
 
-              <Link href="/articles/threecs">
+              <Link href="/articles/hooks">
                 <div className="card">
                   <h2>If Hooks Cold Kill</h2>
                   <h3>Consider your hook sizes for fishes sake</h3>
