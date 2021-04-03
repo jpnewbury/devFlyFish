@@ -1,16 +1,22 @@
-export async function getStaticProps(context) {
-  const res = await fetch(
-    `http://api.openweathermap.org/data/2.5/weather?q=carbondale,colorado&units=imperial&appid=a60e6e63615bfd115f40208faf0ebc46`
-  );
-  const data = await res.json();
-
-  if (!data) {
-    return {
-      notFound: true,
+import React, { Component } from "react";
+class Sandbox extends Component {
+  constructor(props) {
+    super(props);
+    this.state = {
+      isHuman: "false",
     };
   }
-
-  return {
-    props: { data }, // will be passed to the page component as props
-  };
+  render() {
+    return (
+      <p>
+        {this.state.isHuman === "false" ? (
+          <p>You are not human</p>
+        ) : (
+          <p>You are a human</p>
+        )}
+      </p>
+    );
+  }
 }
+
+export default Sandbox;
