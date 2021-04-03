@@ -14,6 +14,8 @@ import Midge from "../components/svg/midge";
 import Rockworm from "../components/svg/rockworm";
 import Stoneflies from "../components/svg/stones";
 import Swimmers from "../components/svg/swimmers";
+import Fish from "../components/svg/fish";
+
 export default function Top({ movies: patterns }) {
   return (
     <>
@@ -82,9 +84,13 @@ export default function Top({ movies: patterns }) {
             All fly patterns listed sitewide can be sorted by the type of nymph
             that they best imitate.
           </p>
-          <BugbarNav />
         </div>
+        <section>
+          <BugbarNav />
+        </section>
 
+        <div className="hero-box1"></div>
+        <p />
         <section>
           <div className="center">
             <div className="center multiply">
@@ -125,112 +131,10 @@ export default function Top({ movies: patterns }) {
           <p />
         </section>
         <p />
-        <div className="hero-box1"></div>
-        <p />
-        <h2>Current Reading:</h2>
-        <section className="quote-box">
-          <div className="col-2l">
-            <div>
-              <svg viewBox="0 0 184.76 155" className="svg-quote">
-                <g id="Layer_2" data-name="Layer 2">
-                  <g id="Layer_1-2" data-name="Layer 1">
-                    <path d="M184.76,13.64l-6.82-9.3c-32.86,20.46-75,60.14-75,102.3,0,18.6,11.16,37.82,26.66,48.36l46.5-36.58v-1.24C164.92,103.54,151.9,83.7,151.9,71.3,151.9,52.08,164.92,30.38,184.76,13.64Z" />
-                    <path d="M0,102.3c0,18.6,11.78,37.82,27.28,49l46.5-37.2v-1.24C62.62,99.82,49.6,80,49.6,67c0-19.22,13-40.92,32.24-57.66L75,0C42.78,20.46,0,60.14,0,102.3Z" />
-                  </g>
-                </g>
-              </svg>
-            </div>
-            <div>
-              <p>
-                While it is necessary to match the prevailing benthic
-                macroinvertebrates that are present in your trout waters with
-                our pattern selection, it is also vital to match the
-                conditions...
-              </p>
-            </div>
-          </div>
-        </section>
-        <section className="section1">
-          <h3>Adapting to Conditions</h3>
-          <p>
-            A few years back, I found myself faced with an unusual situation of
-            not having the right weight of fly to meet my tactical angling
-            needs. You see, I have been dredging the depths of rivers for so
-            long looking for the largest fish a stream might hide, that I
-            completely overlooked stocking my boxes with lightly weighted flies.
-            My tactical focus became locked in on presenting heavily weighted
-            nymphs in deep slots and thus ignored having a good plan for low
-            water conditions when they came up.
-          </p>
-          <p>
-            <div className="center border">
-              <Image
-                src="/flybox.jpg"
-                width={400}
-                height={300}
-                alt="A box full of fly patterns with a fly rod and rain coat"
-              />
-            </div>
-          </p>
-
-          <p>
-            The rivers in Western Colorado were flowing below average for the
-            time of year. With rivers so low, the pools that I frequently fished
-            became shallow, causing a significant change to the channel
-            hydraulogy. This change in the hydrology moves fish out of the
-            reliable pools and into other locations, generally, in pockets
-            behind boulders or riffles. My attempt at drifting dense stonefly
-            patterns into those locations was an exercise in futility. Fishing
-            densely weighted patterns in shallow water may require more effort
-            in maintaining a good drift, and in fact, it can be tricky.
-          </p>
-
-          <p>
-            I am re-tooling many of my favorite spring fly patterns to be
-            lighter to make low water tactical angling manageable. I am tying
-            Perdigon nymphs with smaller than usual beads for gently sinking
-            into shallow pockets behind boulders and soft hackled stoneflies for
-            drifting just above the cobble in riffles. I even added a few
-            smaller streamers that I can fish with my thirty-foot French
-            leaders.
-          </p>
-          <p>
-            While it is necessary to match the prevailing benthic
-            macroinvertebrates that are present in your trout waters with our
-            pattern selection, it is also vital to match the conditions. This
-            year's low water will require an adjustment in tying lighter weight
-            nymphs, so they will slowly reach the bottom without immediately
-            banging into or getting snagged in the rocks. Brass beads are a
-            lighter alternative to using tungsten beads can offer the solution
-            for this requirement.
-          </p>
-          <div className="center border">
-            <Image src="/Snapseed.jpg" width={400} height={300} alt="" />
-          </div>
-          <p>
-            Besides bead selection, color is also an essential factor to
-            consider. Somber hued, less flashy patterns are less likely to turn
-            off the fish in low water conditions. Leave the bright hot spotted
-            attractor patterns at home until it rains. Choose materials such as
-            pheasant tail fibers, hares ear fur and partridge. These materials
-            are buggy and dull lending to a natural looking fly. If using
-            reflective materials such as tinsel, do so in a judicious manner. A
-            little glint in a fly pattern can make them more attractive to fish,
-            but just a dash too much can ruin it.
-          </p>
-          <p />
-          <Link href="/articles">
-            <a>
-              <button className="card__button">More Articles</button>
-            </a>
-          </Link>
-          <section />
-        </section>
-        <section>
+        <section className="hot">
           <h2>Hot List</h2>
           <h3>What's attached to my tippet</h3>
           <p>The three flies I am currently fishing.</p>
-
           <div className="grid-ish">
             {patterns.map((fly) => (
               <div className="card" key={fly._id}>
@@ -347,6 +251,7 @@ export default function Top({ movies: patterns }) {
                 {fly.rockworm === "true" && <Rockworm style="icon" />}
                 {fly.midgepupa === "true" && <Midge style="icon" />}
                 {fly.midgePupa === "true" && <Midge style="icon" />}
+                {fly.fish === "true" && <Fish style="icon" />}
               </div>
             ))}
           </div>

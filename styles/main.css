@@ -422,6 +422,35 @@ strong {
   background-image: url("/IMG_4827.JPG");
 }
 
+.hot {
+  background: #b40000;
+  border-radius: 10px;
+  border: 1px solid black;
+  border-radius: 7px;
+}
+
+.hot .card {
+  border: 1px solid black;
+  border-radius: 7px;
+  -webkit-box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+          box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.hot h2,
+.hot h3,
+.hot p {
+  color: white;
+}
+
+.hot .card__button {
+  background: black;
+}
+
+.hot .card__button:hover {
+  background: white;
+  color: red;
+}
+
 .menu-icon {
   cursor: pointer;
   padding: 7px;
@@ -644,9 +673,6 @@ strong {
 .quote-box {
   padding: 7px;
   margin: 5px;
-  padding-left: 30px;
-  margin: 20px;
-  padding-right: 30px;
 }
 
 .quote-box p {

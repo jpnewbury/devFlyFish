@@ -27,6 +27,7 @@ import Cloud from "../../components/cloud";
 import Cased from "../../components/svg/cased";
 import Magnet from "../../components/svg/magnet";
 import HeaderSlug from "../../components/headerSlug";
+import Fish from "../../components/svg/fish";
 
 export default function Movies({ movies: patterns }) {
   return (
@@ -222,6 +223,7 @@ export default function Movies({ movies: patterns }) {
             {fly.cloud === "true" && <Cloud style="icon" />}
             {fly.anchor === "true" && <Anchor style="icon" />}
             {fly.attractor === "true" && <Magnet style="icon" />}
+            {fly.fish === "true" && <Fish style="icon" />}
           </div>
         ))}
       </div>

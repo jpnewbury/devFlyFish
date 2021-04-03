@@ -26,6 +26,7 @@ import Stoneflies from "../../components/svg/stones";
 import Supreme from "../../components/svg/hooks/supreme";
 import Swimmers from "../../components/svg/swimmers";
 import Wetfly from "../../components/svg/hooks/h260bk";
+import Fish from "../../components/svg/fish";
 
 export default function Movies({ movies: patterns }) {
   return (
@@ -215,6 +216,7 @@ export default function Movies({ movies: patterns }) {
             {fly.midgepupa === "true" && <Midge style="icon" />}
             {fly.anchor === "true" && <Anchor style="icon" />}
             {fly.attractor === "true" && <Magnet style="icon" />}
+            {fly.fish === "true" && <Fish style="icon" />}
           </div>
         ))}
       </div>

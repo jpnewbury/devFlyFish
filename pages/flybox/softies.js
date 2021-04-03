@@ -26,6 +26,7 @@ import Nymph from "../../components/svg/hooks/nymph";
 import Supreme from "../../components/svg/hooks/supreme";
 import Short from "../../components/svg/hooks/short";
 import Klinkhammer from "../../components/svg/hooks/klinkhammer";
+import Fish from "../../components/svg/fish";
 export default function Movies({ movies: patterns }) {
   return (
     <main className="container">
@@ -214,6 +215,7 @@ export default function Movies({ movies: patterns }) {
             {fly.cloud === "true" && <Cloud style="icon" />}
             {fly.anchor === "true" && <Anchor style="icon" />}
             {fly.attractor === "true" && <Magnet style="icon" />}
+            {fly.fish === "true" && <Fish style="icon" />}
           </div>
         ))}
       </div>

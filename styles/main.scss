@@ -369,7 +369,27 @@ strong {
     background-position: bottom;
     background-image: url("/IMG_4827.JPG");
 }
-
+.hot {
+    background: rgb(180, 0, 0);
+    border-radius: 10px;
+    @include border;
+    .card {
+        @include border;
+        box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    }
+    h2,
+    h3,
+    p {
+        color: $white;
+    }
+    .card__button {
+        background: black;
+    }
+    .card__button:hover {
+        background: white;
+        color: red;
+    }
+}
 .menu-icon {
     cursor: pointer;
     @include block;
@@ -543,9 +563,9 @@ strong {
 }
 .quote-box {
     @include block;
-    padding-left: 30px;
-    margin: 20px;
-    padding-right: 30px;
+    // padding-left: 30px;
+    // margin: 20px;
+    // padding-right: 30px;
 
     p {
         font-family: $font-quote;
