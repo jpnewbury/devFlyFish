@@ -394,7 +394,7 @@ strong {
 .hook-card {
     @include border;
     @include block;
-    max-width: 180px;
+    max-width: 150px;
     padding: 20px;
     li {
         font-weight: 500;
