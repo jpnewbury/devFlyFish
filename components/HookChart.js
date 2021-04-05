@@ -7,6 +7,7 @@ import Fish from "./svg/fish";
 import Czech from "./svg/czech";
 import Hyrdropsyche from "./svg/hydropsyche";
 import Rockworm from "./svg/rockworm";
+import Midge from "./svg/midge";
 
 import H200BL from "./svg/hooks/H200BL";
 import H230BL from "./svg/hooks/H230BL";
@@ -163,6 +164,9 @@ class Sandbox extends Component {
             <div>
               <Rockworm style="icon-1" />
             </div>
+            <div>
+              <Midge style="icon-1" />
+            </div>
           </div>
           <div className="grid-ish">
             <div className="hook-card">
@@ -177,6 +181,7 @@ class Sandbox extends Component {
                   <li>Extra long needle point</li>
                   <li>Black Nickle</li>
                 </ul>
+                more
               </div>
             </div>
             <div className="hook-card">
@@ -305,7 +310,7 @@ class Sandbox extends Component {
             <div className="hook-card">
               <h2>Fulling Mill Jig Force - Short Shank</h2>
               <div className="stack">
-                <FMJigForceShortShank />
+                <FMJadded iconeigForceShortShank />
               </div>
               <div>
                 <ul>
