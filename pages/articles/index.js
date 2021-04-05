@@ -101,7 +101,7 @@ export default function index(props) {
               </Link>
               <Link href="/articles/HookChart">
                 <div className="card">
-                  <h2>A tactical Hook Chart</h2>
+                  <h2>Tactical Hook Chart</h2>
                   <h3>
                     A collection of the best hooks and designs for tactical fly
                     tying.

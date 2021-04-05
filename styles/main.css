@@ -457,15 +457,20 @@ strong {
   border-radius: 7px;
   padding: 7px;
   margin: 5px;
-  max-width: 240px;
+  max-width: 180px;
   padding: 20px;
 }
 
 .hook-card li {
   font-weight: 500;
+  font-size: 0.8rem;
   margin-top: 20px;
   margin: 0px;
   list-style-type: circle;
+}
+
+.hook-card h2 {
+  font-size: 1rem;
 }
 
 .menu-icon {

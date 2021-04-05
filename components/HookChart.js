@@ -158,9 +158,6 @@ class Sandbox extends Component {
           <h2>Czech Nymph - Scud - Pupa</h2>
           <div className="grid-small">
             <div>
-              <Czech style="icon-1" />
-            </div>
-            <div>
               <Hyrdropsyche style="icon-1" />
             </div>
             <div>

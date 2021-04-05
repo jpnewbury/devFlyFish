@@ -394,13 +394,17 @@ strong {
 .hook-card {
     @include border;
     @include block;
-    max-width: 240px;
+    max-width: 180px;
     padding: 20px;
     li {
         font-weight: 500;
+        font-size: 0.8rem;
         margin-top: 20px;
         margin: 0px;
         list-style-type: circle;
+    }
+    h2 {
+        font-size: 1rem;
     }
 }
 .menu-icon {
