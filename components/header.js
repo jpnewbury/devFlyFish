@@ -35,7 +35,7 @@ export default function header(props) {
             background-image: url("/IMG_2192.jpg");
             background-repeat: no-repeat;
             background-size: cover;
-            background-position: center;
+            background-position: right;
           }
         `}</style>
       ) : null}
@@ -45,7 +45,7 @@ export default function header(props) {
             background-image: url("/RainbowHeadHighRez.jpg");
             background-repeat: no-repeat;
             background-size: cover;
-            background-position: center;
+            background-position: right;
           }
         `}</style>
       ) : null}
