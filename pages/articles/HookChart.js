@@ -27,7 +27,7 @@ export default function Home() {
       <div className="container">
         <main className="content">
           <header className="header">
-            <Header title="Fly Tying: Hook Chart" background="anthony" />
+            <Header title="Fly Tying: Hook Chart" background="walts" />
           </header>
 
           <section>

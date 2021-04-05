@@ -49,6 +49,16 @@ export default function header(props) {
           }
         `}</style>
       ) : null}
+      {props.background === "walts" ? (
+        <style global jsx>{`
+          .hero-box {
+            background-image: url("/Snapseed.jpg");
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: center;
+          }
+        `}</style>
+      ) : null}
     </>
   );
 }
