@@ -309,6 +309,7 @@ class Sandbox extends Component {
               </div>
               <div>
                 <ul>
+                  <li>Short shank</li>
                   <li>Offset eye jig</li>
                   <li>Heavy wire</li>
                   <li>Black Nickle</li>
