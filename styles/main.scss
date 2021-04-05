@@ -335,6 +335,7 @@ strong {
     display: flex;
     flex-wrap: wrap;
     align-items: flex-end;
+    max-width: 800px;
 }
 
 .grid-small > * {
@@ -390,6 +391,18 @@ strong {
         color: red;
     }
 }
+.hook-card {
+    @include border;
+    @include block;
+    max-width: 240px;
+    padding: 20px;
+    li {
+        font-weight: 500;
+        margin-top: 20px;
+        margin: 0px;
+        list-style-type: circle;
+    }
+}
 .menu-icon {
     cursor: pointer;
     @include block;
@@ -437,6 +450,12 @@ strong {
     transition: $transition;
     fill: $black;
     box-shadow: rgba(0, 0, 0, 0.6) 0px 1px 4px;
+}
+.icon-2 {
+    cursor: pointer;
+    @include block;
+    fill: $black;
+    transition: $transition;
 }
 .icon-1:hover,
 .icon-1:active {

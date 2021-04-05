@@ -1,13 +1,12 @@
 import Link from "next/link";
 import Image from "next/image";
-import Layout from "../components/layout";
-import Bugbar from "../components/bugbar";
-import Suggested from "../components/suggested";
+import Layout from "../../components/layout";
+import Bugbar from "../../components/bugbar";
+import Suggested from "../../components/suggested";
+import Header from "../../components/header";
 import Head from "next/head";
-import Header from "../components/header";
-import Footer from "../components/footer";
 
-import Hooks from "../components/HookChart";
+import HookChart from "../../components/HookChart";
 
 export default function Home() {
   return (
@@ -28,13 +27,11 @@ export default function Home() {
       <div className="container">
         <main className="content">
           <header className="header">
-            <Header
-              title="Reading: Considering Varying Conditions"
-              background="anthony"
-            />
+            <Header title="Reading: Entomology" background="anthony" />
           </header>
+
           <section>
-            <Hooks />
+            <HookChart />
           </section>
           <h2>See the Suggested Patterns</h2>
           <section className="grid-ish">
@@ -58,8 +55,8 @@ export default function Home() {
             />
             <Suggested
               title="Stoneflies"
-              img="/gallery/kdgs.jpg"
-              link="/flybox/stoneflys"
+              img="/gallery/KnuckleDraggerGolenStone.jpg"
+              link="/flybox/stoneflies"
               description="Some big juicy patterns for big fat fish to chomp on!"
             />
             <Suggested
@@ -76,7 +73,6 @@ export default function Home() {
             />
           </section>
         </main>
-        <Footer />
       </div>
     </>
   );

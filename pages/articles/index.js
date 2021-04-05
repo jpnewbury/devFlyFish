@@ -99,6 +99,18 @@ export default function index(props) {
                   </span>
                 </div>
               </Link>
+              <Link href="/articles/HookChart">
+                <div className="card">
+                  <h2>A tactical Hook Chart</h2>
+                  <h3>
+                    A collection of the best hooks and designs for tactical fly
+                    tying.
+                  </h3>
+                  <span className="center multiply">
+                    <Image src="/flybox.jpg" width={400} height={400} alt="" />
+                  </span>
+                </div>
+              </Link>
             </div>
           </section>
         </main>

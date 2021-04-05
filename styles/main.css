@@ -381,6 +381,7 @@ strong {
   -webkit-box-align: end;
       -ms-flex-align: end;
           align-items: flex-end;
+  max-width: 800px;
 }
 
 .grid-small > * {
@@ -451,6 +452,22 @@ strong {
   color: red;
 }
 
+.hook-card {
+  border: 1px solid black;
+  border-radius: 7px;
+  padding: 7px;
+  margin: 5px;
+  max-width: 240px;
+  padding: 20px;
+}
+
+.hook-card li {
+  font-weight: 500;
+  margin-top: 20px;
+  margin: 0px;
+  list-style-type: circle;
+}
+
 .menu-icon {
   cursor: pointer;
   padding: 7px;
@@ -512,6 +529,15 @@ strong {
   fill: #0a0a0a;
   -webkit-box-shadow: rgba(0, 0, 0, 0.6) 0px 1px 4px;
           box-shadow: rgba(0, 0, 0, 0.6) 0px 1px 4px;
+}
+
+.icon-2 {
+  cursor: pointer;
+  padding: 7px;
+  margin: 5px;
+  fill: #0a0a0a;
+  -webkit-transition: all 0.35s ease;
+  transition: all 0.35s ease;
 }
 
 .icon-1:hover,
