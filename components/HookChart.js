@@ -181,7 +181,6 @@ class Sandbox extends Component {
                   <li>Extra long needle point</li>
                   <li>Black Nickle</li>
                 </ul>
-                more
               </div>
             </div>
             <div className="hook-card">
@@ -310,7 +309,7 @@ class Sandbox extends Component {
             <div className="hook-card">
               <h2>Fulling Mill Jig Force - Short Shank</h2>
               <div className="stack">
-                <FMJadded iconeigForceShortShank />
+                <FMJigForceShortShank />
               </div>
               <div>
                 <ul>
