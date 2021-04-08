@@ -5,9 +5,10 @@ import Stones from "./svg/stones";
 import Swimmers from "./svg/swimmers";
 import Fish from "./svg/fish";
 import Czech from "./svg/czech";
-import Hyrdropsyche from "./svg/hydropsyche";
+import Hyrdropsyche from "./svg/hydropsychidae";
 import Rockworm from "./svg/rockworm";
 import Midge from "./svg/midge";
+import Scud from "../components/svg/gammarus";
 
 import H200BL from "./svg/hooks/H200BL";
 import H230BL from "./svg/hooks/H230BL";
@@ -43,7 +44,7 @@ class Sandbox extends Component {
     return (
       <>
         <section>
-          <h1>Hooks</h1>
+          <h1>Tactical Fly Tying Hooks</h1>
           <p>
             The following collection of hooks best represent the range of
             designs currently available for tactical fly tying.
@@ -162,8 +163,11 @@ class Sandbox extends Component {
               <Hyrdropsyche style="icon-1" />
             </div>
             <div>
-              <Rockworm style="icon-1" />
+              <Scud style="icon-1" />
             </div>
+            {/* <div>
+              <Rockworm style="icon-1" />
+            </div> */}
             <div>
               <Midge style="icon-1" />
             </div>

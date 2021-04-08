@@ -8,6 +8,7 @@ import Header from "../components/header";
 import Footer from "../components/footer";
 
 import Hooks from "../components/HookChart";
+import Scud from "../components/svg/gammarus";
 
 export default function Home() {
   return (
@@ -34,6 +35,7 @@ export default function Home() {
             />
           </header>
           <section>
+            <Scud />
             <Hooks />
           </section>
           <h2>See the Suggested Patterns</h2>
