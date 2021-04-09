@@ -6,6 +6,8 @@ import Hydropsyche from "./svg/hydropsyche";
 import Caddis from "./svg/caddis";
 import Midges from "./svg/midge";
 import Left from "./svg/bugbar";
+import Perdigone from "./svg/perdigone";
+import Dubbed from "./svg/dubbed";
 
 export default function bugbarNav() {
   return (
@@ -75,6 +77,22 @@ export default function bugbarNav() {
               </div>
               <div>
                 <small>midges</small>
+              </div>
+            </div>
+            <div className="bug-card">
+              <div>
+                <Perdigone style="icon-1" />
+              </div>
+              <div>
+                <small>perdigone</small>
+              </div>
+            </div>
+            <div className="bug-card">
+              <div>
+                <Dubbed style="icon-1" />
+              </div>
+              <div>
+                <small>fuzzy</small>
               </div>
             </div>
           </div>

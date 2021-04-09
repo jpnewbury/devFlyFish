@@ -381,7 +381,6 @@ strong {
   -webkit-box-align: end;
       -ms-flex-align: end;
           align-items: flex-end;
-  max-width: 800px;
 }
 
 .grid-small > * {

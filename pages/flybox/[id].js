@@ -10,17 +10,17 @@ import Midge from "../../components/svg/midge";
 import Featured from "../../components/svg/featured";
 import Header from "../../components/header";
 import BugbarNav from "../../components/bugbarNav";
-
+import Cased from "../../components/svg/cased";
 import Image from "next/image";
 import Link from "next/link";
 import { useRouter } from "next/router";
+import Magnet from "../../components/svg/magnet";
 
 export default function Movies({ movies: patterns }) {
   const router = useRouter();
   const { id } = router.query;
   return (
     <main className="container">
-      {" "}
       <Header title="A Space for Fly Fishers" background="default" />{" "}
       <BugbarNav />
       {id}
