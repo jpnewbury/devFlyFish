@@ -9,7 +9,6 @@ import Hyrdropsyche from "./svg/hydropsychidae";
 import Rockworm from "./svg/rockworm";
 import Midge from "./svg/midge";
 import Scud from "../components/svg/gammarus";
-
 import H200BL from "./svg/hooks/H200BL";
 import H230BL from "./svg/hooks/H230BL";
 import H310BL from "./svg/hooks/H310BL";
