@@ -39,7 +39,7 @@ export default function Movies({ movies: patterns }) {
         height="120px"
         width="150px"
         alt="pellet flies"
-        content=" Perdigone or pellet flies are best used in fast, turbulent water where getting the fly in front of the fish and invoking a curiosity response needs to happaen in an instant."
+        content=" Perdigone or pellet flies are best used in fast, turbulent water where getting the fly in front of the fish and invoking a curiosity response needs to happen in an instant."
       />
 
       <div className="grid-ish">
