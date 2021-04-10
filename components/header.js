@@ -59,6 +59,16 @@ export default function header(props) {
           }
         `}</style>
       ) : null}
+      {props.background === "spools" ? (
+        <style global jsx>{`
+          .hero-box {
+            background-image: url("/materials/HendsPatinaTinsel.jpg");
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: center;
+          }
+        `}</style>
+      ) : null}
     </>
   );
 }

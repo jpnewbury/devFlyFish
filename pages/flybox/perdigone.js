@@ -1,4 +1,5 @@
 import { connectToDatabase } from "../../util/mongodb";
+import Image from "next/image";
 import Clinger from "../../components/svg/clinger";
 import Crawler from "../../components/svg/crawlers";
 import Swimmers from "../../components/svg/swimmers";
@@ -9,7 +10,6 @@ import Midge from "../../components/svg/midge";
 import Featured from "../../components/svg/featured";
 import Header from "../../components/header";
 import BugbarNav from "../../components/bugbarNav";
-import Image from "next/image";
 import HeaderSlug from "../../components/headerSlug";
 import Footer from "../../components/footer";
 import Wetfly from "../../components/svg/hooks/h260bk";

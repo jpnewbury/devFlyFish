@@ -233,13 +233,18 @@ strong {
     cursor: pointer;
     margin: $margin + 5;
     background: $white;
-
-    max-width: 400px;
     img {
         border-radius: 10px;
         @include border;
     }
 }
+.article_card {
+    @include block;
+    cursor: pointer;
+    background: $gray-8;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+}
+
 .card__button {
     cursor: pointer;
     @include block;
@@ -276,7 +281,6 @@ strong {
 .container {
     position: relative;
     background: $white;
-    position: relative;
     max-width: 1200px;
     margin: auto;
 }
@@ -334,8 +338,7 @@ strong {
     margin-bottom: 40px;
     display: flex;
     flex-wrap: wrap;
-    align-items: flex-end;
-    // max-width: 800px;
+    align-content: flex-start;
 }
 
 .grid-small > * {
@@ -372,10 +375,7 @@ strong {
 }
 .hot {
     background: rgb(180, 0, 0);
-    border-radius: 10px;
-    @include border;
     .card {
-        @include border;
         box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
     }
     h2,

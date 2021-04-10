@@ -1,16 +1,11 @@
 import Link from "next/link";
 import Image from "next/image";
-import Layout from "../components/layout";
-import Bugbar from "../components/bugbar";
-import Suggested from "../components/suggested";
+
 import Head from "next/head";
 import Header from "../components/header";
 import Footer from "../components/footer";
 
-import Hooks from "../components/HookChart";
-import Scud from "../components/svg/gammarus";
-
-export default function Home() {
+export default function index(props) {
   return (
     <>
       <Head>
@@ -29,53 +24,126 @@ export default function Home() {
       <div className="container">
         <main className="content">
           <header className="header">
-            <Header
-              title="Reading: Considering Varying Conditions"
-              background="anthony"
-            />
+            <Header title="Reading" background="anthony" />
           </header>
-          <section>
-            <Scud />
-            <Hooks />
-          </section>
-          <h2>See the Suggested Patterns</h2>
-          <section className="grid-ish">
-            <Suggested
-              title="Clinger / Crawler Nymphs"
-              img="/OG-Dirty-Hipster.jpg"
-              link="/flybox/clingers"
-              description="A list of patterns that are useful for immitating the chunky profile that these nymph types exhibit."
-            />
-            <Suggested
-              title="Best Swimmer Patterns"
-              img="/gallery/Muskrat-Gray-Flashback-PT-10-3.2mm.jpg"
-              link="/flybox/swimmers"
-              description="Slender profiles yet heavy flies for getting deep, check out the patterns suggested to accomplish goal."
-            />
-            <Suggested
-              title="Patterns for Caddis"
-              img="/gallery/MothersdayJig.jpg"
-              link="/flybox/caddis"
-              description="You will find many intersting new patterns in the flybox that look and behave like a caddis should."
-            />
-            <Suggested
-              title="Stoneflies"
-              img="/gallery/kdgs.jpg"
-              link="/flybox/stoneflys"
-              description="Some big juicy patterns for big fat fish to chomp on!"
-            />
-            <Suggested
-              title="Forage Items"
-              img="/gallery/SBGR-10s-4MP.jpg"
-              link="/flybox/streamers"
-              description="Swimmy things that get a lot of attention."
-            />
-            <Suggested
-              title="The In-between"
-              img="/gallery/StacupChallenge.jpg"
-              link="/flybox/emergers"
-              description="Emerger and pupal patterns for emerging insects."
-            />
+          <h2>Reading List</h2>
+          <section className="section">
+            <div className="stack">
+              <Link href="/articles/HookChart">
+                <div className="article_card">
+                  <div className="col-2">
+                    <div>
+                      <Image
+                        src="/flybox.jpg"
+                        width={100}
+                        height={100}
+                        alt=""
+                      />
+                    </div>
+                    <div>
+                      <h2>Tactical Hook Chart</h2>
+                      <h3>
+                        A collection of the best hooks and designs for tactical
+                        fly tying.
+                      </h3>
+                    </div>
+                  </div>
+                </div>
+              </Link>
+              <Link href="/articles/hooks">
+                <div className="article_card">
+                  <div className="col-2">
+                    <div>
+                      <Image
+                        src="/IMG_1964.jpg"
+                        width={100}
+                        height={100}
+                        alt=""
+                      />
+                    </div>
+                    <div>
+                      <h2>If Hooks Cold Kill</h2>
+                      <h3>Consider your hook sizes for fishes sake</h3>
+                    </div>
+                  </div>
+                </div>
+              </Link>
+              <Link href="/articles/tactical">
+                <div className="article_card">
+                  <div className="col-2">
+                    <div>
+                      <Image
+                        src="/CzechBox.jpg"
+                        width={100}
+                        height={100}
+                        alt=""
+                      />
+                    </div>
+                    <div>
+                      <h2>A Tactical Advantage</h2>
+                      <h3>My Angle on Euro Nymphing</h3>
+                    </div>
+                  </div>
+                </div>
+              </Link>
+              <Link href="/articles/entomology">
+                <div className="article_card">
+                  <div className="col-2">
+                    <div>
+                      <Image
+                        src="/drunella1.png"
+                        width={100}
+                        height={100}
+                        alt=""
+                      />
+                    </div>
+                    <div>
+                      <h2>A Fly Tyers Entomology</h2>
+                      <h3>
+                        A primer on the types of nymph shapes we need to know to
+                        tie better flies.
+                      </h3>
+                    </div>
+                  </div>
+                </div>
+              </Link>
+              <Link href="/articles/conditions">
+                <div className="article_card">
+                  <div className="col-2">
+                    <div>
+                      <Image
+                        src="/TRCP01.jpg"
+                        width={100}
+                        height={100}
+                        alt=""
+                      />
+                    </div>
+                    <div>
+                      <h2>Matching the Conditions</h2>
+                      <h3>Plan ahead for tough fishing conditions.</h3>
+                    </div>
+                  </div>
+                </div>
+              </Link>
+              <Link href="/articles/threecs">
+                <div className="article_card">
+                  <div className="col-2">
+                    <div>
+                      <Image
+                        src="/1459631621054-6BK5JNE19IEGLXZUA5W9.jpeg"
+                        width={100}
+                        height={100}
+                        alt=""
+                      />
+                    </div>
+                    <div>
+                      <h2>Reading the Water</h2>
+                      <h3> Prime locations to hunt trout.</h3>
+                    </div>
+                  </div>
+                </div>
+              </Link>
+            </div>
           </section>
         </main>
         <Footer />

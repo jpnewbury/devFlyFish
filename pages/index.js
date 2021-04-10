@@ -127,10 +127,8 @@ export default function Top({ movies: patterns }) {
               </div>
             </div>
           </div>
-
           <p />
         </section>
-        <p />
         <section className="hot">
           <h2>Hot List</h2>
           <h3>What's attached to my tippet</h3>
@@ -138,9 +136,7 @@ export default function Top({ movies: patterns }) {
           <div className="grid-ish">
             {patterns.map((fly) => (
               <div className="card" key={fly._id}>
-                <h2>
-                  {fly.featured === "true" && <Featured />} {fly.name}
-                </h2>
+                <h2>{fly.name}</h2>
                 <span className="multiply center">
                   <Image src={fly.image} width="200px" height="200px" alt="" />
                 </span>
@@ -223,7 +219,7 @@ export default function Top({ movies: patterns }) {
                   )}
                   {fly.wing && (
                     <li>
-                      <b>wing: </b> {fly.wing}
+                      <b>=Wing: </b> {fly.wing}
                     </li>
                   )}
                   {fly.wingbuds && (
@@ -250,7 +246,6 @@ export default function Top({ movies: patterns }) {
                 {fly.hydropsyche === "true" && <Hydropsyche style="icon" />}
                 {fly.rockworm === "true" && <Rockworm style="icon" />}
                 {fly.midgepupa === "true" && <Midge style="icon" />}
-                {fly.midgePupa === "true" && <Midge style="icon" />}
                 {fly.fish === "true" && <Fish style="icon" />}
               </div>
             ))}
@@ -264,7 +259,8 @@ export default function Top({ movies: patterns }) {
         <div className="section1" />
         <p />
         <section className="section1">
-          <h2>Entomology for the Fly Fisher</h2>
+          <h2>Selected Reading</h2>
+          <h3>Entomology for the Fly Fisher</h3>
           <span className="first-letter">
             <p>
               A food web exists beneath the rippled current of a trout stream

@@ -231,13 +231,21 @@ strong {
   cursor: pointer;
   margin: 10px;
   background: white;
-  max-width: 400px;
 }
 
 .card img {
   border-radius: 10px;
   border: 1px solid black;
   border-radius: 7px;
+}
+
+.article_card {
+  padding: 7px;
+  margin: 5px;
+  cursor: pointer;
+  background: #e1e1e1;
+  -webkit-box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+          box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
 }
 
 .card__button {
@@ -293,7 +301,6 @@ strong {
 .container {
   position: relative;
   background: white;
-  position: relative;
   max-width: 1200px;
   margin: auto;
 }
@@ -378,9 +385,8 @@ strong {
   display: flex;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
-  -webkit-box-align: end;
-      -ms-flex-align: end;
-          align-items: flex-end;
+  -ms-flex-line-pack: start;
+      align-content: flex-start;
 }
 
 .grid-small > * {
@@ -424,14 +430,9 @@ strong {
 
 .hot {
   background: #b40000;
-  border-radius: 10px;
-  border: 1px solid black;
-  border-radius: 7px;
 }
 
 .hot .card {
-  border: 1px solid black;
-  border-radius: 7px;
   -webkit-box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
           box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
