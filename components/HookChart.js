@@ -48,7 +48,7 @@ class Sandbox extends Component {
           />
           <meta
             name="description"
-            content="A place for fly fishers to to learn new fly patterns and fishing methods from a life-long fly fishing addict."
+            content="A place for fly fishers to to learn new fly patterns and fishing methods from a fly fishing addict."
           />
           <meta name="revised" content="Angling Arts, 3/4/2021" />
           <meta name="robots" content="index, follow" />

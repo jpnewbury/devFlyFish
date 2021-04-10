@@ -62,13 +62,7 @@ export default function Top({ movies: patterns }) {
             some stones in your favorite stream and studying what's crawling
             underneath.
           </p>
-          <p>
-            in the next few weeks of early spring 2021, you will see the reading
-            list and tutorials section expand as I push and pull new content
-            around, send it to an editor and finally post it here. The fly
-            pattern database will also be growing to include dry flies and
-            streamers.
-          </p>
+
           <h3>What happened to my store?</h3>
           <p>
             I had to stop selling flies because I could not keep pace with the
