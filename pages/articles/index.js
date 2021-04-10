@@ -1,6 +1,6 @@
 import Link from "next/link";
 import Image from "next/image";
-
+import Hooks from "../../components/svg/hooks/FullingMillHigForce";
 import Head from "next/head";
 import Header from "../../components/header";
 import Footer from "../../components/footer";
@@ -31,14 +31,9 @@ export default function index(props) {
             <div className="stack">
               <Link href="/articles/HookChart">
                 <div className="article_card">
-                  <div className="col-2">
+                  <div className="col-2b">
                     <div>
-                      <Image
-                        src="/flybox.jpg"
-                        width={100}
-                        height={100}
-                        alt=""
-                      />
+                      <Hooks />
                     </div>
                     <div>
                       <h2>Tactical Hook Chart</h2>
@@ -52,7 +47,7 @@ export default function index(props) {
               </Link>
               <Link href="/articles/hooks">
                 <div className="article_card">
-                  <div className="col-2">
+                  <div className="col-2b">
                     <div>
                       <Image
                         src="/IMG_1964.jpg"
@@ -70,7 +65,7 @@ export default function index(props) {
               </Link>
               <Link href="/articles/tactical">
                 <div className="article_card">
-                  <div className="col-2">
+                  <div className="col-2b">
                     <div>
                       <Image
                         src="/CzechBox.jpg"
@@ -88,7 +83,7 @@ export default function index(props) {
               </Link>
               <Link href="/articles/entomology">
                 <div className="article_card">
-                  <div className="col-2">
+                  <div className="col-2b">
                     <div>
                       <Image
                         src="/drunella1.png"
@@ -109,7 +104,7 @@ export default function index(props) {
               </Link>
               <Link href="/articles/conditions">
                 <div className="article_card">
-                  <div className="col-2">
+                  <div className="col-2b">
                     <div>
                       <Image
                         src="/TRCP01.jpg"
@@ -127,7 +122,7 @@ export default function index(props) {
               </Link>
               <Link href="/articles/threecs">
                 <div className="article_card">
-                  <div className="col-2">
+                  <div className="col-2b">
                     <div>
                       <Image
                         src="/1459631621054-6BK5JNE19IEGLXZUA5W9.jpeg"

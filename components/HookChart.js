@@ -2,13 +2,20 @@ import React, { Component } from "react";
 import Clinger from "./svg/clinger";
 import Crawlers from "./svg/crawlers";
 import Stones from "./svg/stones";
-import Swimmers from "./svg/swimmers";
+import DohikuWetfly from "./svg/hooks/DohikuWetfly";
+import DohikuPupa from "./svg/hooks/DohikuPupa";
+import DohikuCzech from "./svg/hooks/DohikuCzech";
+import DohikuNymph from "./svg/hooks/DohikuNymph";
+import DohikuJig from "./svg/hooks/DohikuJig";
+import DohikuStreamer from "./svg/hooks/DohikuStreamer";
+import Fasna520 from "./svg/hooks/fasna520";
+import Fasna800 from "./svg/hooks/fasna800";
 import Fish from "./svg/fish";
-import Czech from "./svg/czech";
+import FMGrabGape from "./svg/hooks/FMGrabGape";
+import FMJigForceShortShank from "./svg/hooks/FMJigForceShortShank";
+import FullingmillCzech from "./svg/hooks/FullingmillCzech";
 import Hyrdropsyche from "./svg/hydropsychidae";
-import Rockworm from "./svg/rockworm";
-import Midge from "./svg/midge";
-import Scud from "../components/svg/gammarus";
+import FullingMillHigForce from "./svg/hooks/FullingMillHigForce";
 import H200BL from "./svg/hooks/H200BL";
 import H230BL from "./svg/hooks/H230BL";
 import H310BL from "./svg/hooks/H310BL";
@@ -19,25 +26,15 @@ import H400BL from "./svg/hooks/H400BL";
 import H450BL from "./svg/hooks/H450BL";
 import H480BL from "./svg/hooks/H480BL";
 import HDGJig from "./svg/hooks/HDGJig";
-import DohikuWetfly from "./svg/hooks/DohikuWetfly";
-import DohikuPupa from "./svg/hooks/DohikuPupa";
-import DohikuCzech from "./svg/hooks/DohikuCzech";
-import DohikuNymph from "./svg/hooks/DohikuNymph";
-import DohikuJig from "./svg/hooks/DohikuJig";
-import DohikuStreamer from "./svg/hooks/DohikuStreamer";
-
-import FMJigForceShortShank from "./svg/hooks/FMJigForceShortShank";
-import FullingMillHigForce from "./svg/hooks/FullingMillHigForce";
 import JigForceLongShank from "./svg/hooks/JigForceLongShank";
-import FullingmillCzech from "./svg/hooks/FullingmillCzech";
-import FMGrabGape from "./svg/hooks/FMGrabGape";
+import Midge from "./svg/midge";
+import Scud from "../components/svg/gammarus";
+import Swimmers from "./svg/swimmers";
 
 class Sandbox extends Component {
   constructor(props) {
     super(props);
-    this.state = {
-      isHuman: "false",
-    };
+    this.state = {};
   }
   render() {
     return (
@@ -86,6 +83,8 @@ class Sandbox extends Component {
             </div>
             <div className="hook-card">
               <h2>Hanak H200BL</h2>
+              <hr />
+              <h2>Fasna 200</h2>
               <div className="stack">
                 <H200BL />
               </div>
@@ -100,6 +99,8 @@ class Sandbox extends Component {
             </div>
             <div className="hook-card">
               <h2>Hanak H230BL</h2>
+              <hr />
+              <h2>Fasna 300</h2>
               <div className="stack">
                 <H230BL />
               </div>
@@ -114,13 +115,28 @@ class Sandbox extends Component {
               </div>
             </div>
             <div className="hook-card">
+              <h2>Fasna 520</h2>
+              <div className="stack">
+                <Fasna520 />
+              </div>
+              <div>
+                <ul>
+                  <li>Stillwater / Wet</li>
+                  <li>1x short</li>
+                  <li>Wide gap</li>
+                  <li>Down eye</li>
+                  <li>up-turn point</li>
+                </ul>
+              </div>
+            </div>
+            <div className="hook-card">
               <h2>Dohiku Wetfly</h2>
               <div className="stack">
                 <DohikuWetfly />
               </div>
               <div>
                 <ul>
-                  <li>wetfly </li>
+                  <li>Wetfly </li>
                   <li>Heavy wire</li>
                   <li>Black Nickle</li>
                 </ul>
@@ -200,6 +216,19 @@ class Sandbox extends Component {
                 </ul>
               </div>
             </div>
+            <div className="hook-card">
+              <h2>Fasna 800</h2>
+              <div className="stack">
+                <Fasna800 />
+              </div>
+              <div>
+                <ul>
+                  <li>Curved shank</li>
+                  <li>Slight down eye</li>
+                  <li>Rolled point</li>
+                </ul>
+              </div>
+            </div>
 
             <div className="hook-card">
               <h2>Hanak H333BL</h2>
@@ -232,13 +261,15 @@ class Sandbox extends Component {
             </div>
             <div className="hook-card">
               <h2>Hanak H390BL</h2>
+              <hr />
+              <h2> Fasna F-120</h2>
               <div className="stack">
                 <H390BL />
               </div>
               <div>
                 <ul>
                   <li>Klinkhammer</li>
-                  <li>Fine wire</li>
+                  <li>Standard wire</li>
                   <li>Extra long needle point</li>
                   <li>Black Nickle</li>
                 </ul>
@@ -352,6 +383,8 @@ class Sandbox extends Component {
             </div>
             <div className="hook-card">
               <h2>Hanak H450BL</h2>
+              <hr />
+              <h2>Fasna F-415</h2>
               <div className="stack">
                 <H450BL />
               </div>
@@ -373,7 +406,7 @@ class Sandbox extends Component {
               <div>
                 <ul>
                   <li>Jig Champion</li>
-                  <li>Medium wire</li>
+                  <li>Heavy wire</li>
                   <li>Extra long needle point</li>
                   <li>Black Nickle</li>
                 </ul>
@@ -381,6 +414,8 @@ class Sandbox extends Component {
             </div>
             <div className="hook-card">
               <h2>Dohiku Jig</h2>
+              <hr />
+              <h2>Fasna 420</h2>
               <div className="stack">
                 <HDGJig />
               </div>

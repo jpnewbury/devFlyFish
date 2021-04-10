@@ -124,7 +124,6 @@ li {
     font-size: 1rem;
     line-height: 1.5em;
     padding-left: 1em;
-
     margin: $margin;
 }
 nav {
@@ -297,6 +296,10 @@ strong {
     display: grid;
     grid-template-columns: 30px 1fr;
 }
+.col-2b {
+    display: grid;
+    grid-template-columns: 80px 1fr;
+}
 .col-3 {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -398,13 +401,13 @@ strong {
     padding: 20px;
     li {
         font-weight: 500;
-        font-size: 0.8rem;
+        font-size: 0.85rem;
         margin-top: 20px;
         margin: 0px;
-        list-style-type: circle;
+        list-style-type: disc;
     }
     h2 {
-        font-size: 1rem;
+        font-size: 1.2rem;
     }
 }
 .menu-icon {
@@ -441,7 +444,6 @@ strong {
     cursor: pointer;
     @include block;
     background: $gray-8;
-
     transition: $transition;
 }
 .icon-1 {
