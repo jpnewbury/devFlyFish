@@ -16,6 +16,7 @@ import FMJigForceShortShank from "./svg/hooks/FMJigForceShortShank";
 import FullingmillCzech from "./svg/hooks/FullingmillCzech";
 import Hyrdropsyche from "./svg/hydropsychidae";
 import FullingMillHigForce from "./svg/hooks/FullingMillHigForce";
+import Head from "next/head";
 import H200BL from "./svg/hooks/H200BL";
 import H230BL from "./svg/hooks/H230BL";
 import H310BL from "./svg/hooks/H310BL";
@@ -39,6 +40,32 @@ class Sandbox extends Component {
   render() {
     return (
       <>
+        <Head>
+          <title>John P. Newbury's Angling Arts</title>
+          <meta
+            name="viewport"
+            content="initial-scale=1.0, width=device-width"
+          />
+          <meta
+            name="description"
+            content="A place for fly fishers to to learn new fly patterns and fishing methods from a life-long fly fishing addict."
+          />
+          <meta name="revised" content="Angling Arts, 3/4/2021" />
+          <meta name="robots" content="index, follow" />
+          <meta
+            name="og:title"
+            property="og:title"
+            content="John P. Newbury Angling Arts"
+          />
+          <meta name="twitter:card" content="John P. Newbury Angling Arts" />
+
+          <meta property="og:description" content="Tactical Hook Chart" />
+          <meta
+            property="og:image"
+            content="https://dev-fly-fish.vercel.app/header.jpg"
+          />
+          <meta property="og:url" content="https://flyfish-pied.vercel.app/" />
+        </Head>
         <section>
           <h1>Tactical Fly Tying Hooks</h1>
           <p>
@@ -180,9 +207,6 @@ class Sandbox extends Component {
             <div>
               <Scud style="icon-1" />
             </div>
-            {/* <div>
-              <Rockworm style="icon-1" />
-            </div> */}
             <div>
               <Midge style="icon-1" />
             </div>
