@@ -32,7 +32,7 @@ export default function index(props) {
           property="og:image"
           content="https://dev-fly-fish.vercel.app/header.jpg"
         />
-        <meta property="og:url" content="https://flyfish-pied.vercel.app/" />
+        <meta property="og:url" content="https://flyfish-pied.vercel.app" />
 
         <meta
           prefix="og: http://ogp.me/ns#"
@@ -93,7 +93,7 @@ export default function index(props) {
                     </div>
                     <div>
                       <h2>If Hooks Cold Kill</h2>
-                      <h3>Consider your hook sizes for fishes sake</h3>
+                      <h3>Consider your hook sizes for fishes sake.</h3>
                     </div>
                   </div>
                 </div>
@@ -111,7 +111,7 @@ export default function index(props) {
                     </div>
                     <div>
                       <h2>A Tactical Advantage</h2>
-                      <h3>My Angle on Euro Nymphing</h3>
+                      <h3>My Angle on Euro Nymphing.</h3>
                     </div>
                   </div>
                 </div>
