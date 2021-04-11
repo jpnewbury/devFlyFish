@@ -1,10 +1,14 @@
 import Image from "next/image";
 import Link from "next/link";
+import Leadfree from "../components/svg/leadFree";
 
 export default function footer() {
   return (
     <footer>
       <div className="col-5">
+        <div className="center">
+          <Leadfree />
+        </div>
         <div className="center">
           <Image
             src="/cr.png"
