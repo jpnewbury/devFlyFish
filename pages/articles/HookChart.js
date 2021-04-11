@@ -15,14 +15,30 @@ export default function Home() {
         <title>John P. Newbury's Angling Arts</title>
         <meta name="viewport" content="initial-scale=1.0, width=device-width" />
         <meta
-          name="keywords"
-          content="Fly Fishing, Fly Tying, Newbury Fly Tying, Fullingmill"
+          name="description"
+          content="A place for fly fishers to to learn new fly patterns and fishing methods from a life-long fly fishing addict."
+        />
+        <meta name="revised" content="Angling Arts, 3/4/2021" />
+        <meta name="robots" content="index, follow" />
+        <meta
+          name="og:title"
+          property="og:title"
+          content="John P. Newbury Angling Arts"
+        />
+        <meta name="twitter:card" content="John P. Newbury Angling Arts" />
+
+        <meta
+          property="og:description"
+          content="Tactical fly tying hook application chart"
         />
         <meta
-          name="description"
-          content="A place for fly fishers to to learn about some new fly patterns and fishing methods from a life-long fly fishing addict."
+          property="og:image"
+          content="https://dev-fly-fish.vercel.app/header.jpg"
         />
-        <meta name="revised" content="Angling Arts, 2/14/2021" />
+        <meta
+          property="og:url"
+          content="https://flyfish-pied.vercel.app/articles/HookChart"
+        />
       </Head>
       <div className="container">
         <main className="content">
