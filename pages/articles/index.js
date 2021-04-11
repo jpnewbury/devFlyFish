@@ -33,6 +33,27 @@ export default function index(props) {
           content="https://dev-fly-fish.vercel.app/header.jpg"
         />
         <meta property="og:url" content="https://flyfish-pied.vercel.app/" />
+
+        <meta
+          prefix="og: http://ogp.me/ns#"
+          property="og:title"
+          content="John P. Newbury Angling Arts"
+        />
+        <meta
+          prefix="og: http://ogp.me/ns#"
+          property="og:type"
+          content="A place for fly fishers to to learn new fly patterns and fishing methods from a life-long fly fishing addict."
+        />
+        <meta
+          prefix="og: http://ogp.me/ns#"
+          property="og:image"
+          content="https://dev-fly-fish.vercel.app/header.jpg"
+        />
+        <meta
+          prefix="og: http://ogp.me/ns#"
+          property="og:url"
+          content="https://flyfish-pied.vercel.app/"
+        />
       </Head>
 
       <div className="container">
