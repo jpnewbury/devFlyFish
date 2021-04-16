@@ -23,7 +23,7 @@ export default function Top() {
         <header className="header">
           <Header
             title="Reading: The Three C's for Reading the Water"
-            background="default"
+            background="rainbow"
           />
         </header>
         <section className="section1">

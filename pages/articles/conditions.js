@@ -28,7 +28,7 @@ export default function Home() {
           <header className="header">
             <Header
               title="Reading: Considering Varying Conditions"
-              background="anthony"
+              background="rainbow"
             />
           </header>
           <h2>Be Prepared for varirying conditions</h2>

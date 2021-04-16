@@ -25,7 +25,7 @@ export default function Home() {
       <div className="container">
         <main className="content">
           <header className="header">
-            <Header title="Reading: Hot Tags" background="anthony" />
+            <Header title="Reading: Hot Tags" background="walts" />
           </header>
 
           <h2>Hot Tags</h2>
