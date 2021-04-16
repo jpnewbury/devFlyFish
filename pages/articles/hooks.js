@@ -24,7 +24,7 @@ export default function Hooks() {
       <div className="container">
         <main className="content">
           <header className="header">
-            <Header title="Reading: Hot Tags" background="anthony" />
+            <Header title="Reading: Hot Tags" background="rainbow" />
           </header>
 
           <div className="section1" />
