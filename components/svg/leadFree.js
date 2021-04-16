@@ -1,9 +1,9 @@
-export default function leadfree() {
+export default function leadfree(props) {
   return (
     <>
       <svg viewBox="0 0 100 100" className="bar">
         <path
-          className="red"
+          className={props.color}
           d="M49.7,2.5c-21.1,0-38.3,17.2-38.3,38.3S28.6,79,49.7,79C70.8,79,88,61.9,88,40.8S70.8,2.5,49.7,2.5z M17.4,40.8
 	c0-7.8,2.8-15,7.4-20.6l45.4,45.4C64.7,70.2,57.5,73,49.7,73C31.9,73,17.4,58.6,17.4,40.8z M74.5,61.4L29.1,16
 	c5.6-4.6,12.8-7.4,20.6-7.4C67.5,8.5,82,23,82,40.8C82,48.6,79.2,55.8,74.5,61.4z"
@@ -23,6 +23,7 @@ export default function leadfree() {
 		c1,0,1.7-0.3,2.2-0.9C64.7,43.3,65,42.6,65,41.7z"
           />
         </g>
+
         <g>
           <path d="M21.4,81.2h2.8v9.1h-2.8V81.2z" />
           <path
@@ -84,6 +85,12 @@ export default function leadfree() {
         }
         .red {
           fill: red;
+        }
+        .green {
+          fill: green;
+        }
+        .blue {
+          fill: blue;
         }
       `}</style>
     </>

@@ -7,7 +7,7 @@ export default function footer() {
     <footer>
       <div className="col-5">
         <div className="center">
-          <Leadfree />
+          <Leadfree color="green" />
         </div>
         <div className="center">
           <Image

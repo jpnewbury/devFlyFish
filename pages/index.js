@@ -61,13 +61,6 @@ export default function Top({ movies: patterns }) {
             some stones in your favorite stream and studying what's crawling
             underneath.
           </p>
-
-          <h3>What happened to my store?</h3>
-          <p>
-            I had to stop selling flies because I could not keep pace with the
-            growing demand for modern tactical nymphs. If you would like to
-            purchase my patterns, please visit your local Fullingmill dealer.
-          </p>
         </section>
 
         <div>
@@ -82,46 +75,6 @@ export default function Top({ movies: patterns }) {
           <BugbarNav />
         </section>
 
-        <div className="hero-box1"></div>
-        <p />
-        <section>
-          <div className="center">
-            <div className="center multiply">
-              <div className="block-quote">
-                <Link href="http://fullingmill.com">
-                  <a className="center" rel="nofollow">
-                    <Image
-                      src="/fmlogo.png"
-                      width="200"
-                      height="100"
-                      alt="Fullingmill Logo"
-                    />
-                  </a>
-                </Link>
-                <p />
-                <small>Signature Designer and Ambassador for Fullingmill</small>
-              </div>
-              <p />
-            </div>
-            <div className="center multiply">
-              <div className="block-quote">
-                <Link href="http://naturesspiritflytying.com">
-                  <a rel="nofollow" className="center">
-                    <Image
-                      src="/nslogo.jpg"
-                      width="180"
-                      height="100"
-                      alt="Fullingmill Logo"
-                    />
-                  </a>
-                </Link>
-                <p />
-                <small>Fly Tying Ambassador for Natures Spirit Fly Tying</small>
-              </div>
-            </div>
-          </div>
-          <p />
-        </section>
         <section className="hot">
           <h2>Hot List</h2>
           <h3>What's attached to my tippet</h3>
@@ -249,8 +202,12 @@ export default function Top({ movies: patterns }) {
             </a>
           </Link>
         </section>
-        <div className="section1" />
+
         <p />
+        <p />
+        <div className="hero-box1"></div>
+        <p />
+
         <section className="section1">
           <h2>Selected Reading</h2>
           <h3>Entomology for the Fly Fisher</h3>
@@ -371,6 +328,44 @@ export default function Top({ movies: patterns }) {
             in the field, uniquely combining his skills as a designer,
             photographer, fisheries-scientist, and writer.
           </p>
+        </section>
+        <section>
+          <div className="center">
+            <div className="center multiply">
+              <div className="block-quote">
+                <Link href="http://fullingmill.com">
+                  <a className="center" rel="nofollow">
+                    <Image
+                      src="/fmlogo.png"
+                      width="200"
+                      height="100"
+                      alt="Fullingmill Logo"
+                    />
+                  </a>
+                </Link>
+                <p />
+                <small>Signature Designer and Ambassador for Fullingmill</small>
+              </div>
+              <p />
+            </div>
+            <div className="center multiply">
+              <div className="block-quote">
+                <Link href="http://naturesspiritflytying.com">
+                  <a rel="nofollow" className="center">
+                    <Image
+                      src="/nslogo.jpg"
+                      width="180"
+                      height="100"
+                      alt="Fullingmill Logo"
+                    />
+                  </a>
+                </Link>
+                <p />
+                <small>Fly Tying Ambassador for Natures Spirit Fly Tying</small>
+              </div>
+            </div>
+          </div>
+          <p />
         </section>
         <section>
           <h2>Photos From the Field</h2>
