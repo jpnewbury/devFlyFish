@@ -111,7 +111,7 @@ export default function index(props) {
                     </div>
                     <div>
                       <h2>A Tactical Advantage</h2>
-                      <h3>My Angle on Euro Nymphing.</h3>
+                      <h3>An Angle on Euro Nymphing.</h3>
                     </div>
                   </div>
                 </div>
