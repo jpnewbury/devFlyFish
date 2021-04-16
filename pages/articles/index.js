@@ -59,7 +59,7 @@ export default function index(props) {
       <div className="container">
         <main className="content">
           <header className="header">
-            <Header title="Reading" background="flybox" />
+            <Header title="Reading" background="bow" />
           </header>
           <h2>Reading List</h2>
           <section className="section">

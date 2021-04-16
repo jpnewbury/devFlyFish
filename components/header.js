@@ -70,10 +70,10 @@ export default function header(props) {
         `}</style>
       ) : null}
 
-      {props.background === "flybox" ? (
+      {props.background === "bow" ? (
         <style global jsx>{`
           .hero-box {
-            background-image: url("/cutty.jpg");
+            background-image: url("/bow.jpg");
             background-repeat: no-repeat;
             background-size: cover;
             background-position: center;
