@@ -104,7 +104,7 @@ class Sandbox extends Component {
                 <ul>
                   <li>Heavy Wire</li>
                   <li>Rolled Point</li>
-                  <li>Black Nickle</li>
+                  <li>Black Nickel</li>
                 </ul>
               </div>
             </div>
@@ -120,7 +120,7 @@ class Sandbox extends Component {
                   <li>Stillwater / Wet</li>
                   <li>Heavy Wire</li>
                   <li>Standard Shank</li>
-                  <li>Black Nickle</li>
+                  <li>Black Nickel</li>
                 </ul>
               </div>
             </div>
@@ -137,7 +137,7 @@ class Sandbox extends Component {
                   <li>Medium wire</li>
                   <li>Extra long needle point</li>
                   <li>Bent-in point</li>
-                  <li>Black Nickle</li>
+                  <li>Black Nickel</li>
                 </ul>
               </div>
             </div>
@@ -165,7 +165,7 @@ class Sandbox extends Component {
                 <ul>
                   <li>Wetfly </li>
                   <li>Heavy wire</li>
-                  <li>Black Nickle</li>
+                  <li>Black Nickel</li>
                 </ul>
               </div>
             </div>
@@ -178,7 +178,7 @@ class Sandbox extends Component {
                 <ul>
                   <li>Nymph</li>
                   <li>Heavy wire</li>
-                  <li>Black Nickle</li>
+                  <li>Black Nickel</li>
                 </ul>
               </div>
             </div>
@@ -191,7 +191,7 @@ class Sandbox extends Component {
                 <ul>
                   <li>Stonefly - Streamer</li>
                   <li>Heavy wire</li>
-                  <li>Black Nickle</li>
+                  <li>Black Nickel</li>
                 </ul>
               </div>
             </div>
@@ -222,7 +222,7 @@ class Sandbox extends Component {
                   <li>Original Czech Nymph</li>
                   <li>Medium wire</li>
                   <li>Extra long needle point</li>
-                  <li>Black Nickle</li>
+                  <li>Black Nickel</li>
                 </ul>
               </div>
             </div>
@@ -236,7 +236,7 @@ class Sandbox extends Component {
                   <li>Buzzer</li>
                   <li>Heavy wire</li>
                   <li>Extra long needle point</li>
-                  <li>Black Nickle</li>
+                  <li>Black Nickel</li>
                 </ul>
               </div>
             </div>
@@ -264,7 +264,7 @@ class Sandbox extends Component {
                   <li>Original Czech Nymph</li>
                   <li>Medium wire</li>
                   <li>Extra long needle point</li>
-                  <li>Black Nickle</li>
+                  <li>Black Nickel</li>
                 </ul>
               </div>
             </div>
@@ -279,7 +279,7 @@ class Sandbox extends Component {
                   <li>Medium wire</li>
                   <li>Extra long needle point</li>
                   <li>Bent-in point</li>
-                  <li>Black Nickle</li>
+                  <li>Black Nickel</li>
                 </ul>
               </div>
             </div>
@@ -295,7 +295,7 @@ class Sandbox extends Component {
                   <li>Klinkhammer</li>
                   <li>Standard wire</li>
                   <li>Extra long needle point</li>
-                  <li>Black Nickle</li>
+                  <li>Black Nickel</li>
                 </ul>
               </div>
             </div>
@@ -309,7 +309,7 @@ class Sandbox extends Component {
                   <li>Pupa</li>
                   <li>Medium wire</li>
                   <li>Extra long needle point</li>
-                  <li>Black Nickle</li>
+                  <li>Black Nickel</li>
                 </ul>
               </div>
             </div>
@@ -323,7 +323,7 @@ class Sandbox extends Component {
                   <li>Pupa</li>
                   <li>Heavy wire</li>
                   <li>Extra long needle point</li>
-                  <li>Black Nickle</li>
+                  <li>Black Nickel</li>
                 </ul>
               </div>
             </div>
@@ -360,7 +360,7 @@ class Sandbox extends Component {
                 <ul>
                   <li>Classic jig</li>
                   <li>Medium wire</li>
-                  <li>Black Nickle</li>
+                  <li>Black Nickel</li>
                 </ul>
               </div>
             </div>
@@ -374,7 +374,7 @@ class Sandbox extends Component {
                   <li>Short shank</li>
                   <li>Offset eye jig</li>
                   <li>Heavy wire</li>
-                  <li>Black Nickle</li>
+                  <li>Black Nickel</li>
                 </ul>
               </div>
             </div>
@@ -387,7 +387,7 @@ class Sandbox extends Component {
                 <ul>
                   <li>Long shank</li>
                   <li>Medium wire</li>
-                  <li>Black Nickle</li>
+                  <li>Black Nickel</li>
                 </ul>
               </div>
             </div>
@@ -401,7 +401,7 @@ class Sandbox extends Component {
                   <li>Jig Standard</li>
                   <li>Medium wire</li>
                   <li>Extra long needle point</li>
-                  <li>Black Nickle</li>
+                  <li>Black Nickel</li>
                 </ul>
               </div>
             </div>
@@ -418,7 +418,7 @@ class Sandbox extends Component {
                   <li>Medium wire</li>
                   <li>Extra long needle point</li>
                   <li>Bent-in point</li>
-                  <li>Black Nickle</li>
+                  <li>Black Nickel</li>
                 </ul>
               </div>
             </div>
@@ -432,7 +432,7 @@ class Sandbox extends Component {
                   <li>Jig Champion</li>
                   <li>Heavy wire</li>
                   <li>Extra long needle point</li>
-                  <li>Black Nickle</li>
+                  <li>Black Nickel</li>
                 </ul>
               </div>
             </div>
@@ -447,7 +447,7 @@ class Sandbox extends Component {
                 <ul>
                   <li>Classic Jig</li>
                   <li>Medium wire</li>
-                  <li>Black Nickle</li>
+                  <li>Black Nickel</li>
                 </ul>
               </div>
             </div>
@@ -460,7 +460,7 @@ class Sandbox extends Component {
                 <ul>
                   <li>Offset eye jig</li>
                   <li>Heavy wire</li>
-                  <li>Black Nickle</li>
+                  <li>Black Nickel</li>
                 </ul>
               </div>
             </div>
