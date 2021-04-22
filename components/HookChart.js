@@ -1,7 +1,6 @@
 import React, { Component } from "react";
 import Clinger from "./svg/clinger";
 import Crawlers from "./svg/crawlers";
-import Stones from "./svg/stones";
 import DohikuWetfly from "./svg/hooks/DohikuWetfly";
 import DohikuPupa from "./svg/hooks/DohikuPupa";
 import DohikuCzech from "./svg/hooks/DohikuCzech";
@@ -14,8 +13,8 @@ import Fish from "./svg/fish";
 import FMGrabGape from "./svg/hooks/FMGrabGape";
 import FMJigForceShortShank from "./svg/hooks/FMJigForceShortShank";
 import FullingmillCzech from "./svg/hooks/FullingmillCzech";
-import Hyrdropsyche from "./svg/hydropsychidae";
 import FullingMillHigForce from "./svg/hooks/FullingMillHigForce";
+import Hyrdropsyche from "./svg/hydropsychidae";
 import Head from "next/head";
 import H200BL from "./svg/hooks/H200BL";
 import H230BL from "./svg/hooks/H230BL";
@@ -31,12 +30,14 @@ import JigForceLongShank from "./svg/hooks/JigForceLongShank";
 import Midge from "./svg/midge";
 import Scud from "../components/svg/gammarus";
 import Swimmers from "./svg/swimmers";
+import Stones from "./svg/stones";
 
 class Sandbox extends Component {
   constructor(props) {
     super(props);
     this.state = {};
   }
+
   render() {
     return (
       <>
@@ -58,7 +59,6 @@ class Sandbox extends Component {
             content="John P. Newbury Angling Arts"
           />
           <meta name="twitter:card" content="John P. Newbury Angling Arts" />
-
           <meta property="og:description" content="Tactical Hook Chart" />
           <meta
             property="og:image"
@@ -72,7 +72,6 @@ class Sandbox extends Component {
             The following collection of hooks best represent the range of
             designs currently available for tactical fly tying.
           </p>
-
           <p />
           <h2>Stillwater - Wetfly - Nymph</h2>
           <p />
@@ -86,7 +85,6 @@ class Sandbox extends Component {
             <div>
               <Swimmers style="icon-1" />
             </div>
-
             <div>
               <Stones style="icon-1" />
             </div>
@@ -152,7 +150,7 @@ class Sandbox extends Component {
                   <li>1x short</li>
                   <li>Wide gap</li>
                   <li>Down eye</li>
-                  <li>up-turn point</li>
+                  <li>Up-turn point</li>
                 </ul>
               </div>
             </div>
@@ -253,7 +251,6 @@ class Sandbox extends Component {
                 </ul>
               </div>
             </div>
-
             <div className="hook-card">
               <h2>Hanak H333BL</h2>
               <div className="stack">
@@ -341,7 +338,6 @@ class Sandbox extends Component {
             <div>
               <Swimmers style="icon-1" />
             </div>
-
             <div>
               <Stones style="icon-1" />
             </div>
@@ -349,7 +345,6 @@ class Sandbox extends Component {
               <Fish style="icon-1" />
             </div>
           </div>
-
           <div className="grid-ish">
             <div className="hook-card">
               <h2>Fulling Mill Jig Force </h2>
