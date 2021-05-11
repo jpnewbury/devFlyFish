@@ -14,6 +14,7 @@ import Midge from "../components/svg/midge";
 import Rockworm from "../components/svg/rockworm";
 import Stoneflies from "../components/svg/stones";
 import Swimmers from "../components/svg/swimmers";
+import ReactPlayer from "react-player";
 
 export default function Top({ movies: patterns }) {
   return (
@@ -50,7 +51,18 @@ export default function Top({ movies: patterns }) {
           <Header title="for creative fly fishers" background="default" />
         </header>
 
-        <section className="intro">
+        <section>
+          <h1>Welcome</h1>
+          <div className="center">
+            <ReactPlayer url="https://youtu.be/HcEOdlZ7M4I" />
+          </div>
+          <div className="center">
+            <small>
+              A queit morning on the river with somgbirds and fiesty trout.
+            </small>
+          </div>
+        </section>
+        <section>
           <p>
             Welcome to the new Angling Arts website. This website focuses on fly
             fishing and tying tactical style nymphs. If you are a returning
@@ -71,6 +83,7 @@ export default function Top({ movies: patterns }) {
             that they best imitate.
           </p>
         </div>
+
         <section>
           <BugbarNav />
         </section>

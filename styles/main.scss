@@ -169,7 +169,7 @@ strong {
     font-size: 0.7rem;
     font-weight: 400;
     color: $white;
-    background: rgb(255, 51, 0);
+    // background: rgb(255, 51, 0);
 }
 .block {
     @include block;
@@ -328,17 +328,8 @@ strong {
     }
 }
 
-.grid-ish {
-    display: flex;
-    flex-wrap: wrap;
-}
-
-.grid-ish > * {
-    flex: 1 1 300px;
-}
 .grid-small {
     @include block;
-    margin-bottom: 40px;
     display: flex;
     flex-wrap: wrap;
     align-content: flex-start;
@@ -346,6 +337,7 @@ strong {
 
 .grid-small > * {
     flex: 1 1 60px;
+    // background: red;
 }
 .hero-box {
     margin-top: -10px;

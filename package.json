@@ -14,7 +14,7 @@
     "next": "latest",
     "react": "^17.0.1",
     "react-dom": "^17.0.1",
-    "react-player": "^2.8.2",
+    "react-player": "^2.9.0",
     "swr": "^0.5.5"
   },
   "license": "MIT"
