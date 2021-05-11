@@ -58,7 +58,7 @@ export default function Top({ movies: patterns }) {
           </div>
           <div className="center">
             <small>
-              A queit morning on the river with somgbirds and fiesty trout.
+              A queit morning on the river with songbirds and fiesty trout.
             </small>
           </div>
         </section>
