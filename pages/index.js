@@ -48,11 +48,12 @@ export default function Top({ movies: patterns }) {
 
       <main className="container">
         <header className="header">
-          <Header title="for creative fly fishers" background="default" />
+          <Header title="for creative fly fishers" background="walts" />
         </header>
 
         <section>
           <h1>Welcome</h1>
+
           <div className="center">
             <ReactPlayer url="https://youtu.be/HcEOdlZ7M4I" />
           </div>
