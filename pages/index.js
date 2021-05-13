@@ -70,7 +70,7 @@ export default function Top({ movies: patterns }) {
             natural and your imitations should inspire you to turn over a few
             river stones and study what's crawling underneath. Afterall, The
             more you know about the insects you are imitating, the better you
-            will tie and present them.
+            will tie and present your flies.
           </p>
         </section>
 
