@@ -89,7 +89,7 @@ export default function Top({ movies: patterns }) {
                 </span>
               </div>
             </Link>
-            <Link href="/tutorials/sally">
+            {/* <Link href="/tutorials/sally">
               <div className="card">
                 <h2>Tying a Yellow Sally Perdigone</h2>
                 <Video />
@@ -106,7 +106,7 @@ export default function Top({ movies: patterns }) {
                   />
                 </span>
               </div>
-            </Link>
+            </Link> */}
             <Link href="/tutorials/dropdead">
               <div className="card">
                 <h2>Tying a Drop Dead Sexy Walts</h2>
