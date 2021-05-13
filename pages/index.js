@@ -66,11 +66,11 @@ export default function Top({ movies: patterns }) {
           <p>
             If you are a returning guest, you will notice a new feature to the
             website called the "Bug Bar" which sorts fly patterns based on the
-            type of nymph the fly best immitates. I hope that this relationship
-            with the natural and your imitations hope to inspire you into
-            turning over some stones in your favorite stream and study what's
-            crawling underneath. The more you know about the insects you are
-            imitating, the better you will tie and present them.
+            type of nymph the fly best immitates. This relationship with the
+            natural and your imitations should inspire you to turn over a few
+            river stones and study what's crawling underneath. Afterall, The
+            more you know about the insects you are imitating, the better you
+            will tie and present them.
           </p>
         </section>
 
