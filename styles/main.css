@@ -47,6 +47,9 @@ h3 {
   font-size: clamp(1.2rem, 1.3rem, 2vw);
   /* min, val, max */
   font-family: "Open Sans", sans-serif;
+  font-size: 1.4em;
+  font-weight: 700;
+  margin-bottom: 5px;
 }
 
 h4 {
@@ -103,11 +106,6 @@ li {
 
 nav {
   padding: 20px;
-}
-
-section {
-  padding: 7px;
-  margin: 5px;
 }
 
 small {
@@ -279,6 +277,12 @@ strong {
   fill: #0a0a0a;
 }
 
+.caption {
+  font-size: 0.9rem;
+  font-weight: 300;
+  font-family: "Open Sans", sans-serif;
+}
+
 .center {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -438,6 +442,7 @@ strong {
 }
 
 .hot {
+  padding: 20px;
   background: #b40000;
 }
 
@@ -446,6 +451,12 @@ strong {
           box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
 
+.hot h2 {
+  font-size: 2.5rem;
+  margin-bottom: -10px;
+}
+
+.hot h2,
 .hot h3,
 .hot p {
   color: white;
@@ -636,29 +647,6 @@ strong {
   color: #646464;
 }
 
-.modal {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  position: fixed;
-  background: rgba(10, 10, 10, 0.3);
-  top: 0;
-  left: 0;
-  width: 100vw;
-  height: 100vh;
-}
-
-.modal__card {
-  height: 80vh;
-  width: 80vw;
-}
-
 .multiply {
   mix-blend-mode: multiply;
   max-width: 400px;
@@ -676,6 +664,13 @@ strong {
   border-bottom: 1px dashed gray;
   margin-bottom: 5px;
   padding: 7px;
+}
+
+.section3 {
+  padding: 7px;
+  margin: 5px;
+  margin-top: 40px;
+  margin-bottom: 40px;
 }
 
 .stack {
@@ -697,6 +692,22 @@ strong {
 
 .svg-quote-sm {
   width: 20px;
+}
+
+.splash {
+  margin-left: 20px;
+  margin-right: 20px;
+  padding: 1.5em;
+  background: #fafafa;
+  border-radius: 20px;
+  -webkit-box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+          box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+}
+
+.splash p {
+  font-family: "Crimson Pro", serif;
+  font-size: 1.3rem;
+  line-height: 1.4em;
 }
 
 .title h3 {

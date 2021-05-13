@@ -52,40 +52,37 @@ export default function Top({ movies: patterns }) {
         </header>
 
         <section>
-          <h1>Welcome</h1>
-
           <div className="center">
             <ReactPlayer url="https://youtu.be/HcEOdlZ7M4I" />
           </div>
           <div className="center">
-            <small>
+            <p className="caption">
               A queit morning on the river with songbirds and fiesty trout.
-            </small>
+            </p>
           </div>
         </section>
-        <section>
+        <section className="splash">
+          <h3> Welcome to the new Angling Arts website.</h3>
           <p>
-            Welcome to the new Angling Arts website. This website focuses on fly
-            fishing and tying tactical style nymphs. If you are a returning
-            guest, you will notice a new feature to the website called the "Bug
-            Bar" which sorts fly patterns based on the type of nymph the fly
-            best immitates. I hope that this relationship with the natural and
-            our imitations serve to inspire the curious angler into turning over
-            some stones in your favorite stream and studying what's crawling
-            underneath.
+            If you are a returning guest, you will notice a new feature to the
+            website called the "Bug Bar" which sorts fly patterns based on the
+            type of nymph the fly best immitates. I hope that this relationship
+            with the natural and your imitations hope to inspire you into
+            turning over some stones in your favorite stream and study what's
+            crawling underneath. The more you know about the insects you are
+            imitating, the better you will tie and present them.
           </p>
         </section>
 
-        <div>
-          <h2>Bug Bar</h2>
-          <h3>A helpful guide to select the best fly</h3>
-          <p>
-            All fly patterns listed sitewide can be sorted by the type of nymph
-            that they best imitate.
-          </p>
-        </div>
-
-        <section>
+        <section className="section3">
+          <div>
+            <h2>Bug Bar</h2>
+            <h3>A helpful guide to select the best fly</h3>
+            <p>
+              All fly patterns listed sitewide can be sorted by the type of
+              nymph that they best imitate.
+            </p>
+          </div>
           <BugbarNav />
         </section>
 
