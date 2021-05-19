@@ -53,12 +53,21 @@ export default function Top({ movies: patterns }) {
 
         <section>
           <div className="center">
-            <ReactPlayer url="https://youtu.be/HcEOdlZ7M4I" />
+            {/* <ReactPlayer url="https://youtu.be/HcEOdlZ7M4I" /> */}
+            <Image
+              src="/JaffeParkAspenPainting.jpg"
+              width={800}
+              height={600}
+              alt=""
+            />
           </div>
           <div className="center">
-            <p className="caption">
+            {/* <p className="caption">
               A queit morning on the river with songbirds and fiesty trout.
-            </p>
+            </p> */}
+            <small>
+              A Full Season on the Roaring Fork - Oil on canvas 20" x 24" - Sold
+            </small>
           </div>
         </section>
         <section className="splash">
