@@ -14,8 +14,9 @@ export default function bar() {
 
       <style jsx>{`
         .bar {
-          height: 70px;
           fill: gray;
+          margin-top: 25px;
+          margin-left: 10px;
         }
       `}</style>
     </>

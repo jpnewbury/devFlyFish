@@ -6,9 +6,22 @@ export default function lost() {
     <div className="container">
       <main>
         <section>
-          <main className="content">
-            <div className="center multiply">
-              <Image src="/404.png" width={400} height={400} alt="Not Found" />
+          <main className="content center">
+            <div className="multiply">
+              <div>
+                <Image
+                  src="/404.png"
+                  width={600}
+                  height={600}
+                  alt="Not Found"
+                />
+              </div>
+              <div className="center">
+                <h2> Sorry...no resources located here</h2>
+              </div>
+              <div className="center">
+                <Link href="/">Go Home</Link>
+              </div>
             </div>
           </main>
         </section>

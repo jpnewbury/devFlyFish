@@ -13,7 +13,7 @@ export default function bugbarNav() {
   return (
     <div className="">
       <div className="col-2l">
-        <div className="padding-left">
+        <div>
           <Left />
         </div>
         <div>

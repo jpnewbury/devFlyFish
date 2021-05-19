@@ -5,7 +5,7 @@ export default function header(props) {
   return (
     <>
       <div className="hero-box">
-        <h1>John P. Newbury's Angling Arts</h1>
+        <h1>Newbury's Angling Arts</h1>
         <h2>{props.title}</h2>
       </div>
       <nav>

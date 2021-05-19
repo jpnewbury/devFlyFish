@@ -179,6 +179,21 @@ strong {
   margin: 5px;
 }
 
+.bug-card small {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding: 7px;
+  margin: 5px;
+  margin: auto;
+}
+
 .bugbar-icon {
   padding: 7px;
   margin: 5px;
@@ -308,6 +323,10 @@ strong {
   margin: auto;
 }
 
+.content {
+  min-height: 100vh;
+}
+
 .col-2 {
   display: -ms-grid;
   display: grid;
@@ -327,6 +346,7 @@ strong {
   display: grid;
   -ms-grid-columns: 30px 1fr;
       grid-template-columns: 30px 1fr;
+  margin-bottom: 40px;
 }
 
 .col-2b {
@@ -380,8 +400,13 @@ strong {
   display: flex;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
-  -ms-flex-line-pack: start;
-      align-content: flex-start;
+}
+
+.grid-small > * {
+  -webkit-box-flex: 1;
+      -ms-flex: 1 1 60px;
+          flex: 1 1 60px;
+  max-width: 86px;
 }
 
 .grid-ish > * {
@@ -400,12 +425,6 @@ strong {
       flex-wrap: wrap;
   -ms-flex-line-pack: start;
       align-content: flex-start;
-}
-
-.grid-small > * {
-  -webkit-box-flex: 1;
-      -ms-flex: 1 1 60px;
-          flex: 1 1 60px;
 }
 
 .hero-box {
@@ -734,8 +753,6 @@ strong {
 }
 
 .quote-box-small {
-  padding: 7px;
-  margin: 5px;
   padding: 1em;
 }
 

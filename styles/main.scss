@@ -190,6 +190,11 @@ strong {
 }
 .bug-card {
     margin: $margin;
+    small {
+        @include center;
+        @include block;
+        margin: auto;
+    }
 }
 .bugbar-icon {
     @include block;
@@ -288,7 +293,9 @@ strong {
     max-width: 1200px;
     margin: auto;
 }
-
+.content {
+    min-height: 100vh;
+}
 .col-2 {
     display: grid;
     grid-template-columns: 150px 1fr;
@@ -300,6 +307,7 @@ strong {
 .col-2l {
     display: grid;
     grid-template-columns: 30px 1fr;
+    margin-bottom: 40px;
 }
 .col-2b {
     display: grid;
@@ -337,9 +345,13 @@ strong {
     @include block;
     display: flex;
     flex-wrap: wrap;
-    align-content: flex-start;
 }
 
+.grid-small > * {
+    // background: red;
+    flex: 1 1 60px;
+    max-width: 86px;
+}
 .grid-ish > * {
     flex: 1 1 300px;
 }
@@ -350,10 +362,6 @@ strong {
     align-content: flex-start;
 }
 
-.grid-small > * {
-    flex: 1 1 60px;
-    // background: red;
-}
 .hero-box {
     margin-top: -10px;
     height: 375px;
@@ -631,7 +639,6 @@ strong {
     }
 }
 .quote-box-small {
-    @include block;
     padding: 1em;
 
     p {
