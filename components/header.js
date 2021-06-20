@@ -80,6 +80,16 @@ export default function header(props) {
           }
         `}</style>
       ) : null}
+      {props.background === "Loomis1" ? (
+        <style global jsx>{`
+          .hero-box {
+            background-image: url("/DSC04545.jpg");
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: center;
+          }
+        `}</style>
+      ) : null}
     </>
   );
 }

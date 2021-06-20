@@ -48,25 +48,19 @@ export default function Top({ movies: patterns }) {
 
       <main className="container">
         <header className="header">
-          <Header title="for creative fly fishers" background="walts" />
+          <Header title="for creative fly fishers" background="Loomis1" />
         </header>
 
         <section>
           <div className="center">
-            {/* <ReactPlayer url="https://youtu.be/HcEOdlZ7M4I" /> */}
-            <Image
-              src="/JaffeParkAspenPainting.jpg"
-              width={800}
-              height={600}
-              alt=""
-            />
+            <ReactPlayer url="https://youtu.be/5HMMnpSw-24" />
           </div>
           <div className="center">
             {/* <p className="caption">
               A queit morning on the river with songbirds and fiesty trout.
             </p> */}
             <small>
-              A Full Season on the Roaring Fork - Oil on canvas 20" x 24" - Sold
+              I put the new Loomis IMX-PRO<sub>E</sub> rod through the test.
             </small>
           </div>
         </section>
