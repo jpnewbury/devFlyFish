@@ -48,7 +48,7 @@ export default function Top({ movies: patterns }) {
 
       <main className="container">
         <header className="header">
-          <Header title="for creative fly fishers" background="Loomis1" />
+          <Header title="for passionate fly fishers" background="Loomis1" />
         </header>
 
         <section>
@@ -60,7 +60,7 @@ export default function Top({ movies: patterns }) {
               A queit morning on the river with songbirds and fiesty trout.
             </p> */}
             <small>
-              I put the new Loomis IMX-PRO<sub>E</sub> rod through the test.
+              I put the new Loomis IMX-PRO<sub>E</sub> rod to the test.
             </small>
           </div>
         </section>
@@ -386,6 +386,14 @@ export default function Top({ movies: patterns }) {
           <div className="grid-ish">
             <div className="block_card">
               <div className="center multiply">
+                <Image src="/DSC04517.jpg" width={400} height={300} alt="" />
+              </div>
+              <div className="center">
+                <small>Early Season Gems</small>
+              </div>
+            </div>
+            <div className="block_card">
+              <div className="center multiply">
                 <Image
                   src="/IMG_3574.JPG"
                   width={400}
@@ -430,16 +438,6 @@ export default function Top({ movies: patterns }) {
                 <small></small>
               </div>
             </div>
-            <div className="block_card">
-              <div className="center multiply">
-                <Image src="/IMG_4795.jpg" width={400} height={260} alt="" />
-              </div>
-              <div className="center">
-                <small>
-                  The Roaring Fork River also has gold medal scenery.
-                </small>
-              </div>
-            </div>
 
             <div className="block_card">
               <div className="center multiply">
@@ -454,19 +452,7 @@ export default function Top({ movies: patterns }) {
                 <small>Colorado Gold</small>
               </div>
             </div>
-            <div className="block_card">
-              <div className="center multiply">
-                <Image
-                  src="/RainbowHeadHighRez.jpg"
-                  width={400}
-                  height={200}
-                  alt=""
-                />
-              </div>
-              <div className="center">
-                <small></small>
-              </div>
-            </div>
+
             <div className="block_card">
               <div className="center multiply">
                 <Image
