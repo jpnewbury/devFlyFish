@@ -21,31 +21,7 @@ export default function Top({ movies: patterns }) {
     <>
       <Head>
         <title>John P. Newbury's Angling Arts</title>
-        <meta name="viewport" content="initial-scale=1.0, width=device-width" />
-        <meta
-          name="description"
-          content="A place for fly fishers to to learn new fly patterns and fishing methods from a life-long fly fishing addict."
-        />
-        <meta name="revised" content="Angling Arts, 3/4/2021" />
-        <meta name="robots" content="index, follow" />
-        <meta
-          name="og:title"
-          property="og:title"
-          content="John P. Newbury Angling Arts"
-        />
-        <meta name="twitter:card" content="John P. Newbury Angling Arts" />
-
-        <meta
-          property="og:description"
-          content="A place for fly fishers to to learn new fly patterns and fishing methods from a life-long fly fishing addict.."
-        />
-        <meta
-          property="og:image"
-          content="https://dev-fly-fish.vercel.app/header.jpg"
-        />
-        <meta property="og:url" content="https://flyfish-pied.vercel.app/" />
       </Head>
-
       <main className="container">
         <header className="header">
           <Header title="for passionate fly fishers" background="Loomis1" />
