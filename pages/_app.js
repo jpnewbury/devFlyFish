@@ -23,21 +23,9 @@ function MyApp({ Component, pageProps, router }) {
           <Loading style="loader" />
         </div>
       )}
-      <AnimatePresence exitBeforeEnter>
-        <motion.div
-          key={router.route}
-          initial={{ opacity: 0 }}
-          animate={{
-            opacity: 1,
-            transition: {
-              duration: 0.1,
-            },
-          }}
-          exit={{ opacity: 0 }}
-        >
-          <Component {...pageProps} key={router.route} />
-        </motion.div>
-      </AnimatePresence>
+      <>
+        <Component {...pageProps} key={router.route} />
+      </>
     </>
   );
 }
