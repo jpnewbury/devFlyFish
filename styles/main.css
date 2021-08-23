@@ -1,6 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;1,600&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Passion+One&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Crimson+Pro:ital,wght@0,500;0,600;1,400;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,500;0,700;0,900;1,100&display=swap");
 * {
   margin: 0px;
   padding: 0px;
@@ -30,7 +31,7 @@ h1 {
   margin: 5px;
   font-size: clamp(1.8rem, 3.5rem, 6vw);
   /* min, val, max */
-  font-family: "Passion One", cursive;
+  font-family: "Montserrat", sans-serif;
   font-weight: 900;
 }
 
@@ -38,7 +39,7 @@ h2 {
   padding-left: 13px;
   font-size: clamp(1.5rem, 1.8rem, 3vw);
   /* min, val, max */
-  font-family: "Passion One", cursive;
+  font-family: "Montserrat", sans-serif;
   font-weight: 300;
 }
 
@@ -87,6 +88,10 @@ a:active,
 a:hover,
 link {
   color: black;
+}
+
+img {
+  color: palegreen;
 }
 
 ul {
@@ -767,5 +772,101 @@ strong {
 .vice {
   height: 100px;
   width: 100px;
+}
+
+.modal {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  position: fixed;
+  z-index: 1000;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  background: rgba(10, 10, 10, 0.7);
+}
+
+@-webkit-keyframes loading {
+  0% {
+    fill: rgba(255, 255, 255, 0.5);
+  }
+  25% {
+    fill: rgba(255, 255, 255, 0.8);
+  }
+  50% {
+    fill: white;
+  }
+  75% {
+    fill: rgba(255, 255, 255, 0.8);
+  }
+  100% {
+    fill: rgba(255, 255, 255, 0.5);
+  }
+}
+
+@keyframes loading {
+  0% {
+    fill: rgba(255, 255, 255, 0.5);
+  }
+  25% {
+    fill: rgba(255, 255, 255, 0.8);
+  }
+  50% {
+    fill: white;
+  }
+  75% {
+    fill: rgba(255, 255, 255, 0.8);
+  }
+  100% {
+    fill: rgba(255, 255, 255, 0.5);
+  }
+}
+
+.loader {
+  height: 300px;
+  width: 300px;
+}
+
+.loader p {
+  white-space: nowrap;
+  color: rgba(255, 255, 255, 0.9);
+  font-size: 3rem;
+  font-weight: 900;
+  text-align: center;
+}
+
+.st1 {
+  -webkit-animation-name: loading;
+          animation-name: loading;
+  -webkit-animation-duration: 1.1s;
+          animation-duration: 1.1s;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+}
+
+.st2 {
+  -webkit-animation-name: loading;
+          animation-name: loading;
+  -webkit-animation-duration: 1.3s;
+          animation-duration: 1.3s;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+}
+
+.st3 {
+  -webkit-animation-name: loading;
+          animation-name: loading;
+  -webkit-animation-duration: 1.5s;
+          animation-duration: 1.5s;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
 }
 /*# sourceMappingURL=main.css.map */
