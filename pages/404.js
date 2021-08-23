@@ -16,9 +16,13 @@ export default function lost() {
                   alt="Not Found"
                 />
               </div>
-              <div className="center">
-                <h2> Sorry...no resources located here</h2>
-              </div>
+              <>
+                <h3> Sorry...no resources located here</h3>
+                <p>You might have broken something?</p>
+                <p>
+                  We have alerted the proper authorities regarding this matter.
+                </p>
+              </>
               <div className="center">
                 <Link href="/">Go Home</Link>
               </div>
